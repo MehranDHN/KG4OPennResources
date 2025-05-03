@@ -1,0 +1,1193 @@
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sc: <https://schema.org/> .
+
+mdhn:11th_century a sc:Taxon ;
+    rdfs:label "11th century"@en ;
+    sc:childTaxon mdhn:Arabic_prose_literature .
+
+mdhn:1288_1453 a sc:Taxon ;
+    rdfs:label "1288-1453"@en ;
+    sc:childTaxon mdhn:History .
+
+mdhn:12th_century a sc:Taxon ;
+    rdfs:label "12th century"@en ;
+    sc:childTaxon mdhn:Arabic_prose_literature .
+
+mdhn:14th_century a sc:Taxon ;
+    rdfs:label "14th century"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:1500_1796 a sc:Taxon ;
+    rdfs:label "1500-1796"@en ;
+    sc:childTaxon mdhn:Persian_poetry .
+
+mdhn:15th_century a sc:Taxon ;
+    rdfs:label "15th century"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:16th_century a sc:Taxon ;
+    rdfs:label "16th century"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:17th_century a sc:Taxon ;
+    rdfs:label "17th century"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:18th_century a sc:Taxon ;
+    rdfs:label "18th century"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:19th_century a sc:Taxon ;
+    rdfs:label "19th century"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:500_1400 a sc:Taxon ;
+    rdfs:label "500-1400"@en ;
+    sc:childTaxon mdhn:Arab_countries .
+
+mdhn:622_750 a sc:Taxon ;
+    rdfs:label "622-750"@en ;
+    sc:childTaxon mdhn:Arabic_poetry .
+
+mdhn:747_1500 a sc:Taxon ;
+    rdfs:label "747-1500"@en ;
+    sc:childTaxon mdhn:Persian_literature .
+
+mdhn:750_1258 a sc:Taxon ;
+    rdfs:label "750-1258"@en ;
+    sc:childTaxon mdhn:Arabic_poetry .
+
+mdhn:Alchemy a sc:Taxon ;
+    rdfs:label "Alchemy"@en .
+
+mdhn:Alfīyah a sc:Taxon ;
+    rdfs:label "Alfīyah"@en ;
+    sc:childTaxon mdhn:_1274 .
+
+mdhn:Algebra a sc:Taxon ;
+    rdfs:label "Algebra"@en .
+
+mdhn:Aljamía a sc:Taxon ;
+    rdfs:label "Aljamía"@en .
+
+mdhn:Almucantar a sc:Taxon ;
+    rdfs:label "Almucantar"@en .
+
+mdhn:Anecdotes a sc:Taxon ;
+    rdfs:label "Anecdotes"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Arab a sc:Taxon ;
+    rdfs:label "Arab"@en ;
+    sc:childTaxon mdhn:Arithmetic .
+
+mdhn:Arab_logic a sc:Taxon ;
+    rdfs:label "Arab logic"@en .
+
+mdhn:Arabic a sc:Taxon ;
+    rdfs:label "Arabic"@en ;
+    sc:childTaxon mdhn:Dictionaries,
+        mdhn:Names_Personal .
+
+mdhn:Arabic_literature a sc:Taxon ;
+    rdfs:label "Arabic literature"@en .
+
+mdhn:Astrolabes a sc:Taxon ;
+    rdfs:label "Astrolabes"@en .
+
+mdhn:Astrology_Arab a sc:Taxon ;
+    rdfs:label "Astrology, Arab"@en .
+
+mdhn:Astrology_Iranian a sc:Taxon ;
+    rdfs:label "Astrology, Iranian"@en .
+
+mdhn:Astronomical_instruments a sc:Taxon ;
+    rdfs:label "Astronomical instruments"@en .
+
+mdhn:Astronomy_Arab a sc:Taxon ;
+    rdfs:label "Astronomy, Arab"@en .
+
+mdhn:Astronomy_Greek a sc:Taxon ;
+    rdfs:label "Astronomy, Greek"@en .
+
+mdhn:Astronomy_Medieval a sc:Taxon ;
+    rdfs:label "Astronomy, Medieval"@en .
+
+mdhn:Authorities a sc:Taxon ;
+    rdfs:label "Authorities"@en ;
+    sc:childTaxon mdhn:Hadith .
+
+mdhn:Awḍaḥ_al_masālik_li_Alfīyat_Ibn_Mālik a sc:Taxon ;
+    rdfs:label "Awḍaḥ al-masālik li-Alfīyat Ibn Mālik"@en ;
+    sc:childTaxon mdhn:1309_1360 .
+
+mdhn:Balances_Weighing_instruments a sc:Taxon ;
+    rdfs:label "Balances (Weighing instruments)"@en .
+
+mdhn:Barakah a sc:Taxon ;
+    rdfs:label "Barakah"@en .
+
+mdhn:Berber_poetry a sc:Taxon ;
+    rdfs:label "Berber poetry"@en .
+
+mdhn:Biography a sc:Taxon ;
+    rdfs:label "Biography"@en ;
+    sc:childTaxon mdhn:Islamic_Empire,
+        mdhn:Muslims .
+
+mdhn:Bīst_bāb_dar_taqvīm a sc:Taxon ;
+    rdfs:label "Bīst bāb dar taqvīm"@en ;
+    sc:childTaxon mdhn:active_16th_century .
+
+mdhn:Botany_Medical a sc:Taxon ;
+    rdfs:label "Botany, Medical"@en .
+
+mdhn:Breviaries a sc:Taxon ;
+    rdfs:label "Breviaries"@en .
+
+mdhn:Calendars a sc:Taxon ;
+    rdfs:label "Calendars"@en .
+
+mdhn:Charts_diagrams_etc a sc:Taxon ;
+    rdfs:label "Charts, diagrams, etc"@en ;
+    sc:childTaxon mdhn:Astronomy .
+
+mdhn:Chess a sc:Taxon ;
+    rdfs:label "Chess"@en .
+
+mdhn:Christian_interpretations a sc:Taxon ;
+    rdfs:label "Christian interpretations"@en ;
+    sc:childTaxon mdhn:Gautama_Buddha .
+
+mdhn:Christian_legends a sc:Taxon ;
+    rdfs:label "Christian legends"@en .
+
+mdhn:Christian_literature_Arabic a sc:Taxon ;
+    rdfs:label "Christian literature, Arabic"@en .
+
+mdhn:Christian_literature_Syriac a sc:Taxon ;
+    rdfs:label "Christian literature, Syriac"@en .
+
+mdhn:Christianity a sc:Taxon ;
+    rdfs:label "Christianity"@en .
+
+mdhn:Chronology a sc:Taxon ;
+    rdfs:label "Chronology"@en ;
+    sc:childTaxon mdhn:History .
+
+mdhn:Commentaries a sc:Taxon ;
+    rdfs:label "Commentaries"@en ;
+    sc:childTaxon mdhn:Hadith .
+
+mdhn:Compasses_Mathematical_instruments a sc:Taxon ;
+    rdfs:label "Compasses (Mathematical instruments)"@en .
+
+mdhn:Conduct_of_life a sc:Taxon ;
+    rdfs:label "Conduct of life"@en ;
+    sc:childTaxon mdhn:Muslims .
+
+mdhn:Conic_sections a sc:Taxon ;
+    rdfs:label "Conic sections"@en .
+
+mdhn:Conics a sc:Taxon ;
+    rdfs:label "Conics"@en ;
+    sc:childTaxon mdhn:of_Perga .
+
+mdhn:Coptic a sc:Taxon ;
+    rdfs:label "Coptic"@en ;
+    sc:childTaxon mdhn:Devotional_literature .
+
+mdhn:Coptic_Christian_saints a sc:Taxon ;
+    rdfs:label "Coptic Christian saints"@en .
+
+mdhn:Coptic_church a sc:Taxon ;
+    rdfs:label "Coptic church"@en ;
+    sc:childTaxon mdhn:Fasts_and_feasts .
+
+mdhn:Coptic_manuscripts a sc:Taxon ;
+    rdfs:label "Coptic manuscripts"@en .
+
+mdhn:Copts a sc:Taxon ;
+    rdfs:label "Copts"@en .
+
+mdhn:Cosmography a sc:Taxon ;
+    rdfs:label "Cosmography"@en .
+
+mdhn:Criticism_and_interpretation a sc:Taxon ;
+    rdfs:label "Criticism and interpretation"@en ;
+    sc:childTaxon mdhn:Islamic_law .
+
+mdhn:Customs_and_practices a sc:Taxon ;
+    rdfs:label "Customs and practices"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Death a sc:Taxon ;
+    rdfs:label "Death"@en .
+
+mdhn:Devotional_calendars a sc:Taxon ;
+    rdfs:label "Devotional calendars"@en .
+
+mdhn:Devotional_poetry_Arabic a sc:Taxon ;
+    rdfs:label "Devotional poetry, Arabic"@en .
+
+mdhn:Divination a sc:Taxon ;
+    rdfs:label "Divination"@en .
+
+mdhn:Doctrines a sc:Taxon ;
+    rdfs:label "Doctrines"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Druzes a sc:Taxon ;
+    rdfs:label "Druzes"@en .
+
+mdhn:Duties a sc:Taxon ;
+    rdfs:label "Duties"@en ;
+    sc:childTaxon mdhn:Kings_and_rulers .
+
+mdhn:Early_church a sc:Taxon ;
+    rdfs:label "Early church"@en ;
+    sc:childTaxon mdhn:Preaching .
+
+mdhn:Early_church_ca_30_600 a sc:Taxon ;
+    rdfs:label "Early church, ca. 30-600"@en ;
+    sc:childTaxon mdhn:History .
+
+mdhn:Early_works_to_1800 a sc:Taxon ;
+    rdfs:label "Early works to 1800"@en ;
+    sc:childTaxon mdhn:Criticism_interpretation_etc,
+        mdhn:Islamic_ethics,
+        mdhn:Prayers_and_devotions .
+
+mdhn:Early_works_to_1900 a sc:Taxon ;
+    rdfs:label "Early works to 1900"@en ;
+    sc:childTaxon mdhn:Arithmetic .
+
+mdhn:Education a sc:Taxon ;
+    rdfs:label "Education"@en .
+
+mdhn:Education_of_princes a sc:Taxon ;
+    rdfs:label "Education of princes"@en .
+
+mdhn:Egypt a sc:Taxon ;
+    rdfs:label "Egypt"@en ;
+    sc:childTaxon mdhn:Christian_poetry_Arabic .
+
+mdhn:Elements a sc:Taxon ;
+    rdfs:label "Elements"@en ;
+    sc:childTaxon mdhn:Euclid .
+
+mdhn:Endowments a sc:Taxon ;
+    rdfs:label "Endowments"@en .
+
+mdhn:Epic_poetry_Persian a sc:Taxon ;
+    rdfs:label "Epic poetry, Persian"@en .
+
+mdhn:Euclids_Elements a sc:Taxon ;
+    rdfs:label "Euclid's Elements"@en .
+
+mdhn:Fables_Persian a sc:Taxon ;
+    rdfs:label "Fables, Persian"@en .
+
+mdhn:Fatwas a sc:Taxon ;
+    rdfs:label "Fatwas"@en .
+
+mdhn:Forgeries a sc:Taxon ;
+    rdfs:label "Forgeries"@en ;
+    sc:childTaxon mdhn:Manuscripts_Arabic .
+
+mdhn:Forgery_of_manuscripts a sc:Taxon ;
+    rdfs:label "Forgery of manuscripts"@en .
+
+mdhn:Formulae_receipts_prescriptions a sc:Taxon ;
+    rdfs:label "Formulae, receipts, prescriptions"@en ;
+    sc:childTaxon mdhn:Traditional_medicine .
+
+mdhn:Four_elements_Philosophy a sc:Taxon ;
+    rdfs:label "Four elements (Philosophy)"@en .
+
+mdhn:Future_life a sc:Taxon ;
+    rdfs:label "Future life"@en .
+
+mdhn:Genealogy a sc:Taxon ;
+    rdfs:label "Genealogy"@en ;
+    sc:childTaxon mdhn:Kings_and_rulers,
+        mdhn:Ottoman_Empire_1288_1918 .
+
+mdhn:Geodesy a sc:Taxon ;
+    rdfs:label "Geodesy"@en .
+
+mdhn:Geography_Arab a sc:Taxon ;
+    rdfs:label "Geography, Arab"@en .
+
+mdhn:Geomancy a sc:Taxon ;
+    rdfs:label "Geomancy"@en .
+
+mdhn:Geometry a sc:Taxon ;
+    rdfs:label "Geometry"@en .
+
+mdhn:Ghazals_Persian a sc:Taxon ;
+    rdfs:label "Ghazals, Persian"@en .
+
+mdhn:Grammar a sc:Taxon ;
+    rdfs:label "Grammar"@en ;
+    sc:childTaxon mdhn:Syriac_language .
+
+mdhn:Grammar_Comparative a sc:Taxon ;
+    rdfs:label "Grammar, Comparative"@en ;
+    sc:childTaxon mdhn:Turkish_language .
+
+mdhn:Groundwater a sc:Taxon ;
+    rdfs:label "Groundwater"@en .
+
+mdhn:Hanafites a sc:Taxon ;
+    rdfs:label "Hanafites"@en .
+
+mdhn:Hanbalites a sc:Taxon ;
+    rdfs:label "Hanbalites"@en .
+
+mdhn:Handbooks_manuals_etc a sc:Taxon ;
+    rdfs:label "Handbooks, manuals, etc"@en ;
+    sc:childTaxon mdhn:Business_mathematics,
+        mdhn:Commerce .
+
+mdhn:Hidāyat_al_ḥikmah a sc:Taxon ;
+    rdfs:label "Hidāyat al-ḥikmah"@en ;
+    sc:childTaxon mdhn:_1265 .
+
+mdhn:History_and_criticism a sc:Taxon ;
+    rdfs:label "History and criticism"@en ;
+    sc:childTaxon mdhn:Dictionaries .
+
+mdhn:Horoscopes a sc:Taxon ;
+    rdfs:label "Horoscopes"@en .
+
+mdhn:Human_anatomy a sc:Taxon ;
+    rdfs:label "Human anatomy"@en .
+
+mdhn:Hydraulic_structures a sc:Taxon ;
+    rdfs:label "Hydraulic structures"@en .
+
+mdhn:Hydrostatics a sc:Taxon ;
+    rdfs:label "Hydrostatics"@en .
+
+mdhn:Hymns a sc:Taxon ;
+    rdfs:label "Hymns"@en ;
+    sc:childTaxon mdhn:Coptic_Church .
+
+mdhn:Hymns_Syriac a sc:Taxon ;
+    rdfs:label "Hymns, Syriac"@en .
+
+mdhn:Ḥizb a sc:Taxon ;
+    rdfs:label "Ḥizb"@en ;
+    sc:childTaxon mdhn:1233_1277 .
+
+mdhn:Illumination_of_books_and_manuscripts a sc:Taxon ;
+    rdfs:label "Illumination of books and manuscripts"@en .
+
+mdhn:Illumination_of_books_and_manuscripts_Indic a sc:Taxon ;
+    rdfs:label "Illumination of books and manuscripts, Indic"@en .
+
+mdhn:Illumination_of_books_and_manuscripts_Iranian a sc:Taxon ;
+    rdfs:label "Illumination of books and manuscripts, Iranian"@en .
+
+mdhn:Illustrations a sc:Taxon ;
+    rdfs:label "Illustrations"@en ;
+    sc:childTaxon mdhn:Quran_stories .
+
+mdhn:Inflection a sc:Taxon ;
+    rdfs:label "Inflection"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Inheritance_and_succession_Islamic_law a sc:Taxon ;
+    rdfs:label "Inheritance and succession (Islamic law)"@en .
+
+mdhn:Intellect a sc:Taxon ;
+    rdfs:label "Intellect"@en .
+
+mdhn:Interpretation_and_construction a sc:Taxon ;
+    rdfs:label "Interpretation and construction"@en ;
+    sc:childTaxon mdhn:Islamic_law .
+
+mdhn:Iran a sc:Taxon ;
+    rdfs:label "Iran"@en ;
+    sc:childTaxon mdhn:Waqf .
+
+mdhn:Islamic_astronomy a sc:Taxon ;
+    rdfs:label "Islamic astronomy"@en .
+
+mdhn:Islamic_cosmology a sc:Taxon ;
+    rdfs:label "Islamic cosmology"@en .
+
+mdhn:Islamic_eschatology a sc:Taxon ;
+    rdfs:label "Islamic eschatology"@en .
+
+mdhn:Islamic_interpretations a sc:Taxon ;
+    rdfs:label "Islamic interpretations"@en ;
+    sc:childTaxon mdhn:Son_of_Jacob .
+
+mdhn:Islamic_legends a sc:Taxon ;
+    rdfs:label "Islamic legends"@en .
+
+mdhn:Islamic_magic a sc:Taxon ;
+    rdfs:label "Islamic magic"@en .
+
+mdhn:Islamic_occultism a sc:Taxon ;
+    rdfs:label "Islamic occultism"@en .
+
+mdhn:Islamic_philosophy a sc:Taxon ;
+    rdfs:label "Islamic philosophy"@en .
+
+mdhn:Islamic_poetry_Arabic a sc:Taxon ;
+    rdfs:label "Islamic poetry, Arabic"@en .
+
+mdhn:Islamic_sermons_Arabic a sc:Taxon ;
+    rdfs:label "Islamic sermons, Arabic"@en .
+
+mdhn:Jammu_and_Kashmir a sc:Taxon ;
+    rdfs:label "Jammu and Kashmir"@en ;
+    sc:childTaxon mdhn:India .
+
+mdhn:Jammu_and_Kashmir_India a sc:Taxon ;
+    rdfs:label "Jammu and Kashmir (India)"@en .
+
+mdhn:Karbalā a sc:Taxon ;
+    rdfs:label "Karbalāʼ"@en ;
+    sc:childTaxon mdhn:Iraq .
+
+mdhn:Kāfiyah a sc:Taxon ;
+    rdfs:label "Kāfiyah"@en ;
+    sc:childTaxon mdhn:1175_1249 .
+
+mdhn:Legends a sc:Taxon ;
+    rdfs:label "Legends"@en ;
+    sc:childTaxon mdhn:Saints .
+
+mdhn:Letter_writing_Arabic a sc:Taxon ;
+    rdfs:label "Letter writing, Arabic"@en .
+
+mdhn:Lexicography a sc:Taxon ;
+    rdfs:label "Lexicography"@en ;
+    sc:childTaxon mdhn:Coptic_language .
+
+mdhn:Liturgies a sc:Taxon ;
+    rdfs:label "Liturgies"@en .
+
+mdhn:Liturgy a sc:Taxon ;
+    rdfs:label "Liturgy"@en ;
+    sc:childTaxon mdhn:Chaldean_rite,
+        mdhn:Church_of_the_East .
+
+mdhn:Logic a sc:Taxon ;
+    rdfs:label "Logic"@en .
+
+mdhn:Logic_Medieval a sc:Taxon ;
+    rdfs:label "Logic, Medieval"@en .
+
+mdhn:Malikites a sc:Taxon ;
+    rdfs:label "Malikites"@en .
+
+mdhn:Manuscripts_Avestan a sc:Taxon ;
+    rdfs:label "Manuscripts, Avestan"@en .
+
+mdhn:Manuscripts_Oriental a sc:Taxon ;
+    rdfs:label "Manuscripts, Oriental"@en .
+
+mdhn:Manuscripts_Samaritan a sc:Taxon ;
+    rdfs:label "Manuscripts, Samaritan"@en .
+
+mdhn:Manuscripts_Turkish a sc:Taxon ;
+    rdfs:label "Manuscripts, Turkish"@en .
+
+mdhn:Markets a sc:Taxon ;
+    rdfs:label "Markets"@en .
+
+mdhn:Martyrologies a sc:Taxon ;
+    rdfs:label "Martyrologies"@en .
+
+mdhn:Martyrs a sc:Taxon ;
+    rdfs:label "Martyrs"@en .
+
+mdhn:Mary_Blessed_Virgin_Saint_in_the_liturgy a sc:Taxon ;
+    rdfs:label "Mary, Blessed Virgin, Saint, in the liturgy"@en .
+
+mdhn:Mashāriq_al_anwār a sc:Taxon ;
+    rdfs:label "Mashāriq al-anwār"@en ;
+    sc:childTaxon mdhn:1181_1252 .
+
+mdhn:Masnavis_Persian a sc:Taxon ;
+    rdfs:label "Masnavis, Persian"@en .
+
+mdhn:Materia_medica a sc:Taxon ;
+    rdfs:label "Materia medica"@en .
+
+mdhn:Mathematics a sc:Taxon ;
+    rdfs:label "Mathematics"@en .
+
+mdhn:Mathematics_Arab a sc:Taxon ;
+    rdfs:label "Mathematics, Arab"@en .
+
+mdhn:Mathematics_Greek a sc:Taxon ;
+    rdfs:label "Mathematics, Greek"@en .
+
+mdhn:Mecca a sc:Taxon ;
+    rdfs:label "Mecca"@en ;
+    sc:childTaxon mdhn:Saudi_Arabia .
+
+mdhn:Mechanics a sc:Taxon ;
+    rdfs:label "Mechanics"@en .
+
+mdhn:Medicine a sc:Taxon ;
+    rdfs:label "Medicine"@en .
+
+mdhn:Medicine_Persian a sc:Taxon ;
+    rdfs:label "Medicine, Persian"@en .
+
+mdhn:Medina a sc:Taxon ;
+    rdfs:label "Medina"@en ;
+    sc:childTaxon mdhn:Saudi_Arabia .
+
+mdhn:Medina_Saudi_Arabia a sc:Taxon ;
+    rdfs:label "Medina (Saudi Arabia)"@en .
+
+mdhn:Miscellanea a sc:Taxon ;
+    rdfs:label "Miscellanea"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Morphology a sc:Taxon ;
+    rdfs:label "Morphology"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Muhiammad a sc:Taxon ;
+    rdfs:label "MuhÌ£ammad,"@en .
+
+mdhn:Muḥammad a sc:Taxon ;
+    rdfs:label "Muḥammad,"@en .
+
+mdhn:Music a sc:Taxon ;
+    rdfs:label "Music"@en .
+
+mdhn:Muslim_scholars a sc:Taxon ;
+    rdfs:label "Muslim scholars"@en .
+
+mdhn:Muzaffarids a sc:Taxon ;
+    rdfs:label "Muzaffarids"@en .
+
+mdhn:Mysticism a sc:Taxon ;
+    rdfs:label "Mysticism"@en .
+
+mdhn:Names a sc:Taxon ;
+    rdfs:label "Names"@en ;
+    sc:childTaxon mdhn:Etymology .
+
+mdhn:Natural_history a sc:Taxon ;
+    rdfs:label "Natural history"@en .
+
+mdhn:New_York a sc:Taxon ;
+    rdfs:label "New York"@en ;
+    sc:childTaxon mdhn:New_York_State .
+
+mdhn:Numerology a sc:Taxon ;
+    rdfs:label "Numerology"@en .
+
+mdhn:Onomastics a sc:Taxon ;
+    rdfs:label "Onomastics"@en .
+
+mdhn:Optics a sc:Taxon ;
+    rdfs:label "Optics"@en .
+
+mdhn:Pahlavi_language a sc:Taxon ;
+    rdfs:label "Pahlavi language"@en .
+
+mdhn:Persian a sc:Taxon ;
+    rdfs:label "Persian"@en ;
+    sc:childTaxon mdhn:Dictionaries .
+
+mdhn:Persian_language a sc:Taxon ;
+    rdfs:label "Persian language"@en .
+
+mdhn:Physics a sc:Taxon ;
+    rdfs:label "Physics"@en .
+
+mdhn:Pictorial_works a sc:Taxon ;
+    rdfs:label "Pictorial works"@en ;
+    sc:childTaxon mdhn:Botany .
+
+mdhn:Piety a sc:Taxon ;
+    rdfs:label "Piety"@en .
+
+mdhn:Poetry a sc:Taxon ;
+    rdfs:label "Poetry"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Political_ethics a sc:Taxon ;
+    rdfs:label "Political ethics"@en .
+
+mdhn:Political_science a sc:Taxon ;
+    rdfs:label "Political science"@en .
+
+mdhn:Prayer a sc:Taxon ;
+    rdfs:label "Prayer"@en .
+
+mdhn:Prayers a sc:Taxon ;
+    rdfs:label "Prayers"@en ;
+    sc:childTaxon mdhn:Tenth_of_Muḥarram .
+
+mdhn:Pre_Linnean_works a sc:Taxon ;
+    rdfs:label "Pre-Linnean works"@en ;
+    sc:childTaxon mdhn:Zoology .
+
+mdhn:Quatrains_Persian a sc:Taxon ;
+    rdfs:label "Quatrains, Persian"@en .
+
+mdhn:Rajab a sc:Taxon ;
+    rdfs:label "Rajab"@en .
+
+mdhn:Religious_ethics a sc:Taxon ;
+    rdfs:label "Religious ethics"@en .
+
+mdhn:Reproduction a sc:Taxon ;
+    rdfs:label "Reproduction"@en .
+
+mdhn:Rhetoric a sc:Taxon ;
+    rdfs:label "Rhetoric"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Riddles_Arabic a sc:Taxon ;
+    rdfs:label "Riddles, Arabic"@en .
+
+mdhn:Salat a sc:Taxon ;
+    rdfs:label "Salat"@en .
+
+mdhn:Samaritan_Aramaic_language a sc:Taxon ;
+    rdfs:label "Samaritan Aramaic language"@en .
+
+mdhn:Samaritans a sc:Taxon ;
+    rdfs:label "Samaritans"@en .
+
+mdhn:Scales_Weighing_instruments a sc:Taxon ;
+    rdfs:label "Scales (Weighing instruments)"@en .
+
+mdhn:Semantics a sc:Taxon ;
+    rdfs:label "Semantics"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Sermons a sc:Taxon ;
+    rdfs:label "Sermons"@en ;
+    sc:childTaxon mdhn:Coptic_Church .
+
+mdhn:Shafiites a sc:Taxon ;
+    rdfs:label "Shafiites"@en .
+
+mdhn:Shamsīyah a sc:Taxon ;
+    rdfs:label "Shamsīyah"@en ;
+    sc:childTaxon mdhn:1203_or_1204_1276_or_1277 .
+
+mdhn:Sharḥ_Hidāyat_al_ḥikmah a sc:Taxon ;
+    rdfs:label "Sharḥ Hidāyat al-ḥikmah"@en ;
+    sc:childTaxon mdhn:_1504_or_1505 .
+
+mdhn:Shiite_shrines a sc:Taxon ;
+    rdfs:label "Shiite shrines"@en .
+
+mdhn:Shīah a sc:Taxon ;
+    rdfs:label "Shīʻah"@en ;
+    sc:childTaxon mdhn:Religious_life .
+
+mdhn:Soul a sc:Taxon ;
+    rdfs:label "Soul"@en .
+
+mdhn:Specimens a sc:Taxon ;
+    rdfs:label "Specimens"@en ;
+    sc:childTaxon mdhn:Islamic_illumination_of_books_and_manuscripts .
+
+mdhn:Speeches_addresses_etc_Arabic a sc:Taxon ;
+    rdfs:label "Speeches, addresses, etc., Arabic"@en .
+
+mdhn:Sphere a sc:Taxon ;
+    rdfs:label "Sphere"@en .
+
+mdhn:Study_and_teaching a sc:Taxon ;
+    rdfs:label "Study and teaching"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Style a sc:Taxon ;
+    rdfs:label "Style"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Sufi_literature_Persian a sc:Taxon ;
+    rdfs:label "Sufi literature, Persian"@en .
+
+mdhn:Sufism a sc:Taxon ;
+    rdfs:label "Sufism"@en .
+
+mdhn:Surgery a sc:Taxon ;
+    rdfs:label "Surgery"@en .
+
+mdhn:Surgical_instruments_and_apparatus a sc:Taxon ;
+    rdfs:label "Surgical instruments and apparatus"@en .
+
+mdhn:Syntax a sc:Taxon ;
+    rdfs:label "Syntax"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Syriac_literature a sc:Taxon ;
+    rdfs:label "Syriac literature"@en .
+
+mdhn:Syriac_poetry a sc:Taxon ;
+    rdfs:label "Syriac poetry"@en .
+
+mdhn:Syrian_Orthodox_Church a sc:Taxon ;
+    rdfs:label "Syrian Orthodox Church"@en .
+
+mdhn:Tables a sc:Taxon ;
+    rdfs:label "Tables"@en ;
+    sc:childTaxon mdhn:Astrology .
+
+mdhn:Tales a sc:Taxon ;
+    rdfs:label "Tales"@en .
+
+mdhn:Talkhīṣ_Miftāḥ_al_ulūm a sc:Taxon ;
+    rdfs:label "Talkhīṣ Miftāḥ al-ʻulūm"@en ;
+    sc:childTaxon mdhn:1267_or_1268_1338 .
+
+mdhn:Tanqīḥ_al_uṣūl a sc:Taxon ;
+    rdfs:label "Tanqīḥ al-uṣūl"@en ;
+    sc:childTaxon mdhn:_1346_or_1347 .
+
+mdhn:Tashrīḥ_al_aflāk a sc:Taxon ;
+    rdfs:label "Tashrīḥ al-aflāk"@en ;
+    sc:childTaxon mdhn:1547_1621 .
+
+mdhn:Terminology a sc:Taxon ;
+    rdfs:label "Terminology"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Texts a sc:Taxon ;
+    rdfs:label "Texts"@en ;
+    sc:childTaxon mdhn:Hadith,
+        mdhn:Morocco .
+
+mdhn:Theology_Doctrinal a sc:Taxon ;
+    rdfs:label "Theology, Doctrinal"@en .
+
+mdhn:Timekeeping a sc:Taxon ;
+    rdfs:label "Timekeeping"@en .
+
+mdhn:Translations_into_Arabic a sc:Taxon ;
+    rdfs:label "Translations into Arabic"@en ;
+    sc:childTaxon mdhn:Sermons_Greek .
+
+mdhn:Turkey a sc:Taxon ;
+    rdfs:label "Turkey"@en ;
+    sc:childTaxon mdhn:Islamic_calendar .
+
+mdhn:Turkish a sc:Taxon ;
+    rdfs:label "Turkish"@en ;
+    sc:childTaxon mdhn:Glossaries_vocabularies_etc .
+
+mdhn:Turkish_poetry a sc:Taxon ;
+    rdfs:label "Turkish poetry"@en .
+
+mdhn:Verb a sc:Taxon ;
+    rdfs:label "Verb"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Versification a sc:Taxon ;
+    rdfs:label "Versification"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Weather_forecasting a sc:Taxon ;
+    rdfs:label "Weather forecasting"@en .
+
+mdhn:Writing a sc:Taxon ;
+    rdfs:label "Writing"@en ;
+    sc:childTaxon mdhn:Arabic_alphabet .
+
+mdhn:Zīj_i_jadīd_i_Sultānī a sc:Taxon ;
+    rdfs:label "Zīj-i jadīd-i Sultānī"@en ;
+    sc:childTaxon mdhn:1394_1449 .
+
+mdhn:Zoroastrianism a sc:Taxon ;
+    rdfs:label "Zoroastrianism"@en .
+
+mdhn:_Leoganne a sc:Taxon ;
+    rdfs:label "Leoganne"@en ;
+    sc:childTaxon mdhn:Haiti_ .
+
+mdhn:_Miftāḥ_al_ulūm a sc:Taxon ;
+    rdfs:label "-Miftāḥ al-ʻulūm"@en ;
+    sc:childTaxon mdhn:1160 .
+
+mdhn:1160 a sc:Taxon ;
+    rdfs:label "1160"@en ;
+    sc:childTaxon mdhn:Sakkākī_Yūsuf_ibn_Abī_Bakr .
+
+mdhn:1175_1249 a sc:Taxon ;
+    rdfs:label "1175-1249"@en ;
+    sc:childTaxon mdhn:Ibn_al_Ḥājib_Uthmān_ibn_Umar .
+
+mdhn:1181_1252 a sc:Taxon ;
+    rdfs:label "1181-1252"@en ;
+    sc:childTaxon mdhn:Ṣaghānī_al_Ḥasan_ibn_Muḥammad .
+
+mdhn:1203_or_1204_1276_or_1277 a sc:Taxon ;
+    rdfs:label "1203 or 1204-1276 or 1277"@en ;
+    sc:childTaxon mdhn:Qazwīnī_Alī_ibn_Umar .
+
+mdhn:1233_1277 a sc:Taxon ;
+    rdfs:label "1233-1277"@en ;
+    sc:childTaxon mdhn:Nawawī .
+
+mdhn:1267_or_1268_1338 a sc:Taxon ;
+    rdfs:label "1267 or 1268-1338"@en ;
+    sc:childTaxon mdhn:Qazwīnī_Jalāl_al_Dīn_Muḥammad_ibn_Abd_al_Raḥmān .
+
+mdhn:1309_1360 a sc:Taxon ;
+    rdfs:label "1309-1360"@en ;
+    sc:childTaxon mdhn:Ibn_Hishām_Abd_Allāh_ibn_Yūsuf .
+
+mdhn:1394_1449 a sc:Taxon ;
+    rdfs:label "1394-1449"@en ;
+    sc:childTaxon mdhn:Ulugh_Beg .
+
+mdhn:1547_1621 a sc:Taxon ;
+    rdfs:label "1547-1621"@en ;
+    sc:childTaxon mdhn:Āmilī_Bahā_al_Dīn_Muḥammad_ibn_Ḥusayn .
+
+mdhn:Alī_ibn_Abī_Ṭālib a sc:Taxon ;
+    rdfs:label "ʻAlī ibn Abī Ṭālib,"@en .
+
+mdhn:Apollonius a sc:Taxon ;
+    rdfs:label "Apollonius,"@en .
+
+mdhn:Arab_countries a sc:Taxon ;
+    rdfs:label "Arab countries"@en ;
+    sc:childTaxon mdhn:Music_theory .
+
+mdhn:Arabic_alphabet a sc:Taxon ;
+    rdfs:label "Arabic alphabet"@en .
+
+mdhn:Astrology a sc:Taxon ;
+    rdfs:label "Astrology"@en .
+
+mdhn:Astronomy a sc:Taxon ;
+    rdfs:label "Astronomy"@en .
+
+mdhn:Athīr_al_Dīn_al_Abharī_al_Mufaḍḍal_ibn_Umar a sc:Taxon ;
+    rdfs:label "Athīr al-Dīn al-Abharī, al-Mufaḍḍal ibn ʻUmar,"@en .
+
+mdhn:Āmilī_Bahā_al_Dīn_Muḥammad_ibn_Ḥusayn a sc:Taxon ;
+    rdfs:label "ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn,"@en .
+
+mdhn:Birjandī_Abd_al_Alī_ibn_Muḥammad_ibn_Ḥusayn a sc:Taxon ;
+    rdfs:label "Birjandī, ʻAbd al-ʻAlī ibn Muḥammad ibn Ḥusayn,"@en .
+
+mdhn:Botany a sc:Taxon ;
+    rdfs:label "Botany"@en .
+
+mdhn:Business_mathematics a sc:Taxon ;
+    rdfs:label "Business mathematics"@en .
+
+mdhn:Caliph a sc:Taxon ;
+    rdfs:label "Caliph,"@en ;
+    sc:childTaxon mdhn:Alī_ibn_Abī_Ṭālib .
+
+mdhn:Catholic_Church a sc:Taxon ;
+    rdfs:label "Catholic Church"@en .
+
+mdhn:Chaldean_rite a sc:Taxon ;
+    rdfs:label "Chaldean rite"@en ;
+    sc:childTaxon mdhn:Catholic_Church .
+
+mdhn:Christian_poetry_Arabic a sc:Taxon ;
+    rdfs:label "Christian poetry, Arabic"@en .
+
+mdhn:Christians a sc:Taxon ;
+    rdfs:label "Christians"@en .
+
+mdhn:Church_of_the_East a sc:Taxon ;
+    rdfs:label "Church of the East"@en .
+
+mdhn:Commerce a sc:Taxon ;
+    rdfs:label "Commerce"@en ;
+    sc:childTaxon mdhn:India .
+
+mdhn:Coptic_language a sc:Taxon ;
+    rdfs:label "Coptic language"@en .
+
+mdhn:Criticism_interpretation_etc a sc:Taxon ;
+    rdfs:label "Criticism, interpretation, etc."@en ;
+    sc:childTaxon mdhn:Hadith .
+
+mdhn:Devotional_literature a sc:Taxon ;
+    rdfs:label "Devotional literature"@en ;
+    sc:childTaxon mdhn:_632 .
+
+mdhn:Etymology a sc:Taxon ;
+    rdfs:label "Etymology"@en ;
+    sc:childTaxon mdhn:Names_Arabic .
+
+mdhn:Euclid a sc:Taxon ;
+    rdfs:label "Euclid"@en .
+
+mdhn:Fasts_and_feasts a sc:Taxon ;
+    rdfs:label "Fasts and feasts"@en .
+
+mdhn:Gautama_Buddha a sc:Taxon ;
+    rdfs:label "Gautama Buddha"@en .
+
+mdhn:Glossaries_vocabularies_etc a sc:Taxon ;
+    rdfs:label "Glossaries, vocabularies, etc"@en ;
+    sc:childTaxon mdhn:Hadith_Shiites .
+
+mdhn:Hadith_Shiites a sc:Taxon ;
+    rdfs:label "Hadith (Shiites)"@en .
+
+mdhn:Haiti_ a sc:Taxon ;
+    rdfs:label "Haiti"@en .
+
+mdhn:Ibn_Hishām_Abd_Allāh_ibn_Yūsuf a sc:Taxon ;
+    rdfs:label "Ibn Hishām, ʻAbd Allāh ibn Yūsuf,"@en .
+
+mdhn:Ibn_Mālik_Muḥammad_ibn_Abd_Allāh a sc:Taxon ;
+    rdfs:label "Ibn Mālik, Muḥammad ibn ʻAbd Allāh,"@en .
+
+mdhn:Ibn_al_Ḥājib_Uthmān_ibn_Umar a sc:Taxon ;
+    rdfs:label "Ibn al-Ḥājib, ʻUthmān ibn ʻUmar,"@en .
+
+mdhn:Iraq a sc:Taxon ;
+    rdfs:label "Iraq"@en ;
+    sc:childTaxon mdhn:Muslim_pilgrims_and_pilgrimages .
+
+mdhn:Islamic_calendar a sc:Taxon ;
+    rdfs:label "Islamic calendar"@en .
+
+mdhn:Islamic_countries a sc:Taxon ;
+    rdfs:label "Islamic countries"@en ;
+    sc:childTaxon mdhn:Symbolism_of_numbers .
+
+mdhn:Islamic_ethics a sc:Taxon ;
+    rdfs:label "Islamic ethics"@en .
+
+mdhn:Islamic_illumination_of_books_and_manuscripts a sc:Taxon ;
+    rdfs:label "Islamic illumination of books and manuscripts"@en .
+
+mdhn:Joseph a sc:Taxon ;
+    rdfs:label "Joseph"@en .
+
+mdhn:Maḥbūbī_Ubayd_Allāh_ibn_Masūd a sc:Taxon ;
+    rdfs:label "Maḥbūbī, ʻUbayd Allāh ibn Masʻūd,"@en .
+
+mdhn:Manuscripts_Persian a sc:Taxon ;
+    rdfs:label "Manuscripts, Persian"@en .
+
+mdhn:Middle_East a sc:Taxon ;
+    rdfs:label "Middle East"@en ;
+    sc:childTaxon mdhn:Christians .
+
+mdhn:Morocco a sc:Taxon ;
+    rdfs:label "Morocco"@en ;
+    sc:childTaxon mdhn:Tamazight_poetry .
+
+mdhn:Muh味ammad a sc:Taxon ;
+    rdfs:label "Muh味ammad,"@en .
+
+mdhn:Names_Arabic a sc:Taxon ;
+    rdfs:label "Names, Arabic"@en .
+
+mdhn:Names_Personal a sc:Taxon ;
+    rdfs:label "Names, Personal"@en .
+
+mdhn:Nawawī a sc:Taxon ;
+    rdfs:label "Nawawī,"@en .
+
+mdhn:New_York_State a sc:Taxon ;
+    rdfs:label "New York (State)"@en ;
+    sc:childTaxon mdhn:Manuscripts_Persian .
+
+mdhn:Ottoman_Empire_1288_1918 a sc:Taxon ;
+    rdfs:label "Ottoman Empire, 1288-1918"@en ;
+    sc:childTaxon mdhn:History .
+
+mdhn:Persian_literature a sc:Taxon ;
+    rdfs:label "Persian literature"@en .
+
+mdhn:Persian_poetry a sc:Taxon ;
+    rdfs:label "Persian poetry"@en .
+
+mdhn:Prayers_and_devotions a sc:Taxon ;
+    rdfs:label "Prayers and devotions"@en ;
+    sc:childTaxon mdhn:Islam,
+        mdhn:Middle_East,
+        mdhn:_632 .
+
+mdhn:Prophet a sc:Taxon ;
+    rdfs:label "Prophet,"@en ;
+    sc:childTaxon mdhn:Muh味ammad .
+
+mdhn:Qazwīnī_Alī_ibn_Umar a sc:Taxon ;
+    rdfs:label "Qazwīnī, ʻAlī ibn ʻUmar,"@en .
+
+mdhn:Qazwīnī_Jalāl_al_Dīn_Muḥammad_ibn_Abd_al_Raḥmān a sc:Taxon ;
+    rdfs:label "Qazwīnī, Jalāl al-Dīn Muḥammad ibn ʻAbd al-Raḥmān,"@en .
+
+mdhn:Qāḍī_Mīr_Ḥusayn_ibn_Muīn_al_Dīn a sc:Taxon ;
+    rdfs:label "Qāḍī Mīr, Ḥusayn ibn Muʻīn al-Dīn,"@en .
+
+mdhn:Quran_stories a sc:Taxon ;
+    rdfs:label "Qurʼan stories"@en .
+
+mdhn:Religious_aspects a sc:Taxon ;
+    rdfs:label "Religious aspects"@en ;
+    sc:childTaxon mdhn:Talismans .
+
+mdhn:Saints a sc:Taxon ;
+    rdfs:label "Saints"@en .
+
+mdhn:Sakkākī_Yūsuf_ibn_Abī_Bakr a sc:Taxon ;
+    rdfs:label "Sakkākī, Yūsuf ibn Abī Bakr,"@en .
+
+mdhn:Sermons_Greek a sc:Taxon ;
+    rdfs:label "Sermons, Greek"@en .
+
+mdhn:Son_of_Jacob a sc:Taxon ;
+    rdfs:label "(Son of Jacob)"@en ;
+    sc:childTaxon mdhn:Joseph .
+
+mdhn:Symbolism_of_numbers a sc:Taxon ;
+    rdfs:label "Symbolism of numbers"@en .
+
+mdhn:Syriac_language a sc:Taxon ;
+    rdfs:label "Syriac language"@en .
+
+mdhn:Ṣaghānī_al_Ḥasan_ibn_Muḥammad a sc:Taxon ;
+    rdfs:label "Ṣaghānī, al-Ḥasan ibn Muḥammad,"@en .
+
+mdhn:Talismans a sc:Taxon ;
+    rdfs:label "Talismans"@en .
+
+mdhn:Tamazight_poetry a sc:Taxon ;
+    rdfs:label "Tamazight poetry"@en .
+
+mdhn:Tenth_of_Muḥarram a sc:Taxon ;
+    rdfs:label "Tenth of Muḥarram"@en .
+
+mdhn:Traditional_medicine a sc:Taxon ;
+    rdfs:label "Traditional medicine"@en .
+
+mdhn:Turkish_language a sc:Taxon ;
+    rdfs:label "Turkish language"@en .
+
+mdhn:Ulugh_Beg a sc:Taxon ;
+    rdfs:label "Ulugh Beg,"@en .
+
+mdhn:Waqf a sc:Taxon ;
+    rdfs:label "Waqf"@en .
+
+mdhn:_1265 a sc:Taxon ;
+    rdfs:label "-1265"@en ;
+    sc:childTaxon mdhn:Athīr_al_Dīn_al_Abharī_al_Mufaḍḍal_ibn_Umar .
+
+mdhn:_1274 a sc:Taxon ;
+    rdfs:label "-1274"@en ;
+    sc:childTaxon mdhn:Ibn_Mālik_Muḥammad_ibn_Abd_Allāh .
+
+mdhn:_1346_or_1347 a sc:Taxon ;
+    rdfs:label "-1346 or 1347"@en ;
+    sc:childTaxon mdhn:Maḥbūbī_Ubayd_Allāh_ibn_Masūd .
+
+mdhn:_1504_or_1505 a sc:Taxon ;
+    rdfs:label "-1504 or 1505"@en ;
+    sc:childTaxon mdhn:Qāḍī_Mīr_Ḥusayn_ibn_Muīn_al_Dīn .
+
+mdhn:active_16th_century a sc:Taxon ;
+    rdfs:label "active 16th century"@en ;
+    sc:childTaxon mdhn:Birjandī_Abd_al_Alī_ibn_Muḥammad_ibn_Ḥusayn .
+
+mdhn:approximately_600_661 a sc:Taxon ;
+    rdfs:label "approximately 600-661"@en ;
+    sc:childTaxon mdhn:Caliph .
+
+mdhn:of_Perga a sc:Taxon ;
+    rdfs:label "of Perga"@en ;
+    sc:childTaxon mdhn:Apollonius .
+
+mdhn:Arabic_poetry a sc:Taxon ;
+    rdfs:label "Arabic poetry"@en .
+
+mdhn:Arabic_prose_literature a sc:Taxon ;
+    rdfs:label "Arabic prose literature"@en .
+
+mdhn:Arithmetic a sc:Taxon ;
+    rdfs:label "Arithmetic"@en .
+
+mdhn:Coptic_Church a sc:Taxon ;
+    rdfs:label "Coptic Church"@en .
+
+mdhn:India a sc:Taxon ;
+    rdfs:label "India"@en ;
+    sc:childTaxon mdhn:Music_theory .
+
+mdhn:Islamic_Empire a sc:Taxon ;
+    rdfs:label "Islamic Empire"@en ;
+    sc:childTaxon mdhn:Zoology .
+
+mdhn:Islamic_law a sc:Taxon ;
+    rdfs:label "Islamic law"@en .
+
+mdhn:Kings_and_rulers a sc:Taxon ;
+    rdfs:label "Kings and rulers"@en ;
+    sc:childTaxon mdhn:Islamic_Empire .
+
+mdhn:Music_theory a sc:Taxon ;
+    rdfs:label "Music theory"@en .
+
+mdhn:Muslim_pilgrims_and_pilgrimages a sc:Taxon ;
+    rdfs:label "Muslim pilgrims and pilgrimages"@en .
+
+mdhn:Muslims a sc:Taxon ;
+    rdfs:label "Muslims"@en .
+
+mdhn:Preaching a sc:Taxon ;
+    rdfs:label "Preaching"@en .
+
+mdhn:Religious_life a sc:Taxon ;
+    rdfs:label "Religious life"@en ;
+    sc:childTaxon mdhn:Islam .
+
+mdhn:Saudi_Arabia a sc:Taxon ;
+    rdfs:label "Saudi Arabia"@en ;
+    sc:childTaxon mdhn:Muslim_pilgrims_and_pilgrimages .
+
+mdhn:Zoology a sc:Taxon ;
+    rdfs:label "Zoology"@en .
+
+mdhn:_632 a sc:Taxon ;
+    rdfs:label "-632"@en ;
+    sc:childTaxon mdhn:Prophet .
+
+mdhn:Dictionaries a sc:Taxon ;
+    rdfs:label "Dictionaries"@en ;
+    sc:childTaxon mdhn:Arabic_language .
+
+mdhn:Hadith a sc:Taxon ;
+    rdfs:label "Hadith"@en ;
+    sc:childTaxon mdhn:approximately_600_661 .
+
+mdhn:History a sc:Taxon ;
+    rdfs:label "History"@en ;
+    sc:childTaxon mdhn:Islamic_countries,
+        mdhn:Preaching .
+
+mdhn:Manuscripts_Arabic a sc:Taxon ;
+    rdfs:label "Manuscripts, Arabic"@en .
+
+mdhn:Islam a sc:Taxon ;
+    rdfs:label "Islam"@en ;
+    sc:childTaxon mdhn:Religious_aspects,
+        mdhn:Religious_life .
+
+mdhn:Arabic_language a sc:Taxon ;
+    rdfs:label "Arabic language"@en .
+
