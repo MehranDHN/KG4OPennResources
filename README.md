@@ -16,22 +16,23 @@ For demonstration, the `SampleData` folder offers a subset of the data, with the
 ### Prefixes and Namespaces
 The ontology declares several standard prefixes to ground its vocabulary:
 
-- `sc`: `schema.org` ontology
+- `sc`: `schema.org` Our base ontology
 - `tei`: Custom namespace for TEI-specific terms (`http://www.tei-c.org/ns/1.0#`)
 - `dct`: Dublin Core Terms (`http://purl.org/dc/terms/`)
 - `owl`, `rdf`, `rdfs`: Standard ontologies for semantic web
 - `xsd`: XML Schema Datatypes
+- `mdhn`: Local scoped namespace
 
 These prefixes enable interoperability with existing semantic web standards.
 
 ### Classes
 The ontology defines key classes to represent entities in the OPenn collection:
-- `tei:TEI`: Represents a TEI-encoded document, typically a digitized manuscript.
-- `sc:Organization`: Describes the institude/publisher of the manuscrpts.
-- `sc:CreativeWork`: Describes physical manuscripts, linked to their publisher
-- `sc:VisualArtwork`: Describes visual artwork, linked to their manuscript
-- `tei:DigitalRepresentation`: Models digital objects, such as images or transcriptions.
-counterparts.
+
+- `mdhn:GLAMPublisher` is subClassOf `sc:Organization`: Describes the institude/publisher of the manuscrpts.
+- `mdhn:Manuscript` is subClassOf `sc:CreativeWork`: Describes physical manuscripts, linked to their publisher
+- `mdhn:DigitalRepresentation` is subClassOf `sc:VisualArtwork`: Describes visual artwork, linked to their manuscript
+- `mdhn:CanvasType` subClassOF `sc:DefinedTerm`: Models the canvas type of a `mdhn:DigitalRepresentation` instance.
+
 
 <img src="imgsrc/img01.JPG" alt="Image 01">
 **Image 01**
@@ -45,18 +46,25 @@ Actual digital resource correponding to each folio of a particular manuscript is
 ### Properties
 Properties connect entities and their metadata:
 - Object Properties:
-  - `tei:hasDigitalRepresentation`: Links a manuscript to its digital resource(s) (e.g., `Manuscript hasDigitalRepresentation DigitalRepresentation`).
-  - `tei:isPartOf`: Indicates a resource is part of a collection.
+  - `mdhn:isPartOf`: Links a folio of a manuscript (an instance of `mdhn:DigitalRepresentation`) to a Manuscript (an instance of `mdhn:Manuscript`) (e.g., `mdhn:master_0022_0000 mdhn:master_0022_0000 mdhn:Oversize_LJS_294`).
+  - `mdhn:hasCanvas`: Indicates an inverse predicate of `mdhn:isPartOf`
+  - `mdhn:artform`: Indicates canvas type of  `mdhn:DigitalRepresentation`. The values are from a local-scoped custom controlled vocabularies.  
+  - `mdhn:hasInstances`: Indicates an inverse predicate of `mdhn:artform` 
+  - `mdhn:publisher`: Indicates a GLAM which is the publisher of `mdhn:Manuscript` 
+
+  - `mdhn:hasPublished`: Indicates an inverse predicate of  `mdhn:publisher`       
 - Data Properties (from Dublin Core):
-  - `dct:title`: The title of a resource (e.g., a manuscript’s name).
-  - `dct:creator`: The creator or author of the resource.
-  - `dct:format`: The file format of a digital resource (e.g., PDF, JPEG).
-  - `dct:identifier`: A unique identifier for the resource.
+  - `mdhn:inLanguage`: The Language of a manuscript (e.g.,  Per, Ar, Ota, ...).
+  - `mdhn:height`: The Height of a canvas in pixel.
+  - `mdhn:width`: The width of a canvas in pixel
+  - `mdhn:image`: URL of the image represented by the instances of `mdhn:DigitalRepresentation`.
+  - `mdhn:additionalType`: Usually the url of full version of TEI XML file of a manuscript.
+  - `mdhn:numberOfPages`: Number of images or canvaces of a manuscript.    
 
 ### Logical Structure
 The ontology uses OWL to define class hierarchies and property constraints:
-- `tei:DigitalRepresentation` and `tei:Manuscript` are subclasses of a generic resource concept, implicitly aligned with `owl:Thing`.
-- Properties like `tei:hasDigitalRepresentation` have defined domains (`tei:Manuscript`) and ranges (`tei:DigitalRepresentation`), ensuring semantic consistency.
+- `mdhn:DigitalRepresentation` and `mdhn:Manuscript` are subclasses of a generic resource concept, implicitly aligned with `owl:Thing`.
+- Properties like `mdhn:isPartOf` have defined domains (`mdhn:DigitalRepresentation`) and ranges (`mdhn:Manuscript`), ensuring semantic consistency.
 
 ### SPARQL Query
 
@@ -66,22 +74,23 @@ This section provides sample SPARQL queries to demonstrate how to retrieve metad
 
 - The `TEIOntology.ttl` file is loaded into a triple store.
 - The ontology uses the following namespaces:
-  - `tei`: `http://www.tei-c.org/ns/1.0#`
-  - `dct`: `http://purl.org/dc/terms/`
+  - `mdhn`: `http://example.com/mdhn/manuscript/`
+  - `sc`: `hhttps://schema.org/`
 - Queries assume RDF data describing manuscripts and digital resources, as per the ontology’s structure.
 
 ## Sample Queries
 
 ### 1. Retrieve All Manuscripts with Their Titles
-This query fetches all resources classified as `tei:Manuscript` along with their `dct:title`.
+This query fetches all resources classified as `mdhn:Manuscript` along with their `rdfs:label`.
 
 ```sparql
-PREFIX tei: <http://www.tei-c.org/ns/1.0#>
-PREFIX dct: <http://purl.org/dc/terms/>
+prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix sc: <https://schema.org/> 
+
 SELECT ?manuscript ?title
 WHERE {
-  ?manuscript a tei:Manuscript ;
-              dct:title ?title .
+  ?manuscript a mdhn:Manuscript ;
+              rdfs:label ?title .
 }
 ```
 
@@ -92,15 +101,16 @@ WHERE {
 This query retrieves digital resources (e.g., PDFs, images) associated with a specific manuscript via `tei:hasDigitalRepresentation`.
 
 ```sparql
-PREFIX tei: <http://www.tei-c.org/ns/1.0#>
-PREFIX dct: <http://purl.org/dc/terms/>
-SELECT ?digitalResource ?format ?identifier
+prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix sc: <https://schema.org/>
+
+SELECT ?digitalResource ?canvastype ?image
 WHERE {
-  ?manuscript a tei:Manuscript ;
-              dct:title "MS Codex 1234" ;
-              tei:hasDigitalRepresentation ?digitalResource .
-  ?digitalResource dct:format ?format ;
-                  dct:identifier ?identifier .
+  ?manuscript a mdhn:Manuscript ;
+              rdfs:label "MS Codex 1234" ;
+              mdhn:hasCanvas ?digitalResource .
+  ?digitalResource mdhn:artform ?canvastype ;
+                  mdhn:image ?image .
 }
 ```
 
@@ -110,49 +120,53 @@ WHERE {
 This query finds all resources (manuscripts or digital resources) associated with a specific creator.
 
 ```sparql
-PREFIX tei: <http://www.tei-c.org/ns/1.0#>
-PREFIX dct: <http://purl.org/dc/terms/>
+prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix sc: <https://schema.org/>
+
 SELECT ?resource ?title
 WHERE {
-  ?resource dct:creator "John Doe" ;
-            dct:title ?title .
+  ?resource mdhn:publisher dhn:Columbia_University_Rare_Book__Manuscript_Library ;
+            rdfs:label ?title .
 }
 ```
 
-**Use Case**: Identify all items in the collection attributed to a creator named “John Doe”.
+**Use Case**: Identify all manuscripts in the collection attributed to a Columbia University.
 
 ### 4. Find Manuscripts in a Collection
 This query retrieves manuscripts that are part of a specific collection using `tei:isPartOf`.
 
 ```sparql
-PREFIX tei: <http://www.tei-c.org/ns/1.0#>
-PREFIX dct: <http://purl.org/dc/terms/>
+prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix sc: <https://schema.org/>
+
 SELECT ?manuscript ?title
 WHERE {
-  ?manuscript a tei:Manuscript ;
-              tei:isPartOf ?collection ;
-              dct:title ?title .
-  ?collection dct:identifier "http://openn.library.upenn.edu/Collection/UPenn" .
+  ?manuscript a mdhn:Manuscript ;
+              mdhn:isPartOf mdhn:Columbia_University_Rare_Book__Manuscript_Library ;
+              rdfs:label ?title ;
+              mdhn:inLanguage "per".
 }
 ```
 
-**Use Case**: List manuscripts belonging to the University of Pennsylvania’s OPenn collection.
+**Use Case**: List all the Persian manuscripts belonging to the University of Columbia OPenn collection.
 
 ### 5. Retrieve Digital Resources by Format
 This query finds all digital resources with a specific file format (e.g., PDF).
 
 ```sparql
-PREFIX tei: <http://www.tei-c.org/ns/1.0#>
-PREFIX dct: <http://purl.org/dc/terms/>
-SELECT ?digitalResource ?identifier
+prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix sc: <https://schema.org/>
+
+SELECT *
 WHERE {
-  ?digitalResource a tei:DigitalResource ;
-                  dct:format "PDF" ;
-                  dct:identifier ?identifier .
+  ?digitalResource a mdhn:DigitalRepresentation ;
+                  mdhn:artform  mdhn:owners_notations;
+                  mdhn:height ?height;
+                  mdhn:width ?width.
 }
 ```
 
-**Use Case**: Identify all PDF files in the collection for format-specific processing.
+**Use Case**: Identify all canvases of mdhn:owners_notations type with the widh and height dimensions.
 
 ### 6. VisualArtwork Statistic categorized by `sc:artForm`
 This query results an ordered list of counting `sc:VisualArtwork` instances groupped by `sc:artForm` except those that have `mdhn:ordinary` values.
@@ -164,8 +178,8 @@ PREFIX sc: <https://schema.org/>
 
 prefix onto:<http://www.ontotext.com/>
 select ?artform (Count(?s) as ?canvascount) {
-    ?s a sc:VisualArtwork ;
-       sc:artform ?artform.
+    ?s a mdhn:DigitalRepresentation ;
+       mdhn:artform ?artform.
     FILTER(?artform!=mdhn:ordinary)
 }
 group by ?artform
