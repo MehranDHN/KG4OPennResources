@@ -1,0 +1,220 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of University of Pennsylvania LJS 196: Overpainted leaves from a Persian manuscript and an Arabic lithograph"
+        },
+        "publicationStmt": {
+          "publisher": "University of Pennsylvania",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Kislak Center for Special Collections, Rare Books and Manuscripts LJS 196: Overpainted leaves from a Persian manuscript and an Arabic lithograph are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                "#text": "Metadata is Â©  and licensed under a Creative Commons Attribution License version 4.0 (CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/legalcode. For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/4.0/."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Ms. leaves.",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "3420 Walnut Street, Philadelphia, Pennsylvania 19104-6206",
+              "institution": "University of Pennsylvania",
+              "repository": "Kislak Center for Special Collections, Rare Books and Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "LJS 196"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "9957604443503681"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/794841666"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://hdl.library.upenn.edu/1017/d/medren/5760444"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Leaves, one from a Persian manuscript and the other from an Arabic lithograph, both of uncertain date and origin, each with an illumination overpainted in the 20th century to mimic Mughal style, likely in India for the tourist trade. The leaves themselves are possibly from the late 19th or early 20th century, and the paintings are considerably later. On the Persian leaf, the miniature of a scene of a man kneeling at the mouth of a cave with another man kneeling before him enclosed in a rondel is painted over the text on the page. The other side of this leaf is written in 12 long lines. On the verso of the Arabic leaf, which was page 99 in the volume printed by lithograph, the miniature of a man and woman on a throne on a veranda, surrounded by nine musicians, has been painted over the main text, with the surrounding commentary left visible; the recto of this leaf has 8 lines of main text, with interlinear notes and surrounding commentary in a smaller script. The leaf is from a grammatical work with commentary.",
+              "textLang": {
+                "@mainLang": "per",
+                "@otherLangs": "ara",
+                "#text": "Persian and Arabic"
+              },
+              "msItem": {
+                "title": "Overpainted leaves from a Persian manuscript and an Arabic lithograph",
+                "respStmt": [
+                  {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Stanitz, John D"
+                    }
+                  },
+                  {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Schoenberg, Lawrence J"
+                    }
+                  }
+                ]
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "2 leaves (2 items) : 265 x 170 mm., 213 x 170 mm"
+                }
+              }
+            },
+            "history": {
+              "origin": null,
+              "provenance": [
+                "Formerly owned by John D. Stanitz (Cleveland, Ohio), Ms. 27.",
+                "Acquired by Lawrence J. Schoenberg with other Stanitz manuscripts, Sept. 1997.",
+                "Deposit by Lawrence J. Schoenberg and Barbara Brizdle, 2012.",
+                "Gift of Barbara Brizdle Schoenberg, 2016."
+              ]
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Musicians in art",
+                "Arabic language--Grammar"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Fragments",
+                "Commentaries",
+                "Illuminations",
+                "Forgeries (derivative objects)",
+                "Manuscripts, Persian--19th century",
+                "Manuscripts, Persian--20th century",
+                "Manuscripts, Digital"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "@xml:id": "surface-ljs-196-1",
+          "graphic": [
+            {
+              "@height": "5200px",
+              "@url": "master/0164_0000.tif",
+              "@width": "4275px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0164_0000_thumb.jpg",
+              "@width": "156px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0164_0000_web.jpg",
+              "@width": "1480px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "@xml:id": "surface-ljs-196-2",
+          "graphic": [
+            {
+              "@height": "5200px",
+              "@url": "master/0164_0001.tif",
+              "@width": "4275px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0164_0001_thumb.jpg",
+              "@width": "156px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0164_0001_web.jpg",
+              "@width": "1480px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "@xml:id": "surface-ljs-196-3",
+          "graphic": [
+            {
+              "@height": "6376px",
+              "@url": "master/0164_0002.tif",
+              "@width": "4201px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0164_0002_thumb.jpg",
+              "@width": "125px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0164_0002_web.jpg",
+              "@width": "1186px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "@xml:id": "surface-ljs-196-4",
+          "graphic": [
+            {
+              "@height": "6376px",
+              "@url": "master/0164_0003.tif",
+              "@width": "4201px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0164_0003_thumb.jpg",
+              "@width": "125px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0164_0003_web.jpg",
+              "@width": "1186px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

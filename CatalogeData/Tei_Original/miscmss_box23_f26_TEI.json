@@ -1,0 +1,213 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of University of Pennsylvania Misc Mss Box 23 Folder 26 Box 23 Folder 26: Aḥmad ʻAlī Khān Bahādur wedding invitation"
+        },
+        "publicationStmt": {
+          "publisher": "University of Pennsylvania",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Kislak Center for Special Collections, Rare Books and Manuscripts Misc Mss Box 23 Folder 26 Box 23 Folder 26: Aḥmad ʻAlī Khān Bahādur wedding invitation are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, University of Pennsylvania Libraries has waived all copyright and related or neighboring rights to this metadata about Kislak Center for Special Collections, Rare Books and Manuscripts Misc Mss Box 23 Folder 26 Box 23 Folder 26: Aḥmad ʻAlī Khān Bahādur wedding invitation. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "3420 Walnut Street, Philadelphia, Pennsylvania 19104-6206.",
+              "institution": "University of Pennsylvania",
+              "repository": "Kislak Center for Special Collections, Rare Books and Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Misc Mss Box 23 Folder 26 Box 23 Folder 26"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "9977137537203681"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1030861672"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "A wedding invitation to celebrate the marriage of Aḥmad ʻAlī Khān Bahādur addressed to Dr. George Ranken of the East India Company and his wife Lady Agnes Allan Ranken. The invitation is on red paper, written in Persian, and the script in painted gold leaf. Accompanied by an envelope with a personal stamp of the sender addressed to Dr. Ranken.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "In Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Aḥmad ʻAlī Khān Bahādur wedding invitation",
+                  "author": [
+                    {
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Bahādur, Aḥmad ʻAlī Khān, 1787-1840"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "‏ب‏هادر، احمد على خان،"
+                        }
+                      ]
+                    },
+                    {
+                      "name": {
+                        "@type": "authority",
+                        "#text": "Dr. Craig Baxter Memorial Fund"
+                      }
+                    }
+                  ],
+                  "respStmt": {
+                    "resp": "recipient",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Ranken, George"
+                    }
+                  }
+                },
+                {
+                  "@n": "Loose leaf recto",
+                  "locus": "Loose leaf recto",
+                  "title": "Aḥmad ʻAlī Khān Bahādur wedding invitation, 1811"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "1 item (3 leaves)"
+                }
+              },
+              "decoDesc": {
+                "decoNote": [
+                  {
+                    "@n": "Loose leaf recto",
+                    "#text": "Gold headpiece and margins"
+                  },
+                  {
+                    "@n": "Envelope recto",
+                    "#text": "Stamp"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": null,
+              "provenance": "Sold at auction at Lyon & Turnbull, Edinburgh, May 17 2017, lot 120A."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": {
+            "@n": "form/genre",
+            "term": [
+              "Wedding announcements",
+              "Invitations",
+              "Manuscripts, Persian--19th century"
+            ]
+          }
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Loose leaf recto",
+          "graphic": [
+            {
+              "@height": "7466px",
+              "@url": "master/9504_0000.tif",
+              "@width": "4504px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9504_0000_thumb.jpg",
+              "@width": "114px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9504_0000_web.jpg",
+              "@width": "1086px"
+            }
+          ]
+        },
+        {
+          "@n": "Loose leaf verso",
+          "graphic": [
+            {
+              "@height": "7466px",
+              "@url": "master/9504_0001.tif",
+              "@width": "4504px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9504_0001_thumb.jpg",
+              "@width": "114px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9504_0001_web.jpg",
+              "@width": "1086px"
+            }
+          ]
+        },
+        {
+          "@n": "Envelope recto",
+          "graphic": [
+            {
+              "@height": "8012px",
+              "@url": "master/9504_0002.tif",
+              "@width": "5837px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9504_0002_thumb.jpg",
+              "@width": "138px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9504_0002_web.jpg",
+              "@width": "1311px"
+            }
+          ]
+        },
+        {
+          "@n": "Envelope verso",
+          "graphic": [
+            {
+              "@height": "8012px",
+              "@url": "master/9504_0003.tif",
+              "@width": "5837px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9504_0003_thumb.jpg",
+              "@width": "138px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9504_0003_web.jpg",
+              "@width": "1311px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

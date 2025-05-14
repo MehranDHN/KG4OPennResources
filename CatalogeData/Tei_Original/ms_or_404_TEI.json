@@ -1,0 +1,197 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 404 - GREY BOX: Leaf with ghazal of Ḥāfiẓ."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 404 - GREY BOX: Leaf with ghazal of Ḥāfiẓ. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 404 - GREY BOX: Leaf with ghazal of Ḥāfiẓ.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript leaf.",
+            "Title provided by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 404 - GREY BOX"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14442619"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1135069585"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_404.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14442619"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Illuminated leaf with one complete ghazal and two partial poems. Includes the three last lines of ghazal beginning \"saḥar bulbul ḥikāyat bā ṣabā kard\", all of ghazal beginning \"saman būyān ghubār-i gham chū binshīnand binshānand\" and the first two lines of ghazal beginning \"sāqī ḥadīs̲-i sarv va gul va lālah mīravad\".",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Leaf with ghazal of Ḥāfiẓ.",
+                  "author": {
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "Ḥāfiẓ, active 14th century"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "حافظ،"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "[1r]",
+                  "title": "[Leaf with ghazal of Ḥāfiẓ]"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper on card"
+                  },
+                  "extent": "1 page : 370 x 263 (175 x 85) mm"
+                },
+                "layoutDesc": {
+                  "layout": "Written in twelve lines in two columns."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in black ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Text on cloudbands with intercolumnar fill of polychrome flowers, the same fill between each poem; several sets of framing devices, from inner to outer: blue with gold leaf and vine motifs, pink with flower and stem motifs, a gold border-rule, gold, floral marginal fill, a gold frame-rule.",
+                  {
+                    "@n": "1r",
+                    "#text": "Cloudbands"
+                  },
+                  {
+                    "@n": "1r",
+                    "#text": "Floral fill"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is undated; possibly copied in the 18th century.",
+                "origDate": "17--?",
+                "origPlace": "Iran or India?"
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Persian poetry--747-1500",
+                "Manuscripts, Persian",
+                "Manuscripts, Persian",
+                "Persian poetry"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts (documents)",
+                "Illuminations (painting)",
+                "Detached leaves"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "7625px",
+              "@url": "master/9778_0000.tif",
+              "@width": "5447px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9778_0000_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9778_0000_web.jpg",
+              "@width": "1286px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "7625px",
+              "@url": "master/9778_0001.tif",
+              "@width": "5485px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9778_0001_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9778_0001_web.jpg",
+              "@width": "1294px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

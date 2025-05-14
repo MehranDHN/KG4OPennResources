@@ -1,0 +1,112 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis P 74: Illustration of a Palace Garden"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis P 74: Illustration of a Palace Garden are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis P 74: Illustration of a Palace Garden. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis P 74"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": {
+                "title": "Illustration of a Palace Garden",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "18 x 27 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis P 74 front",
+          "graphic": [
+            {
+              "@height": "7652px",
+              "@url": "master/11148_0000.tif",
+              "@width": "4952px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11148_0000_thumb.jpg",
+              "@width": "123px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11148_0000_web.jpg",
+              "@width": "1165px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis P 74 reverse",
+          "graphic": [
+            {
+              "@height": "7677px",
+              "@url": "master/11148_0001.tif",
+              "@width": "4961px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11148_0001_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11148_0001_web.jpg",
+              "@width": "1163px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

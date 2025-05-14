@@ -1,0 +1,227 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 484: Two illustrations from Qurʼānic stories."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 484: Two illustrations from Qurʼānic stories. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 484: Two illustrations from Qurʼānic stories.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript leaves.",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 484"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14345922"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1123204228"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_484.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14345922"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Two paintings mounted on card. The first illustrates Abraham sacrificing his son and the second is Joseph's brothers throwing him in a well; labels in Persian.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Two illustrations from Qurʼānic stories.",
+                  "respStmt": {
+                    "resp": "donor",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Friedman, Harry G. 1881-1965"
+                    }
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "1r",
+                  "title": "[Two illustrations from Qurʼānic stories]."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "color illustrations mounted on card"
+                  },
+                  "extent": "2 leaves : 247 x 150 mm"
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in white ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Two full-page, polychrome illustrations with blue finials, border and frame rules in gold and black.",
+                  {
+                    "@n": "1r",
+                    "#text": "Illustration: Abraham sacrificing his son"
+                  },
+                  {
+                    "@n": "2r",
+                    "#text": "Illustration: Joseph being thrown in a well"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The items are undated, but probably produced in the late 19th or early 20th century.",
+                "origDate": "1850?-1950?",
+                "origPlace": "Iran?"
+              },
+              "provenance": "Gift of Harry G. Friedman, Oct. 12, 1962."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Qurʼan stories--Illustrations",
+                "Manuscripts, Persian--New York (State)--New York"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Miniatures (paintings)",
+                "Paintings (visual works)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "6244px",
+              "@url": "master/9529_0000.tif",
+              "@width": "3943px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9529_0000_thumb.jpg",
+              "@width": "120px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9529_0000_web.jpg",
+              "@width": "1136px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "6198px",
+              "@url": "master/9529_0001.tif",
+              "@width": "3927px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9529_0001_thumb.jpg",
+              "@width": "120px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9529_0001_web.jpg",
+              "@width": "1140px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "6244px",
+              "@url": "master/9529_0002.tif",
+              "@width": "3943px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9529_0002_thumb.jpg",
+              "@width": "120px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9529_0002_web.jpg",
+              "@width": "1136px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "6220px",
+              "@url": "master/9529_0003.tif",
+              "@width": "3929px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9529_0003_thumb.jpg",
+              "@width": "120px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9529_0003_web.jpg",
+              "@width": "1137px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

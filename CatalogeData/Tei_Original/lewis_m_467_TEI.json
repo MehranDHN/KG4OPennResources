@@ -1,0 +1,112 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis M 467: Portrait of Raja Birbal Seated with Bow and Arrow"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis M 467: Portrait of Raja Birbal Seated with Bow and Arrow are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis M 467: Portrait of Raja Birbal Seated with Bow and Arrow. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis M 467"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "zxx",
+                "#text": "No linguistic content, Not applicable"
+              },
+              "msItem": {
+                "title": "Portrait of Raja Birbal Seated with Bow and Arrow",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "10.5 x 13 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis M 467 front",
+          "graphic": [
+            {
+              "@height": "7739px",
+              "@url": "master/11088_0000.tif",
+              "@width": "6574px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11088_0000_thumb.jpg",
+              "@width": "161px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11088_0000_web.jpg",
+              "@width": "1529px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis M 467 reverse",
+          "graphic": [
+            {
+              "@height": "7948px",
+              "@url": "master/11088_0001.tif",
+              "@width": "6475px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11088_0001_thumb.jpg",
+              "@width": "154px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11088_0001_web.jpg",
+              "@width": "1466px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

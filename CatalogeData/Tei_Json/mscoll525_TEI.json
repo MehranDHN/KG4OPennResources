@@ -1,0 +1,3609 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of University of Pennsylvania Ms. Coll. 525: Kitāb-i taṣāvīr-i shīshah garān va ghayrah va bayān-i ālāt ānhā."
+        },
+        "publicationStmt": {
+          "publisher": "University of Pennsylvania",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Kislak Center for Special Collections, Rare Books and Manuscripts Ms. Coll. 525: Kitāb-i taṣāvīr-i shīshah garān va ghayrah va bayān-i ālāt ānhā. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                "#text": "Metadata is ©2021 University of Pennsylvania Libraries and licensed under a Creative Commons Attribution License version 4.0 (CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/legalcode. For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/4.0/."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": "Title from front cover."
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "Philadelphia, Pennsylvania 19104-6206",
+              "institution": "University of Pennsylvania",
+              "repository": "Kislak Center for Special Collections, Rare Books and Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Ms. Coll. 525"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "9927049663503681"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/63644080"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0002/html/mscoll525.html https://colenda.library.upenn.edu/catalog/81431-p3222rc60 https://repository.upenn.edu/kislakcollectionmaterials/4/"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Description of eleven trades and crafts practiced in Bareilly, India; illustrated with 12 pen and ink drawings of tools and with five colored illustrations of craftspeople. Commissioned by Robert Glyn who was magistrate and judge of the district of Bareilly from 1818-1823. Craftsmen and tradesmen include glass maker, crimper, gram parcher, weaver, pansāri (vendor, this includes a price list for merchandise), wire maker, gold and silver thread and lace maker, kabāb maker (with recipes for making kabābs), and goldsmith.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Kitāb-i taṣāvīr-i shīshah garān va ghayrah va bayān-i ālāt ānhā.",
+                    {
+                      "@type": "vernacular",
+                      "#text": "کتاب تصاوير شيشه‌ گران و غيره و بيان آلات آنها"
+                    }
+                  ],
+                  "author": {
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "Ghulām Yaḥyá ibn ʻImād al-Dīn Lapkanī, active 1820"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "غلام يحيى بن عماد الدين لپکنى،"
+                      }
+                    ]
+                  },
+                  "respStmt": {
+                    "resp": "patron",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Glyn, Robert, active 1818-1825"
+                    }
+                  }
+                },
+                {
+                  "@n": "1v",
+                  "locus": "1v",
+                  "title": "Kitāb-i taṣāvīr-i shīshah garān va ghayrah va bayān-i ālāt ānhā."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "iii, 42, iii leaves :",
+                  "foliation": "Some contemporary foliation in ink, upper left recto. Modern foliation added in pencil, upper left recto excluding blank leaves inserted before paintings and drawings (1-36); references in the record are to the modern foliation."
+                },
+                "layoutDesc": {
+                  "layout": "Chiefly 13 long lines; border-ruled."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq with elements of shikastah in black ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Twelve drawings in black and red (f. 3r, 5r, 7r, 10r, 12r, 14r, 20r, 23r, 25r, 30r, 35r-35v); five color illustrations (f. 9r, 19r, 22r, 29r, 34r); textblock border ruled in red and black; rubrications in red.",
+                  {
+                    "@n": "Flyleaf 1 recto",
+                    "#text": "Title in ink"
+                  },
+                  {
+                    "@n": "3r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "5r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "7r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "9r",
+                    "#text": "Color illustration"
+                  },
+                  {
+                    "@n": "10r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "12r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "14r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "15v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "16r",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "16v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "17r",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "17v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "18r",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "18v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "19r",
+                    "#text": "Color illustration"
+                  },
+                  {
+                    "@n": "20r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "22r",
+                    "#text": "Color illustration"
+                  },
+                  {
+                    "@n": "23r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "25r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "29r",
+                    "#text": "Color illustration"
+                  },
+                  {
+                    "@n": "30r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "34r",
+                    "#text": "Color illustration"
+                  },
+                  {
+                    "@n": "35r",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "35v",
+                    "#text": "Illustration"
+                  },
+                  {
+                    "@n": "Bottom edge",
+                    "#text": "Note in English in pencil"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Bound in half covers with marbled paper sides and red leather corners and spine."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Written on commission for Robert Glyn (f. 2r) in approximately 1820.",
+                "origDate": "approximately 1820",
+                "origPlace": "India"
+              },
+              "provenance": "Sold by Sam Fogg Ltd. (London), 1998."
+            }
+          }
+        }
+      },
+      "encodingDesc": {
+        "classDecl": {
+          "taxonomy": {
+            "@xml:id": "keywords",
+            "category": [
+              {
+                "@xml:id": "keyword_1",
+                "catDesc": "Book Type",
+                "category": [
+                  {
+                    "@xml:id": "keyword_1.2",
+                    "catDesc": "Accounts"
+                  },
+                  {
+                    "@xml:id": "keyword_1.3",
+                    "catDesc": "Almanac"
+                  },
+                  {
+                    "@xml:id": "keyword_1.4",
+                    "catDesc": "Anthology"
+                  },
+                  {
+                    "@xml:id": "keyword_1.5",
+                    "catDesc": "Antiphonary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.6",
+                    "catDesc": "Armorial"
+                  },
+                  {
+                    "@xml:id": "keyword_1.7",
+                    "catDesc": "Bible"
+                  },
+                  {
+                    "@xml:id": "keyword_1.8",
+                    "catDesc": "Biography"
+                  },
+                  {
+                    "@xml:id": "keyword_1.9",
+                    "catDesc": "Book of Hours"
+                  },
+                  {
+                    "@xml:id": "keyword_1.10",
+                    "catDesc": "Breviary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.11",
+                    "catDesc": "Catalog"
+                  },
+                  {
+                    "@xml:id": "keyword_1.12",
+                    "catDesc": "Chronicle"
+                  },
+                  {
+                    "@xml:id": "keyword_1.13",
+                    "catDesc": "Collection of Sermons"
+                  },
+                  {
+                    "@xml:id": "keyword_1.14",
+                    "catDesc": "Commentary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.15",
+                    "catDesc": "Compendium"
+                  },
+                  {
+                    "@xml:id": "keyword_1.16",
+                    "catDesc": "Contract"
+                  },
+                  {
+                    "@xml:id": "keyword_1.17",
+                    "catDesc": "Court records"
+                  },
+                  {
+                    "@xml:id": "keyword_1.18",
+                    "catDesc": "Dictionary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.19",
+                    "catDesc": "Document"
+                  },
+                  {
+                    "@xml:id": "keyword_1.20",
+                    "catDesc": "Dogale"
+                  },
+                  {
+                    "@xml:id": "keyword_1.21",
+                    "catDesc": "Drama"
+                  },
+                  {
+                    "@xml:id": "keyword_1.22",
+                    "catDesc": "Encyclopedia"
+                  },
+                  {
+                    "@xml:id": "keyword_1.23",
+                    "catDesc": "Epic"
+                  },
+                  {
+                    "@xml:id": "keyword_1.24",
+                    "catDesc": "Estate inventory"
+                  },
+                  {
+                    "@xml:id": "keyword_1.25",
+                    "catDesc": "Friendship book"
+                  },
+                  {
+                    "@xml:id": "keyword_1.26",
+                    "catDesc": "Genealogy"
+                  },
+                  {
+                    "@xml:id": "keyword_1.27",
+                    "catDesc": "Glossary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.28",
+                    "catDesc": "Gospel Lectionary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.29",
+                    "catDesc": "Gospels"
+                  },
+                  {
+                    "@xml:id": "keyword_1.30",
+                    "catDesc": "Government records"
+                  },
+                  {
+                    "@xml:id": "keyword_1.31",
+                    "catDesc": "Gradual"
+                  },
+                  {
+                    "@xml:id": "keyword_1.32",
+                    "catDesc": "Halakhah"
+                  },
+                  {
+                    "@xml:id": "keyword_1.33",
+                    "catDesc": "Haggadah"
+                  },
+                  {
+                    "@xml:id": "keyword_1.34",
+                    "catDesc": "Homilary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.35",
+                    "catDesc": "Horologion"
+                  },
+                  {
+                    "@xml:id": "keyword_1.36",
+                    "catDesc": "Hybrid book"
+                  },
+                  {
+                    "@xml:id": "keyword_1.37",
+                    "catDesc": "Hymnal"
+                  },
+                  {
+                    "@xml:id": "keyword_1.38",
+                    "catDesc": "Inventory"
+                  },
+                  {
+                    "@xml:id": "keyword_1.39",
+                    "catDesc": "Koran"
+                  },
+                  {
+                    "@xml:id": "keyword_1.40",
+                    "catDesc": "Land survey"
+                  },
+                  {
+                    "@xml:id": "keyword_1.41",
+                    "catDesc": "Lectionary"
+                  },
+                  {
+                    "@xml:id": "keyword_1.42",
+                    "catDesc": "Lecture notes"
+                  },
+                  {
+                    "@xml:id": "keyword_1.43",
+                    "catDesc": "Mass book"
+                  },
+                  {
+                    "@xml:id": "keyword_1.44",
+                    "catDesc": "Miscellany"
+                  },
+                  {
+                    "@xml:id": "keyword_1.45",
+                    "catDesc": "Missal"
+                  },
+                  {
+                    "@xml:id": "keyword_1.46",
+                    "catDesc": "Passion play"
+                  },
+                  {
+                    "@xml:id": "keyword_1.47",
+                    "catDesc": "Pontifical"
+                  },
+                  {
+                    "@xml:id": "keyword_1.48",
+                    "catDesc": "Portolan chart"
+                  },
+                  {
+                    "@xml:id": "keyword_1.49",
+                    "catDesc": "Prayer book"
+                  },
+                  {
+                    "@xml:id": "keyword_1.50",
+                    "catDesc": "Private devotional text"
+                  },
+                  {
+                    "@xml:id": "keyword_1.51",
+                    "catDesc": "Processional"
+                  },
+                  {
+                    "@xml:id": "keyword_1.52",
+                    "catDesc": "Protective scroll"
+                  },
+                  {
+                    "@xml:id": "keyword_1.53",
+                    "catDesc": "Psalter"
+                  },
+                  {
+                    "@xml:id": "keyword_1.54",
+                    "catDesc": "Psalter-Hours"
+                  },
+                  {
+                    "@xml:id": "keyword_1.55",
+                    "catDesc": "Qur`an"
+                  },
+                  {
+                    "@xml:id": "keyword_1.56",
+                    "catDesc": "Recipe book"
+                  },
+                  {
+                    "@xml:id": "keyword_1.57",
+                    "catDesc": "Register"
+                  },
+                  {
+                    "@xml:id": "keyword_1.58",
+                    "catDesc": "Saint's Life"
+                  },
+                  {
+                    "@xml:id": "keyword_1.59",
+                    "catDesc": "Scribal manual"
+                  },
+                  {
+                    "@xml:id": "keyword_1.60",
+                    "catDesc": "Song book"
+                  },
+                  {
+                    "@xml:id": "keyword_1.61",
+                    "catDesc": "Speech or address"
+                  },
+                  {
+                    "@xml:id": "keyword_1.62",
+                    "catDesc": "Torah"
+                  },
+                  {
+                    "@xml:id": "keyword_1.63",
+                    "catDesc": "Treatise"
+                  },
+                  {
+                    "@xml:id": "keyword_1.64",
+                    "catDesc": "Will"
+                  }
+                ]
+              },
+              {
+                "@xml:id": "keyword_2",
+                "catDesc": "Century",
+                "category": [
+                  {
+                    "@xml:id": "keyword_2.2",
+                    "catDesc": "6th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.3",
+                    "catDesc": "7th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.4",
+                    "catDesc": "8th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.5",
+                    "catDesc": "9th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.6",
+                    "catDesc": "10th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.7",
+                    "catDesc": "11th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.8",
+                    "catDesc": "12th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.9",
+                    "catDesc": "13th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.10",
+                    "catDesc": "14th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.11",
+                    "catDesc": "15th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.12",
+                    "catDesc": "16th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.13",
+                    "catDesc": "17th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.14",
+                    "catDesc": "18th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.15",
+                    "catDesc": "19th century"
+                  },
+                  {
+                    "@xml:id": "keyword_2.16",
+                    "catDesc": "20th century"
+                  }
+                ]
+              },
+              {
+                "@xml:id": "keyword_3",
+                "catDesc": "Culture",
+                "category": [
+                  {
+                    "@xml:id": "keyword_3.2",
+                    "catDesc": "Abbasid"
+                  },
+                  {
+                    "@xml:id": "keyword_3.3",
+                    "catDesc": "Arabic"
+                  },
+                  {
+                    "@xml:id": "keyword_3.4",
+                    "catDesc": "Armenian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.5",
+                    "catDesc": "Ashkenazi"
+                  },
+                  {
+                    "@xml:id": "keyword_3.6",
+                    "catDesc": "Austrian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.7",
+                    "catDesc": "Bohemian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.8",
+                    "catDesc": "Byzantine"
+                  },
+                  {
+                    "@xml:id": "keyword_3.9",
+                    "catDesc": "Carolingian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.10",
+                    "catDesc": "Catalan"
+                  },
+                  {
+                    "@xml:id": "keyword_3.11",
+                    "catDesc": "Chinese"
+                  },
+                  {
+                    "@xml:id": "keyword_3.12",
+                    "catDesc": "Christian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.13",
+                    "catDesc": "Coptic"
+                  },
+                  {
+                    "@xml:id": "keyword_3.14",
+                    "catDesc": "Dutch"
+                  },
+                  {
+                    "@xml:id": "keyword_3.15",
+                    "catDesc": "Egyptian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.16",
+                    "catDesc": "English"
+                  },
+                  {
+                    "@xml:id": "keyword_3.17",
+                    "catDesc": "Ethiopian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.18",
+                    "catDesc": "Fatimid"
+                  },
+                  {
+                    "@xml:id": "keyword_3.19",
+                    "catDesc": "Filipino"
+                  },
+                  {
+                    "@xml:id": "keyword_3.20",
+                    "catDesc": "Flemish"
+                  },
+                  {
+                    "@xml:id": "keyword_3.21",
+                    "catDesc": "French"
+                  },
+                  {
+                    "@xml:id": "keyword_3.22",
+                    "catDesc": "German"
+                  },
+                  {
+                    "@xml:id": "keyword_3.23",
+                    "catDesc": "Greek"
+                  },
+                  {
+                    "@xml:id": "keyword_3.24",
+                    "catDesc": "Hungarian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.25",
+                    "catDesc": "Indian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.26",
+                    "catDesc": "Islamic"
+                  },
+                  {
+                    "@xml:id": "keyword_3.27",
+                    "catDesc": "Italian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.28",
+                    "catDesc": "Jewish"
+                  },
+                  {
+                    "@xml:id": "keyword_3.29",
+                    "catDesc": "Karaite"
+                  },
+                  {
+                    "@xml:id": "keyword_3.30",
+                    "catDesc": "Mamluk"
+                  },
+                  {
+                    "@xml:id": "keyword_3.31",
+                    "catDesc": "Mexican"
+                  },
+                  {
+                    "@xml:id": "keyword_3.32",
+                    "catDesc": "Mughal"
+                  },
+                  {
+                    "@xml:id": "keyword_3.33",
+                    "catDesc": "Ottoman"
+                  },
+                  {
+                    "@xml:id": "keyword_3.34",
+                    "catDesc": "Ottonian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.35",
+                    "catDesc": "Persian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.36",
+                    "catDesc": "Portuguese"
+                  },
+                  {
+                    "@xml:id": "keyword_3.37",
+                    "catDesc": "Qajar"
+                  },
+                  {
+                    "@xml:id": "keyword_3.38",
+                    "catDesc": "Rajput"
+                  },
+                  {
+                    "@xml:id": "keyword_3.39",
+                    "catDesc": "Russian"
+                  },
+                  {
+                    "@xml:id": "keyword_3.40",
+                    "catDesc": "Safavid"
+                  },
+                  {
+                    "@xml:id": "keyword_3.41",
+                    "catDesc": "Sephardi"
+                  },
+                  {
+                    "@xml:id": "keyword_3.42",
+                    "catDesc": "Spanish"
+                  },
+                  {
+                    "@xml:id": "keyword_3.43",
+                    "catDesc": "Swiss"
+                  },
+                  {
+                    "@xml:id": "keyword_3.44",
+                    "catDesc": "Timurid"
+                  },
+                  {
+                    "@xml:id": "keyword_3.45",
+                    "catDesc": "Turkish"
+                  },
+                  {
+                    "@xml:id": "keyword_3.46",
+                    "catDesc": "Yemenite"
+                  }
+                ]
+              },
+              {
+                "@xml:id": "keyword_4",
+                "catDesc": "Descriptive term",
+                "category": [
+                  {
+                    "@xml:id": "keyword_4.2",
+                    "catDesc": "Accordion book"
+                  },
+                  {
+                    "@xml:id": "keyword_4.3",
+                    "catDesc": "Album"
+                  },
+                  {
+                    "@xml:id": "keyword_4.4",
+                    "catDesc": "Annotated"
+                  },
+                  {
+                    "@xml:id": "keyword_4.5",
+                    "catDesc": "Binding"
+                  },
+                  {
+                    "@xml:id": "keyword_4.6",
+                    "catDesc": "Calendar"
+                  },
+                  {
+                    "@xml:id": "keyword_4.7",
+                    "catDesc": "Calligraphy"
+                  },
+                  {
+                    "@xml:id": "keyword_4.8",
+                    "catDesc": "Caroline minuscule"
+                  },
+                  {
+                    "@xml:id": "keyword_4.9",
+                    "catDesc": "Chart"
+                  },
+                  {
+                    "@xml:id": "keyword_4.10",
+                    "catDesc": "Charter"
+                  },
+                  {
+                    "@xml:id": "keyword_4.11",
+                    "catDesc": "Colophon"
+                  },
+                  {
+                    "@xml:id": "keyword_4.12",
+                    "catDesc": "Damage"
+                  },
+                  {
+                    "@xml:id": "keyword_4.13",
+                    "catDesc": "Diagrams"
+                  },
+                  {
+                    "@xml:id": "keyword_4.14",
+                    "catDesc": "Drawing"
+                  },
+                  {
+                    "@xml:id": "keyword_4.15",
+                    "catDesc": "Early Abbasid script"
+                  },
+                  {
+                    "@xml:id": "keyword_4.16",
+                    "catDesc": "Engraving"
+                  },
+                  {
+                    "@xml:id": "keyword_4.17",
+                    "catDesc": "Forgery"
+                  },
+                  {
+                    "@xml:id": "keyword_4.18",
+                    "catDesc": "Fragment"
+                  },
+                  {
+                    "@xml:id": "keyword_4.19",
+                    "catDesc": "Gloss"
+                  },
+                  {
+                    "@xml:id": "keyword_4.20",
+                    "catDesc": "Gothic"
+                  },
+                  {
+                    "@xml:id": "keyword_4.21",
+                    "catDesc": "Gothic book hand"
+                  },
+                  {
+                    "@xml:id": "keyword_4.22",
+                    "catDesc": "Grisaille"
+                  },
+                  {
+                    "@xml:id": "keyword_4.23",
+                    "catDesc": "Grotesques"
+                  },
+                  {
+                    "@xml:id": "keyword_4.24",
+                    "catDesc": "Headpiece"
+                  },
+                  {
+                    "@xml:id": "keyword_4.25",
+                    "catDesc": "Heraldry"
+                  },
+                  {
+                    "@xml:id": "keyword_4.26",
+                    "catDesc": "Historiated initial"
+                  },
+                  {
+                    "@xml:id": "keyword_4.27",
+                    "catDesc": "Humanistic"
+                  },
+                  {
+                    "@xml:id": "keyword_4.28",
+                    "catDesc": "Illumination"
+                  },
+                  {
+                    "@xml:id": "keyword_4.29",
+                    "catDesc": "Illustration"
+                  },
+                  {
+                    "@xml:id": "keyword_4.30",
+                    "catDesc": "Inhabited initial"
+                  },
+                  {
+                    "@xml:id": "keyword_4.31",
+                    "catDesc": "Kufic"
+                  },
+                  {
+                    "@xml:id": "keyword_4.32",
+                    "catDesc": "Manicules"
+                  },
+                  {
+                    "@xml:id": "keyword_4.33",
+                    "catDesc": "Medallion"
+                  },
+                  {
+                    "@xml:id": "keyword_4.34",
+                    "catDesc": "Micrography"
+                  },
+                  {
+                    "@xml:id": "keyword_4.35",
+                    "catDesc": "Miniature"
+                  },
+                  {
+                    "@xml:id": "keyword_4.36",
+                    "catDesc": "Missing leaves"
+                  },
+                  {
+                    "@xml:id": "keyword_4.37",
+                    "catDesc": "Musical notation"
+                  },
+                  {
+                    "@xml:id": "keyword_4.38",
+                    "catDesc": "New Abbasid style"
+                  },
+                  {
+                    "@xml:id": "keyword_4.39",
+                    "catDesc": "Notable binding"
+                  },
+                  {
+                    "@xml:id": "keyword_4.40",
+                    "catDesc": "Original binding"
+                  },
+                  {
+                    "@xml:id": "keyword_4.41",
+                    "catDesc": "Ornament"
+                  },
+                  {
+                    "@xml:id": "keyword_4.42",
+                    "catDesc": "Painting"
+                  },
+                  {
+                    "@xml:id": "keyword_4.43",
+                    "catDesc": "Palimpsest"
+                  },
+                  {
+                    "@xml:id": "keyword_4.44",
+                    "catDesc": "Paper"
+                  },
+                  {
+                    "@xml:id": "keyword_4.45",
+                    "catDesc": "Penwork initial"
+                  },
+                  {
+                    "@xml:id": "keyword_4.46",
+                    "catDesc": "Puzzle initial"
+                  },
+                  {
+                    "@xml:id": "keyword_4.47",
+                    "catDesc": "Ragini"
+                  },
+                  {
+                    "@xml:id": "keyword_4.48",
+                    "catDesc": "Romanesque"
+                  },
+                  {
+                    "@xml:id": "keyword_4.49",
+                    "catDesc": "Scrapbook"
+                  },
+                  {
+                    "@xml:id": "keyword_4.50",
+                    "catDesc": "Scroll"
+                  },
+                  {
+                    "@xml:id": "keyword_4.51",
+                    "catDesc": "Scroll-work initial"
+                  },
+                  {
+                    "@xml:id": "keyword_4.52",
+                    "catDesc": "Seals"
+                  },
+                  {
+                    "@xml:id": "keyword_4.53",
+                    "catDesc": "Tables"
+                  },
+                  {
+                    "@xml:id": "keyword_4.54",
+                    "catDesc": "Textura"
+                  },
+                  {
+                    "@xml:id": "keyword_4.55",
+                    "catDesc": "Treasure binding"
+                  },
+                  {
+                    "@xml:id": "keyword_4.56",
+                    "catDesc": "Watermark"
+                  },
+                  {
+                    "@xml:id": "keyword_4.57",
+                    "catDesc": "White-vine lettering"
+                  },
+                  {
+                    "@xml:id": "keyword_4.58",
+                    "catDesc": "Woodcuts"
+                  }
+                ]
+              },
+              {
+                "@xml:id": "keyword_5",
+                "catDesc": "Geography",
+                "category": [
+                  {
+                    "@xml:id": "keyword_5.2",
+                    "catDesc": "Afghanistan"
+                  },
+                  {
+                    "@xml:id": "keyword_5.3",
+                    "catDesc": "Armenia"
+                  },
+                  {
+                    "@xml:id": "keyword_5.4",
+                    "catDesc": "Austria"
+                  },
+                  {
+                    "@xml:id": "keyword_5.5",
+                    "catDesc": "Belgium"
+                  },
+                  {
+                    "@xml:id": "keyword_5.6",
+                    "catDesc": "Central Arab lands (Near East)"
+                  },
+                  {
+                    "@xml:id": "keyword_5.7",
+                    "catDesc": "Central Asia"
+                  },
+                  {
+                    "@xml:id": "keyword_5.8",
+                    "catDesc": "China"
+                  },
+                  {
+                    "@xml:id": "keyword_5.9",
+                    "catDesc": "Croatia"
+                  },
+                  {
+                    "@xml:id": "keyword_5.10",
+                    "catDesc": "Czech Republic"
+                  },
+                  {
+                    "@xml:id": "keyword_5.11",
+                    "catDesc": "Egypt"
+                  },
+                  {
+                    "@xml:id": "keyword_5.12",
+                    "catDesc": "England"
+                  },
+                  {
+                    "@xml:id": "keyword_5.13",
+                    "catDesc": "Ethiopia"
+                  },
+                  {
+                    "@xml:id": "keyword_5.14",
+                    "catDesc": "Flanders"
+                  },
+                  {
+                    "@xml:id": "keyword_5.15",
+                    "catDesc": "France"
+                  },
+                  {
+                    "@xml:id": "keyword_5.16",
+                    "catDesc": "Germany"
+                  },
+                  {
+                    "@xml:id": "keyword_5.17",
+                    "catDesc": "Greece"
+                  },
+                  {
+                    "@xml:id": "keyword_5.18",
+                    "catDesc": "Hungary"
+                  },
+                  {
+                    "@xml:id": "keyword_5.19",
+                    "catDesc": "India"
+                  },
+                  {
+                    "@xml:id": "keyword_5.20",
+                    "catDesc": "Iran"
+                  },
+                  {
+                    "@xml:id": "keyword_5.21",
+                    "catDesc": "Iraq"
+                  },
+                  {
+                    "@xml:id": "keyword_5.22",
+                    "catDesc": "Israel"
+                  },
+                  {
+                    "@xml:id": "keyword_5.23",
+                    "catDesc": "Italy"
+                  },
+                  {
+                    "@xml:id": "keyword_5.24",
+                    "catDesc": "Maghreb"
+                  },
+                  {
+                    "@xml:id": "keyword_5.25",
+                    "catDesc": "Mexico"
+                  },
+                  {
+                    "@xml:id": "keyword_5.26",
+                    "catDesc": "Morocco"
+                  },
+                  {
+                    "@xml:id": "keyword_5.27",
+                    "catDesc": "Netherlands"
+                  },
+                  {
+                    "@xml:id": "keyword_5.28",
+                    "catDesc": "Pakistan"
+                  },
+                  {
+                    "@xml:id": "keyword_5.29",
+                    "catDesc": "Philippines"
+                  },
+                  {
+                    "@xml:id": "keyword_5.30",
+                    "catDesc": "Poland"
+                  },
+                  {
+                    "@xml:id": "keyword_5.31",
+                    "catDesc": "Portugal"
+                  },
+                  {
+                    "@xml:id": "keyword_5.32",
+                    "catDesc": "Romania"
+                  },
+                  {
+                    "@xml:id": "keyword_5.33",
+                    "catDesc": "Russia"
+                  },
+                  {
+                    "@xml:id": "keyword_5.34",
+                    "catDesc": "Spain"
+                  },
+                  {
+                    "@xml:id": "keyword_5.35",
+                    "catDesc": "Sub-Saharan (West) Africa"
+                  },
+                  {
+                    "@xml:id": "keyword_5.36",
+                    "catDesc": "Switzerland"
+                  },
+                  {
+                    "@xml:id": "keyword_5.37",
+                    "catDesc": "Turkey"
+                  },
+                  {
+                    "@xml:id": "keyword_5.38",
+                    "catDesc": "United States"
+                  },
+                  {
+                    "@xml:id": "keyword_5.39",
+                    "catDesc": "Wales"
+                  },
+                  {
+                    "@xml:id": "keyword_5.40",
+                    "catDesc": "Yemen"
+                  }
+                ]
+              },
+              {
+                "@xml:id": "keyword_6",
+                "catDesc": "Other",
+                "category": [
+                  {
+                    "@xml:id": "keyword_6.2",
+                    "catDesc": "Alchemy"
+                  },
+                  {
+                    "@xml:id": "keyword_6.3",
+                    "catDesc": "Allegory"
+                  },
+                  {
+                    "@xml:id": "keyword_6.4",
+                    "catDesc": "Animal culture"
+                  },
+                  {
+                    "@xml:id": "keyword_6.5",
+                    "catDesc": "Aphorisms"
+                  },
+                  {
+                    "@xml:id": "keyword_6.6",
+                    "catDesc": "Astrology"
+                  },
+                  {
+                    "@xml:id": "keyword_6.7",
+                    "catDesc": "Astronomy"
+                  },
+                  {
+                    "@xml:id": "keyword_6.8",
+                    "catDesc": "Biblical"
+                  },
+                  {
+                    "@xml:id": "keyword_6.9",
+                    "catDesc": "Binding waste"
+                  },
+                  {
+                    "@xml:id": "keyword_6.10",
+                    "catDesc": "Cartography"
+                  },
+                  {
+                    "@xml:id": "keyword_6.11",
+                    "catDesc": "Catholic church"
+                  },
+                  {
+                    "@xml:id": "keyword_6.12",
+                    "catDesc": "Chemistry"
+                  },
+                  {
+                    "@xml:id": "keyword_6.13",
+                    "catDesc": "Church Fathers"
+                  },
+                  {
+                    "@xml:id": "keyword_6.14",
+                    "catDesc": "City planning"
+                  },
+                  {
+                    "@xml:id": "keyword_6.15",
+                    "catDesc": "Cosmology"
+                  },
+                  {
+                    "@xml:id": "keyword_6.16",
+                    "catDesc": "Cryptography"
+                  },
+                  {
+                    "@xml:id": "keyword_6.17",
+                    "catDesc": "Devotion"
+                  },
+                  {
+                    "@xml:id": "keyword_6.18",
+                    "catDesc": "Dialogue"
+                  },
+                  {
+                    "@xml:id": "keyword_6.19",
+                    "catDesc": "Ethics"
+                  },
+                  {
+                    "@xml:id": "keyword_6.20",
+                    "catDesc": "Financial records"
+                  },
+                  {
+                    "@xml:id": "keyword_6.21",
+                    "catDesc": "Fortune-telling"
+                  },
+                  {
+                    "@xml:id": "keyword_6.22",
+                    "catDesc": "Franciscans"
+                  },
+                  {
+                    "@xml:id": "keyword_6.23",
+                    "catDesc": "Friendship"
+                  },
+                  {
+                    "@xml:id": "keyword_6.24",
+                    "catDesc": "Games"
+                  },
+                  {
+                    "@xml:id": "keyword_6.25",
+                    "catDesc": "Geography"
+                  },
+                  {
+                    "@xml:id": "keyword_6.26",
+                    "catDesc": "Geomancy"
+                  },
+                  {
+                    "@xml:id": "keyword_6.27",
+                    "catDesc": "Grammar"
+                  },
+                  {
+                    "@xml:id": "keyword_6.28",
+                    "catDesc": "History"
+                  },
+                  {
+                    "@xml:id": "keyword_6.29",
+                    "catDesc": "Index"
+                  },
+                  {
+                    "@xml:id": "keyword_6.30",
+                    "catDesc": "Instructional materials"
+                  },
+                  {
+                    "@xml:id": "keyword_6.31",
+                    "catDesc": "Kabbalah"
+                  },
+                  {
+                    "@xml:id": "keyword_6.32",
+                    "catDesc": "Legal"
+                  },
+                  {
+                    "@xml:id": "keyword_6.33",
+                    "catDesc": "Lists"
+                  },
+                  {
+                    "@xml:id": "keyword_6.34",
+                    "catDesc": "Literature -- Poetry"
+                  },
+                  {
+                    "@xml:id": "keyword_6.35",
+                    "catDesc": "Literature -- Prose"
+                  },
+                  {
+                    "@xml:id": "keyword_6.36",
+                    "catDesc": "Liturgy"
+                  },
+                  {
+                    "@xml:id": "keyword_6.37",
+                    "catDesc": "Logic"
+                  },
+                  {
+                    "@xml:id": "keyword_6.38",
+                    "catDesc": "Magic"
+                  },
+                  {
+                    "@xml:id": "keyword_6.39",
+                    "catDesc": "Maps"
+                  },
+                  {
+                    "@xml:id": "keyword_6.40",
+                    "catDesc": "Maritime"
+                  },
+                  {
+                    "@xml:id": "keyword_6.41",
+                    "catDesc": "Mathematics"
+                  },
+                  {
+                    "@xml:id": "keyword_6.42",
+                    "catDesc": "Medieval romance"
+                  },
+                  {
+                    "@xml:id": "keyword_6.43",
+                    "catDesc": "Metaphysics"
+                  },
+                  {
+                    "@xml:id": "keyword_6.44",
+                    "catDesc": "Meteorology"
+                  },
+                  {
+                    "@xml:id": "keyword_6.45",
+                    "catDesc": "Military art and science"
+                  },
+                  {
+                    "@xml:id": "keyword_6.46",
+                    "catDesc": "Mineralogy"
+                  },
+                  {
+                    "@xml:id": "keyword_6.47",
+                    "catDesc": "Mysticism"
+                  },
+                  {
+                    "@xml:id": "keyword_6.48",
+                    "catDesc": "Penitential"
+                  },
+                  {
+                    "@xml:id": "keyword_6.49",
+                    "catDesc": "Philosophy"
+                  },
+                  {
+                    "@xml:id": "keyword_6.50",
+                    "catDesc": "Piyutim"
+                  },
+                  {
+                    "@xml:id": "keyword_6.51",
+                    "catDesc": "Polemic"
+                  },
+                  {
+                    "@xml:id": "keyword_6.52",
+                    "catDesc": "Responsa"
+                  },
+                  {
+                    "@xml:id": "keyword_6.53",
+                    "catDesc": "Rhetoric"
+                  },
+                  {
+                    "@xml:id": "keyword_6.54",
+                    "catDesc": "Schedule"
+                  },
+                  {
+                    "@xml:id": "keyword_6.55",
+                    "catDesc": "Science"
+                  },
+                  {
+                    "@xml:id": "keyword_6.56",
+                    "catDesc": "Science -- Medicine"
+                  },
+                  {
+                    "@xml:id": "keyword_6.57",
+                    "catDesc": "Scripture"
+                  },
+                  {
+                    "@xml:id": "keyword_6.58",
+                    "catDesc": "Shipbuilding"
+                  },
+                  {
+                    "@xml:id": "keyword_6.59",
+                    "catDesc": "Statutes"
+                  },
+                  {
+                    "@xml:id": "keyword_6.60",
+                    "catDesc": "Storytelling"
+                  },
+                  {
+                    "@xml:id": "keyword_6.61",
+                    "catDesc": "Sufism"
+                  },
+                  {
+                    "@xml:id": "keyword_6.62",
+                    "catDesc": "Theology"
+                  },
+                  {
+                    "@xml:id": "keyword_6.63",
+                    "catDesc": "Wine and winemaking"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Artisans--India--Bareilly (District)",
+                "Tools--India--Bareilly (District)",
+                "Oudh (India)--Social conditions"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts, Persian",
+                "Manuscripts, 19th century",
+                "Codices (bound manuscripts)",
+                "Drawings",
+                "Miniatures (paintings)",
+                "Manuscripts (documents)",
+                "Recipes"
+              ]
+            },
+            {
+              "@n": "keywords",
+              "term": [
+                "19th century",
+                "Persian",
+                "Indian",
+                "India",
+                "Illustration",
+                "Paper"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front cover",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0000.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0000_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0000_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside front cover",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0001.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0001_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0001_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0002.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0002_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0002_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0003.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0003_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0003_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0004.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0004_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0004_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0005.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0005_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0005_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0006.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0006_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0006_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0007.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0007_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0007_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0008.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0008_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0008_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0009.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0009_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0009_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0010.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0010_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0010_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0011.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0011_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0011_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0012.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0012_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0012_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0013.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0013_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0013_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0014.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0014_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0014_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0015.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0015_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0015_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0016.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0016_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0016_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0017.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0017_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0017_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0018.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0018_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0018_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0019.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0019_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0019_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0020.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0020_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0020_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0021.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0021_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0021_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0022.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0022_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0022_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0023.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0023_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0023_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0024.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0024_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0024_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0025.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0025_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0025_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0026.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0026_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0026_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0027.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0027_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0027_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "9r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0028.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0028_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0028_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "9v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0029.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0029_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0029_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "10r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0030.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0030_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0030_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "10v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0031.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0031_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0031_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "11r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0032.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0032_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0032_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "11v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0033.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0033_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0033_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0034.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0034_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0034_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0035.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0035_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0035_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "12r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0036.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0036_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0036_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "12v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0037.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0037_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0037_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "13r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0038.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0038_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0038_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "13v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0039.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0039_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0039_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0040.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0040_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0040_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0041.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0041_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0041_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "14r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0042.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0042_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0042_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "14v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0043.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0043_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0043_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "15r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0044.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0044_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0044_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "15v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0045.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0045_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0045_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "16r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0046.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0046_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0046_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "16v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0047.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0047_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0047_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "17r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0048.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0048_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0048_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "17v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0049.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0049_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0049_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "18r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0050.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0050_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0050_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "18v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0051.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0051_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0051_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0052.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0052_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0052_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0053.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0053_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0053_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "19r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0054.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0054_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0054_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "19v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0055.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0055_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0055_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "20r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0056.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0056_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0056_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "20v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0057.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0057_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0057_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "21r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0058.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0058_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0058_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "21v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0059.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0059_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0059_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0060.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0060_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0060_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0061.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0061_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0061_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "22r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0062.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0062_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0062_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "22v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0063.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0063_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0063_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "23r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0064.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0064_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0064_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "23v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0065.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0065_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0065_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "24r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0066.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0066_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0066_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "24v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0067.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0067_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0067_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "25r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0068.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0068_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0068_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "25v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0069.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0069_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0069_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "26r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0070.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0070_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0070_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "26v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0071.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0071_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0071_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "27r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0072.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0072_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0072_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "27v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0073.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0073_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0073_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "28r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0074.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0074_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0074_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "28v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0075.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0075_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0075_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0076.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0076_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0076_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0077.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0077_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0077_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "29r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0078.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0078_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0078_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "29v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0079.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0079_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0079_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "30r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0080.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0080_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0080_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "30v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0081.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0081_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0081_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "31r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0082.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0082_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0082_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "31v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0083.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0083_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0083_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "32r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0084.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0084_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0084_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "32v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0085.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0085_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0085_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "33r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0086.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0086_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0086_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "33v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0087.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0087_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0087_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0088.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0088_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0088_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0089.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0089_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0089_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "34r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0090.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0090_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0090_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "34v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0091.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0091_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0091_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "35r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0092.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0092_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0092_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "35v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0093.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0093_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0093_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "36r",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0094.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0094_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0094_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "36v",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0095.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0095_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0095_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0096.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0096_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0096_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0097.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0097_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0097_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0098.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0098_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0098_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0099.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0099_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0099_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 recto",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0100.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0100_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0100_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 verso",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0101.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0101_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0101_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0102.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0102_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0102_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "graphic": [
+            {
+              "@height": "5866px",
+              "@url": "master/9793_0103.tif",
+              "@width": "4432px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0103_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0103_web.jpg",
+              "@width": "1360px"
+            }
+          ]
+        },
+        {
+          "@n": "Spine",
+          "graphic": [
+            {
+              "@height": "5702px",
+              "@url": "master/9793_0104.tif",
+              "@width": "904px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0104_thumb.jpg",
+              "@width": "30px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0104_web.jpg",
+              "@width": "285px"
+            }
+          ]
+        },
+        {
+          "@n": "Fore edge",
+          "graphic": [
+            {
+              "@height": "5702px",
+              "@url": "master/9793_0105.tif",
+              "@width": "904px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0105_thumb.jpg",
+              "@width": "30px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0105_web.jpg",
+              "@width": "285px"
+            }
+          ]
+        },
+        {
+          "@n": "Top edge",
+          "graphic": [
+            {
+              "@height": "5702px",
+              "@url": "master/9793_0106.tif",
+              "@width": "904px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0106_thumb.jpg",
+              "@width": "30px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0106_web.jpg",
+              "@width": "285px"
+            }
+          ]
+        },
+        {
+          "@n": "Bottom edge",
+          "graphic": [
+            {
+              "@height": "5702px",
+              "@url": "master/9793_0107.tif",
+              "@width": "904px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9793_0107_thumb.jpg",
+              "@width": "30px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9793_0107_web.jpg",
+              "@width": "285px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

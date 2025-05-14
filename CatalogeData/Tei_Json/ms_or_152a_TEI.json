@@ -1,0 +1,472 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University. MS Or 152a: Incomplete text on letter magic."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University.",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 152a: Incomplete text on letter magic. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 152a: Incomplete text on letter magic.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript codex fragment.",
+            "Title supplied by cataloger.",
+            "Two unrelated manuscripts previously housed with this item have been separately cataloged as MS Or 152b and MS Or 152c."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University.",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 152a"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "13622991"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1078438601"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_152a.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13622991"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Unidentified text related to astrology and letter magic, includes copies of different ways of writing the alphabet. Text begins abruptly.",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": [
+                {
+                  "title": "Incomplete text on letter magic.",
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "1r",
+                  "title": "[Incomplete text on letter magic]."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "8 leaves : 207 x 140 (170 x 106) mm",
+                  "foliation": "Modern foliation added in pencil, upper left recto."
+                },
+                "layoutDesc": {
+                  "layout": "12-13 lines; border-ruled."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in two styles of naskh in black and red; consistent use of hāʼ musalsalah; pointed, partially vocalized."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Rubrications in red, including special alphabets; textblock bordered in red, double rules; illustration of human body in brown and red inks with textblock as the torso (f. 3v); table of the planets in black and red (f. 8r).",
+                  {
+                    "@n": "3v",
+                    "#text": "Illustration: human figure with textblock as torso"
+                  },
+                  {
+                    "@n": "8r",
+                    "#text": "Table: planets"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "origDate": "17th or 18th century?"
+              },
+              "provenance": "Presumed to be a gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Islamic magic",
+                "Talismans--Religious aspects--Islam",
+                "Manuscripts, Arabic"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Diagrams",
+                "Tables (documents)",
+                "Manuscripts"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0000.tif",
+              "@width": "3671px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0000_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0000_web.jpg",
+              "@width": "1275px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "5164px",
+              "@url": "master/6922_0001.tif",
+              "@width": "3608px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0001_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0001_web.jpg",
+              "@width": "1257px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0002.tif",
+              "@width": "3635px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0002_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0002_web.jpg",
+              "@width": "1262px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "5164px",
+              "@url": "master/6922_0003.tif",
+              "@width": "3608px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0003_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0003_web.jpg",
+              "@width": "1257px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0004.tif",
+              "@width": "3635px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0004_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0004_web.jpg",
+              "@width": "1262px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "graphic": [
+            {
+              "@height": "5163px",
+              "@url": "master/6922_0005.tif",
+              "@width": "3616px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0005_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0005_web.jpg",
+              "@width": "1260px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0006.tif",
+              "@width": "3613px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0006_thumb.jpg",
+              "@width": "132px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0006_web.jpg",
+              "@width": "1254px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "graphic": [
+            {
+              "@height": "5163px",
+              "@url": "master/6922_0007.tif",
+              "@width": "3616px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0007_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0007_web.jpg",
+              "@width": "1260px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0008.tif",
+              "@width": "3613px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0008_thumb.jpg",
+              "@width": "132px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0008_web.jpg",
+              "@width": "1254px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "graphic": [
+            {
+              "@height": "5173px",
+              "@url": "master/6922_0009.tif",
+              "@width": "3616px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0009_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0009_web.jpg",
+              "@width": "1258px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0010.tif",
+              "@width": "3594px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0010_thumb.jpg",
+              "@width": "131px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0010_web.jpg",
+              "@width": "1248px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0011.tif",
+              "@width": "3621px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0011_thumb.jpg",
+              "@width": "132px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0011_web.jpg",
+              "@width": "1257px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "graphic": [
+            {
+              "@height": "5184px",
+              "@url": "master/6922_0012.tif",
+              "@width": "3606px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0012_thumb.jpg",
+              "@width": "132px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0012_web.jpg",
+              "@width": "1252px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "graphic": [
+            {
+              "@height": "5187px",
+              "@url": "master/6922_0013.tif",
+              "@width": "3632px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0013_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0013_web.jpg",
+              "@width": "1260px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "graphic": [
+            {
+              "@height": "5151px",
+              "@url": "master/6922_0014.tif",
+              "@width": "3606px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0014_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0014_web.jpg",
+              "@width": "1260px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "graphic": [
+            {
+              "@height": "5187px",
+              "@url": "master/6922_0015.tif",
+              "@width": "3657px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6922_0015_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6922_0015_web.jpg",
+              "@width": "1269px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

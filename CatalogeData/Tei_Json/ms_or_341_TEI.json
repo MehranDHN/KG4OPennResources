@@ -1,0 +1,176 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University. MS Or 341: Qurʼān folio."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University.",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 341: Qurʼān folio. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 341: Qurʼān folio.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript codex.",
+            "Title supplied by cataloger.",
+            "Former shelfmark: MS X893.7 K84 I152."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University.",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 341"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "13875511"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1100803086"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_341.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13875511"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Leaf containing a portion of Sūrat al-Rūm, beginning with half of the last word of verse 33 and continuing through the first half of verse 47(30:33-47 [incomplete]).",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": [
+                {
+                  "title": "Qurʼān folio.",
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "1r",
+                  "title": "[Qur'ān folio]"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "parchment"
+                  },
+                  "extent": "1 leaf : 195 x 257 (135 x 220) mm"
+                },
+                "layoutDesc": {
+                  "layout": "16 long lines."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Early Abbasid (Kufic)."
+              }
+            },
+            "history": {
+              "origin": {
+                "origDate": "8--?-10--?"
+              },
+              "provenance": "Presumed to be a gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": "Manuscripts, Arabic"
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Early works to 1800",
+                "Detached leaves",
+                "Manuscripts (documents)",
+                "Qurʼans",
+                "Early works"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "4712px",
+              "@url": "master/9189_0000.tif",
+              "@width": "6422px"
+            },
+            {
+              "@height": "139px",
+              "@url": "thumb/9189_0000_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1320px",
+              "@url": "web/9189_0000_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "4732px",
+              "@url": "master/9189_0001.tif",
+              "@width": "6422px"
+            },
+            {
+              "@height": "140px",
+              "@url": "thumb/9189_0001_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1326px",
+              "@url": "web/9189_0001_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

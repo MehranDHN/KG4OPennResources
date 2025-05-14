@@ -1,0 +1,608 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia Lewis O 170: Ḥikāyat aṣḥāb al-kahf."
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book Department Lewis O 170: Ḥikāyat aṣḥāb al-kahf. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Rare Book Department Lewis O 170: Ḥikāyat aṣḥāb al-kahf.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Ms. codex.",
+            "Title from caption title.",
+            "Incipit: Kāna fī madīnat Ṭarṭūs fī nāḥiyat al-Shām qadīm al-ayyām malik yuqālu la-hu Daqiyānūs."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "Philadelphia",
+              "institution": "Free Library of Philadelphia",
+              "repository": "Rare Book Department",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis O 170"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "2460534"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1104210400"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0023/html/lewis_o_170.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://know.freelibrary.org/Record/2460534"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Unbound copy of the story of the People of the Cave, known in other traditions as the Seven Sleepers. The text begins with \"Qāla Ibn ʻAbbās\", and is a retelling and explanation of the tale as it appears in the Qurʼān in sūrah 18 at the end. The final leaf is smaller paper (155 x 130 (140 x 110) mm); the recto of that leaf and the previous half page is an addition in a different hand with the verso of the final leaf written in Persian.",
+              "textLang": {
+                "@mainLang": "ara",
+                "@otherLangs": "per",
+                "#text": "Arabic with one page in Persian"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Ḥikāyat aṣḥāb al-kahf.",
+                    {
+                      "@type": "vernacular",
+                      "#text": "حكاية اصحاب الكهف"
+                    }
+                  ],
+                  "author": {
+                    "name": {
+                      "@type": "authority",
+                      "#text": "Free Library of Philadelphia. Rare Book Department. John Frederick Lewis collection of Oriental Manuscripts"
+                    }
+                  },
+                  "respStmt": {
+                    "resp": "attributed name",
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "ʻAbd Allāh ibn al-ʻAbbās, -688?"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "عبد الله بن العباس،"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "[1r]",
+                  "title": "Ḥikāyat aṣḥāb al-kahf."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "laid paper"
+                  },
+                  "extent": "11 leaves : 220 x 150 (185 x 110) mm",
+                  "collation": {
+                    "p": "11 unfoliated leaves; 1⁸ + 3 leaves tipped to stubs; catchwords each verso, lower left."
+                  }
+                },
+                "layoutDesc": {
+                  "layout": "17 long lines; ruled with a misṭarah."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in neat naskh in black ink; pointed, partially vocalized."
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Unbound; remains of textile around the spine."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Copy is undated; perhaps copied in the 17th or 18th century.",
+                "origDate": "between 1600 and 1799?"
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Qurʼan stories",
+                "Islamic legends",
+                "Manuscripts, Arabic--17th century",
+                "Manuscripts, Arabic--18th century",
+                "Islamic legends",
+                "Manuscripts, Arabic",
+                "Qurʼan stories"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts (documents)",
+                "Gatherings (gathered matter components)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0000.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0000_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0000_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0001.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0001_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0001_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0002.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0002_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0002_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0003.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0003_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0003_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0004.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0004_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0004_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0005.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0005_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0005_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0006.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0006_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0006_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0007.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0007_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0007_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0008.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0008_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0008_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0009.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0009_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0009_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0010.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0010_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0010_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0011.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0011_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0011_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0012.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0012_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0012_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0013.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0013_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0013_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0014.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0014_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0014_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0015.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0015_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0015_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "9r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0016.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0016_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0016_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "9v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0017.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0017_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0017_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "10r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0018.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0018_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0018_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "10v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0019.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0019_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0019_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "11r",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0020.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0020_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0020_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        },
+        {
+          "@n": "11v",
+          "graphic": [
+            {
+              "@height": "5819px",
+              "@url": "master/9224_0021.tif",
+              "@width": "4482px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9224_0021_thumb.jpg",
+              "@width": "146px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9224_0021_web.jpg",
+              "@width": "1386px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

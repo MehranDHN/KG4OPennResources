@@ -1,0 +1,180 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University. MS Or 83a: Qur'ān leaf."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University.",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 83a: Qur'ān leaf. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 83a: Qur'ān leaf.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript codex fragment.",
+            "Title supplied by cataloger.",
+            "This leaf was previously inserted in MS Or 83 - FOLIO/FLAT, and has been removed and cataloged separately."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University.",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 83a"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "13610483"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1066257998"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_083a.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13610483"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Unbound leaf containing verses of the Qur'ān from the third word of 3:80 to the end of 3:91.",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": [
+                {
+                  "title": "Qur'ān leaf.",
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "Unnumbered recto",
+                  "locus": "Unnumbered recto",
+                  "title": "[Qur'ān leaf]."
+                },
+                {
+                  "@n": "Unnumbered recto",
+                  "locus": "Unnumbered recto",
+                  "title": "Āl-ʿImrān 80 (partial)-91."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "1 leaf : 200 x 140 (162 x 100 ) mm"
+                },
+                "layoutDesc": {
+                  "layout": "11 long lines."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in naskh in black ink; pointed and vocalized."
+              }
+            },
+            "history": {
+              "origin": {
+                "origDate": "between 1650 and 1799?"
+              },
+              "provenance": "Presumed to be a gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": "Manuscripts, Arabic"
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Detached leaves",
+                "Qurʼans",
+                "Manuscripts",
+                "Early works to 1800"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "3614px",
+              "@url": "master/6892_0000.tif",
+              "@width": "2690px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6892_0000_thumb.jpg",
+              "@width": "141px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6892_0000_web.jpg",
+              "@width": "1339px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "3614px",
+              "@url": "master/6892_0001.tif",
+              "@width": "2690px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6892_0001_thumb.jpg",
+              "@width": "141px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6892_0001_web.jpg",
+              "@width": "1339px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

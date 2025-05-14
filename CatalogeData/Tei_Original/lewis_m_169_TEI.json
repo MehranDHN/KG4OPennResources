@@ -1,0 +1,112 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis M 169: Drawing of a Mughal Nobleman Seated Holding a Flower"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis M 169: Drawing of a Mughal Nobleman Seated Holding a Flower are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis M 169: Drawing of a Mughal Nobleman Seated Holding a Flower. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis M 169"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "zxx",
+                "#text": "No linguistic content, Not applicable"
+              },
+              "msItem": {
+                "title": "Drawing of a Mughal Nobleman Seated Holding a Flower",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "21 x 29 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis M 169 front",
+          "graphic": [
+            {
+              "@height": "7875px",
+              "@url": "master/11017_0000.tif",
+              "@width": "5550px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11017_0000_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11017_0000_web.jpg",
+              "@width": "1268px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis M 169 reverse",
+          "graphic": [
+            {
+              "@height": "7875px",
+              "@url": "master/11017_0001.tif",
+              "@width": "5550px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11017_0001_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11017_0001_web.jpg",
+              "@width": "1268px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

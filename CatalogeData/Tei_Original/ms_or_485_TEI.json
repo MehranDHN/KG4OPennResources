@@ -1,0 +1,195 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 485: Leaf from Khusraw va Shīrīn."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 485: Leaf from Khusraw va Shīrīn. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 485: Leaf from Khusraw va Shīrīn.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript leaf.",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 485"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14345912"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1123203140"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_485.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14345912"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "One leaf from Khusraw va Shīrīn containing section 76 and the beginning of section 77.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Leaf from Khusraw va Shīrīn.",
+                  "author": {
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "Niẓāmī Ganjavī, 1140 or 1141-1202 or 1203"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "نظامى گنجوى،"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "[1]r",
+                  "title": "[Leaf from Khusraw va Shīrīn]."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "1 leaf : 280 x 170 (190 x 105) mm"
+                },
+                "layoutDesc": {
+                  "layout": "25 lines in four columns; border and column-ruled."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in black ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Illuminated text dividers in white on gold with blue and yellow surrounds each section covered in polychrome flowers; intercolumnar fill in two styles, black flowers and stems on gold with green rules for the outside columns and red and green geometric pattern on gold with orange rules for the center column; border-rules in gold, brown and three shades of blue.",
+                  {
+                    "@n": "1r",
+                    "#text": "Illuminated text divider"
+                  },
+                  {
+                    "@n": "1v",
+                    "#text": "Illuminated text divider"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is undated; perhaps copied in the 16th or 17th century.",
+                "origDate": "15--?-16--?"
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Persian poetry--747-1500",
+                "Manuscripts, Persian"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Early works to 1800",
+                "Illuminations (painting)",
+                "Detached leaves",
+                "Early works"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "7203px",
+              "@url": "master/9530_0000.tif",
+              "@width": "4451px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9530_0000_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9530_0000_web.jpg",
+              "@width": "1112px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "7198px",
+              "@url": "master/9530_0001.tif",
+              "@width": "4441px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9530_0001_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9530_0001_web.jpg",
+              "@width": "1110px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

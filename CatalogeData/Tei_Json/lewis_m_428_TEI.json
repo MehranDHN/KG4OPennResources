@@ -1,0 +1,112 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis M 428: Drawing of a Sikh Warrior on Horseback"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis M 428: Drawing of a Sikh Warrior on Horseback are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis M 428: Drawing of a Sikh Warrior on Horseback. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis M 428"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": {
+                "title": "Drawing of a Sikh Warrior on Horseback",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "20 x 25 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis M 428 front",
+          "graphic": [
+            {
+              "@height": "7261px",
+              "@url": "master/11063_0000.tif",
+              "@width": "5204px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11063_0000_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11063_0000_web.jpg",
+              "@width": "1290px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis M 428 reverse",
+          "graphic": [
+            {
+              "@height": "7215px",
+              "@url": "master/11063_0001.tif",
+              "@width": "5251px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11063_0001_thumb.jpg",
+              "@width": "138px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11063_0001_web.jpg",
+              "@width": "1310px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

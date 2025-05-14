@@ -1,0 +1,190 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 455: Framed lacquer painting."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 455: Framed lacquer painting. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 455: Framed lacquer painting.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Painting.",
+            "Title supplied by cataloger.",
+            "Prior cataloging suggested that the poem is from the Rubāʻiyāt of Omar Khayyām, though only one hemistich could be verified as such."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 455"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14345928"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1123205469"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_455.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14345928"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Red and orange painting of three figures mounted in a wooden frame painted red with decorated corners and attached to a folding metal stand. The image depicts a man, seated on the right in an enclosed garden setting, gesturing toward a kneeling, beardless youth holding a large basin; behind the youth, a standing woman holds a vine; a rubāʻī is written in the lower section of the painting. On the back, an orange mandorla with two pendants on the vertical axis surrounded by flowers in shades of orange and red.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Framed lacquer painting.",
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "Front",
+                  "locus": "Front",
+                  "title": "[Framed lacquer painting]"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "Lacquered color painting framed in wood mounted on metal stand"
+                  },
+                  "extent": "1 painting : 145 x 85 mm"
+                },
+                "layoutDesc": {
+                  "layout": "Oblong painting followed by two lines in two columns."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in black ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Painting and reverse mostly in shades of orange, red and beige; frame in red with blue corners with pink vine designs; same design along long edge of frame.",
+                  {
+                    "@n": "Front",
+                    "#text": "Scene with three people"
+                  },
+                  {
+                    "@n": "Back",
+                    "#text": "Mandorla with floral surround"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Item is undated, probably produced in the late 19th or 20th century.",
+                "origDate": "18--?-1950?",
+                "origPlace": "Iran?"
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Persian poetry",
+                "Manuscripts, Persian"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Paintings (visual works)",
+                "Miniatures (paintings)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front",
+          "graphic": [
+            {
+              "@height": "3409px",
+              "@url": "master/9528_0000.tif",
+              "@width": "2038px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9528_0000_thumb.jpg",
+              "@width": "113px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9528_0000_web.jpg",
+              "@width": "1076px"
+            }
+          ]
+        },
+        {
+          "@n": "Back",
+          "graphic": [
+            {
+              "@height": "3391px",
+              "@url": "master/9528_0001.tif",
+              "@width": "2017px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9528_0001_thumb.jpg",
+              "@width": "113px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9528_0001_web.jpg",
+              "@width": "1070px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

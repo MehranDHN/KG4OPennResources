@@ -1,0 +1,227 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of University of Pennsylvania Penn Museum 2006-24-1: Ḥamlah-ʼi Ḥaydarī"
+        },
+        "publicationStmt": {
+          "publisher": "University of Pennsylvania",
+          "availability": {
+            "licence": [
+              {
+                "@target": "https://creativecommons.org/licenses/by-sa/2.0/legalcode",
+                "#text": "Images are  ©2019 University of Pennsylvania Museum of Archaeology and Anthropology and licensed under a Creative Commons Attribution ShareAlike License version 4.0 (CC-BY-2.0 https://creativecommons.org/licenses/by/2.0/legalcode. For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/2.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                "#text": "Metadata is ©2019 University of Pennsylvania Museum of Archaeology and Anthropology and licensed under a Creative Commons Attribution License version 4.0 (CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/legalcode. For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/4.0/."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Title supplied by cataloger.",
+            "Dimensions of original manuscript: 410 x 260 (250 x 135) mm.",
+            "Laid, non-European paper; no visible chain lines.",
+            "\"Waqf\" is written across the top of one leaf and across the rubrications on another leaf."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "Philadelphia",
+              "institution": "University of Pennsylvania",
+              "repository": "University of Pennsylvania Museum of Archaeology and Anthropology",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Penn Museum 2006-24-1"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "9977571453503681"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1112669532"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0016/html/2006_24_1.html"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "One bifolium, not consecutive pages, from a religious poem.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Ḥamlah-ʼi Ḥaydarī",
+                    {
+                      "@type": "vernacular",
+                      "#text": "[حملۀ حيدرى]"
+                    }
+                  ],
+                  "author": {
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "Bāz̲il, Muhammad Rafīʻ ibn Muḥammad al-Mashhadī, -1712"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "باذل، مهمد رفيع بن محمد المشهدى،"
+                      }
+                    ]
+                  },
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Dyson, Robert H"
+                    }
+                  }
+                },
+                {
+                  "@n": "2B",
+                  "locus": "2B",
+                  "title": "[Ḥamlah-ʼi Ḥaydarī]"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "1 online resource (1 bifolium)",
+                  "foliation": "Modern foliation added in pencil, upper outer corners as if the leaves were to be read left to right (1A-2B); catchwords every verso, lower left. The digital images have been sorted so that they read in left-to-right order; foliation therefore is 2B-1A."
+                },
+                "layoutDesc": {
+                  "layout": "Written in 23 lines in four columns."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in black ink; pointed."
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Bifolium is loose."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Item is undated, but perhaps produced in the 17th century.",
+                "origDate": "between 1600 and 1699?"
+              },
+              "provenance": "Gift of Dr. Robert H. Dyson, Jr. in 2006"
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": {
+            "@n": "form/genre",
+            "term": [
+              "Fascimiles",
+              "Detached leaves",
+              "Manuscripts, Persian",
+              "Manuscripts, 17th century"
+            ]
+          }
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "2B",
+          "graphic": [
+            {
+              "@height": "8393px",
+              "@url": "master/9352_0000.tif",
+              "@width": "5011px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9352_0000_thumb.jpg",
+              "@width": "113px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9352_0000_web.jpg",
+              "@width": "1074px"
+            }
+          ]
+        },
+        {
+          "@n": "2A",
+          "graphic": [
+            {
+              "@height": "8393px",
+              "@url": "master/9352_0001.tif",
+              "@width": "5011px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9352_0001_thumb.jpg",
+              "@width": "113px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9352_0001_web.jpg",
+              "@width": "1074px"
+            }
+          ]
+        },
+        {
+          "@n": "1B",
+          "graphic": [
+            {
+              "@height": "8393px",
+              "@url": "master/9352_0002.tif",
+              "@width": "5011px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9352_0002_thumb.jpg",
+              "@width": "113px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9352_0002_web.jpg",
+              "@width": "1074px"
+            }
+          ]
+        },
+        {
+          "@n": "1A",
+          "graphic": [
+            {
+              "@height": "8393px",
+              "@url": "master/9352_0003.tif",
+              "@width": "5011px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9352_0003_thumb.jpg",
+              "@width": "113px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9352_0003_web.jpg",
+              "@width": "1074px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

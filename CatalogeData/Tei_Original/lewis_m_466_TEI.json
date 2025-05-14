@@ -1,0 +1,112 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis M 466: Unfinished Drawing of a Man Holding a Staff"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis M 466: Unfinished Drawing of a Man Holding a Staff are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis M 466: Unfinished Drawing of a Man Holding a Staff. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis M 466"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "zxx",
+                "#text": "No linguistic content, Not applicable"
+              },
+              "msItem": {
+                "title": "Unfinished Drawing of a Man Holding a Staff",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "20 x 28 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis M 466 front",
+          "graphic": [
+            {
+              "@height": "7802px",
+              "@url": "master/11087_0000.tif",
+              "@width": "5397px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11087_0000_thumb.jpg",
+              "@width": "131px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11087_0000_web.jpg",
+              "@width": "1245px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis M 466 reverse",
+          "graphic": [
+            {
+              "@height": "8026px",
+              "@url": "master/11087_0001.tif",
+              "@width": "5338px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11087_0001_thumb.jpg",
+              "@width": "126px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11087_0001_web.jpg",
+              "@width": "1197px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

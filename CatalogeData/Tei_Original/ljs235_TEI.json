@@ -1,0 +1,1090 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of University of Pennsylvania LJS 235: Kitāb al-Adwār fī al-mūsīqá."
+        },
+        "publicationStmt": {
+          "publisher": "University of Pennsylvania",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Kislak Center for Special Collections, Rare Books and Manuscripts LJS 235: Kitāb al-Adwār fī al-mūsīqá. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                "#text": "Metadata is ©  and licensed under a Creative Commons Attribution License version 4.0 (CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/legalcode. For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/4.0/."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Ms. codex.",
+            "Title from added title (f. 1r)."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "3420 Walnut Street, Philadelphia, Pennsylvania 19104-6206",
+              "institution": "University of Pennsylvania",
+              "repository": "Kislak Center for Special Collections, Rare Books and Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "LJS 235"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "9950569233503681"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/122584676"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://hdl.library.upenn.edu/1017/d/medren/5056923 http://openn.library.upenn.edu/Data/0001/html/ljs235.html"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Treatise on the theory of music, including division of frets, ratio of intervals, consonance and dissonance, cycles, rhythmic and melodic modes, and the 5-string oud or lute.",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": {
+                "title": [
+                  "Kitāb al-Adwār fī al-mūsīqá.",
+                  {
+                    "@type": "vernacular",
+                    "#text": "كتاب الادوار في الموسيقى"
+                  }
+                ],
+                "author": {
+                  "persName": [
+                    {
+                      "@type": "authority",
+                      "#text": "Urmawī, ʻAbd al-Muʼmin ibn Yūsuf, approximately 1216-1294"
+                    },
+                    {
+                      "@type": "vernacular",
+                      "#text": "ارموي، عبد المؤمن بن يوسف،"
+                    }
+                  ]
+                },
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@type": "authority",
+                    "#text": "Schoenberg, Lawrence J"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "12 leaves : 235 x 165 (200 x 135) mm bound to 244 x 176 mm",
+                  "foliation": "Paper, iii + 12 + iii leaves; [1-24]; sporadic modern pagination in pencil, upper right corners."
+                },
+                "layoutDesc": {
+                  "layout": "Written in 28 long lines, with some diagrams arranged in 2 columns (for example, p. 9-12)."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in a naskh in black ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Diagrams and rubrications in red ink throughout.",
+                  {
+                    "@n": "1v",
+                    "#text": "Diagram, f. 1v"
+                  },
+                  {
+                    "@n": "2r",
+                    "#text": "Diagram, f. 2r"
+                  },
+                  {
+                    "@n": "2v",
+                    "#text": "Diagram, f. 2v"
+                  },
+                  {
+                    "@n": "3v",
+                    "#text": "Diagram, f. 3v"
+                  },
+                  {
+                    "@n": "4v",
+                    "#text": "Diagram, f. 4v"
+                  },
+                  {
+                    "@n": "5r",
+                    "#text": "Diagram, f. 5r"
+                  },
+                  {
+                    "@n": "5v",
+                    "#text": "Diagram, f. 5v"
+                  },
+                  {
+                    "@n": "6r",
+                    "#text": "Diagram, f. 6r"
+                  },
+                  {
+                    "@n": "6v",
+                    "#text": "Diagram, f. 6v"
+                  },
+                  {
+                    "@n": "7r",
+                    "#text": "Diagram, f. 7r"
+                  },
+                  {
+                    "@n": "7v",
+                    "#text": "Diagram, f. 7v"
+                  },
+                  {
+                    "@n": "8v",
+                    "#text": "Diagram, f. 8v"
+                  },
+                  {
+                    "@n": "10v",
+                    "#text": "Diagram, f. 10v"
+                  },
+                  {
+                    "@n": "11r",
+                    "#text": "Diagram, f. 11r"
+                  },
+                  {
+                    "@n": "11v",
+                    "#text": "Diagram, f. 11v"
+                  },
+                  {
+                    "@n": "12r",
+                    "#text": "Diagram, f. 12r"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Rebound in contemporary red leather over boards, blind-stamped central mandorla with two pendants on the vertical axis, cornerpieces and surrounding cartouches and blind-tooled frame."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is undated; perhaps produced in the 16th century.",
+                "origDate": "between 1500 and 1599?"
+              },
+              "provenance": [
+                "Ownership stamps of an early owner (p. 1, 24).",
+                "Sold by Sam Fogg Ltd. (London) to Lawrence J. Schoenberg, 1998.",
+                "Deposit by Lawrence J. Schoenberg and Barbara Brizdle, 2011.",
+                "Gift of Barbara Brizdle Schoenberg, 2016."
+              ]
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Music--Early works to 1800",
+                "Music theory--Arab countries--Early works to 1800"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts, Arabic",
+                "Manuscripts, 16th century",
+                "Manuscripts, Renaissance",
+                "Codices (bound manuscripts)",
+                "Commentaries",
+                "Diagrams",
+                "Treatises",
+                "Stamps (Provenance)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front cover",
+          "@xml:id": "surface-ljs-235-1",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0000.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0000_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0000_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside front cover",
+          "@xml:id": "surface-ljs-235-2",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0001.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0001_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0001_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "@xml:id": "surface-ljs-235-3",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0002.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0002_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0002_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "@xml:id": "surface-ljs-235-4",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0003.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0003_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0003_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 recto",
+          "@xml:id": "surface-ljs-235-5",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0004.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0004_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0004_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 verso",
+          "@xml:id": "surface-ljs-235-6",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0005.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0005_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0005_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 recto",
+          "@xml:id": "surface-ljs-235-7",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0006.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0006_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0006_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 verso",
+          "@xml:id": "surface-ljs-235-8",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0007.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0007_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0007_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "@xml:id": "surface-ljs-235-9",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0008.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0008_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0008_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "@xml:id": "surface-ljs-235-10",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0009.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0009_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0009_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "@xml:id": "surface-ljs-235-11",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0010.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0010_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0010_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "@xml:id": "surface-ljs-235-12",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0011.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0011_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0011_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "@xml:id": "surface-ljs-235-13",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0012.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0012_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0012_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "@xml:id": "surface-ljs-235-14",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0013.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0013_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0013_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "@xml:id": "surface-ljs-235-15",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0014.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0014_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0014_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "@xml:id": "surface-ljs-235-16",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0015.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0015_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0015_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "@xml:id": "surface-ljs-235-17",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0016.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0016_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0016_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "@xml:id": "surface-ljs-235-18",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0017.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0017_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0017_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "@xml:id": "surface-ljs-235-19",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0018.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0018_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0018_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "@xml:id": "surface-ljs-235-20",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0019.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0019_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0019_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "@xml:id": "surface-ljs-235-21",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0020.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0020_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0020_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "@xml:id": "surface-ljs-235-22",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0021.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0021_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0021_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "@xml:id": "surface-ljs-235-23",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0022.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0022_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0022_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "@xml:id": "surface-ljs-235-24",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0023.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0023_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0023_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "9r",
+          "@xml:id": "surface-ljs-235-25",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0024.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0024_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0024_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "9v",
+          "@xml:id": "surface-ljs-235-26",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0025.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0025_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0025_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "10r",
+          "@xml:id": "surface-ljs-235-27",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0026.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0026_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0026_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "10v",
+          "@xml:id": "surface-ljs-235-28",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0027.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0027_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0027_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "11r",
+          "@xml:id": "surface-ljs-235-29",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0028.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0028_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0028_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "11v",
+          "@xml:id": "surface-ljs-235-30",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0029.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0029_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0029_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "12r",
+          "@xml:id": "surface-ljs-235-31",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0030.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0030_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0030_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "12v",
+          "@xml:id": "surface-ljs-235-32",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0031.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0031_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0031_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "@xml:id": "surface-ljs-235-33",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0032.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0032_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0032_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "@xml:id": "surface-ljs-235-34",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0033.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0033_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0033_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 recto",
+          "@xml:id": "surface-ljs-235-35",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0034.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0034_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0034_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 verso",
+          "@xml:id": "surface-ljs-235-36",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0035.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0035_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0035_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 recto",
+          "@xml:id": "surface-ljs-235-37",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0036.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0036_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0036_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 verso",
+          "@xml:id": "surface-ljs-235-38",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0037.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0037_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0037_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "@xml:id": "surface-ljs-235-39",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0038.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0038_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0038_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "@xml:id": "surface-ljs-235-40",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0039.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0039_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0039_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        },
+        {
+          "@n": "Spine",
+          "@xml:id": "surface-ljs-235-41",
+          "graphic": [
+            {
+              "@height": "6328px",
+              "@url": "master/0205_0040.tif",
+              "@width": "4778px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0205_0040_thumb.jpg",
+              "@width": "143px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0205_0040_web.jpg",
+              "@width": "1359px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

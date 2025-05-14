@@ -1,0 +1,241 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 516: Wooden writing tablet for teaching grammar and religion"
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 516: Wooden writing tablet for teaching grammar and religion are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 516: Wooden writing tablet for teaching grammar and religion. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Wooden tablet.",
+            "\"Tablet used in the schools of Tangier, Tangier, June 1906\" The name \"Buachend bin Hʼameda\" is also on the note (note in ink with the item).",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 516"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14442609"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1135066934"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_516.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14442609"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "A trapezoid shaped writing tablet used for studying the Qurʼān; no handle; hole drilled through the upper center. The recto is mostly flat with water and scratch marks. A few words of Arabic including the name Abī Yasʻad ibn Aḥmad and a faint English description of the item are visible. The back of the tablet is rounded with a geometric drawing.",
+              "textLang": {
+                "@mainLang": "ara"
+              },
+              "msItem": [
+                {
+                  "title": "Wooden writing tablet for teaching grammar and religion",
+                  "respStmt": [
+                    {
+                      "resp": "associated name",
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Abī Yasʻad ibn Aḥmad"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "ابي يسعد بن احمد،"
+                        }
+                      ]
+                    },
+                    {
+                      "resp": "former owner",
+                      "persName": {
+                        "@type": "authority",
+                        "#text": "Smith, David Eugene, 1860-1944"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@n": "1r",
+                  "locus": "[1r]",
+                  "title": "Wooden writing tablet for teaching grammar and religion"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "wood"
+                  },
+                  "extent": "1 tablet : 345 x 167 mm (at center) x 5 mm"
+                },
+                "layoutDesc": {
+                  "layout": "Four lines of Arabic alternating with eight lines of English."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in maghribī."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Geometric drawing on verso.",
+                  {
+                    "@n": "1r",
+                    "#text": "Diagram"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Item is undated, probably produced in the late 19th century.",
+                "origDate": "between 1875-1906?",
+                "origPlace": "Tangier"
+              },
+              "provenance": "Presumed to be a gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Writing materials and instruments",
+                "Manuscripts, Arabic--New York (State)--New York"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Qur'anic boards",
+                "Writing tablets (information artifacts)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Insert recto",
+          "graphic": [
+            {
+              "@height": "4447px",
+              "@url": "master/9687_0000.tif",
+              "@width": "2966px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9687_0000_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9687_0000_web.jpg",
+              "@width": "1200px"
+            }
+          ]
+        },
+        {
+          "@n": "Insert verso",
+          "graphic": [
+            {
+              "@height": "4447px",
+              "@url": "master/9687_0001.tif",
+              "@width": "2966px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9687_0001_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9687_0001_web.jpg",
+              "@width": "1200px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "7022px",
+              "@url": "master/9687_0002.tif",
+              "@width": "3963px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9687_0002_thumb.jpg",
+              "@width": "107px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9687_0002_web.jpg",
+              "@width": "1015px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "7022px",
+              "@url": "master/9687_0003.tif",
+              "@width": "3963px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9687_0003_thumb.jpg",
+              "@width": "107px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9687_0003_web.jpg",
+              "@width": "1015px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 46: Sharḥ-i ʻaṣā-yi mukhtariʻ-i humāyūn pādshāh. Ganj-i nahān khānah-i ḥayy-i qadīm."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 46: Sharḥ-i ʻaṣā-yi mukhtariʻ-i humāyūn pādshāh. Ganj-i nahān khānah-i ḥayy-i qadīm. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 46: Sharḥ-i ʻaṣā-yi mukhtariʻ-i humāyūn pādshāh. Ganj-i nahān khānah-i ḥayy-i qadīm.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript codex.",
+            "Title of manuscript from introduction to first work (f. 1v) and introduction to second work (f. 3v)."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 46"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "13554105"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1055768592"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_046.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13554105"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Two works copied together; the first is on calculating the direction of the Qibla, and the second is on spherical geometry.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Sharḥ-i ʻaṣā-yi mukhtariʻ-i humāyūn pādshāh. Ganj-i nahān khānah-i ḥayy-i qadīm.",
+                    {
+                      "@type": "vernacular",
+                      "#text": "شرح عصاى مخترع هماىون پادشاه. گنج نهان خانه حي قدىم"
+                    }
+                  ],
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "1v",
+                  "locus": "1v",
+                  "title": "[Sharḥ-i ʿaṣā-i mukhtarʿ-i humāyūn pādshāh]"
+                },
+                {
+                  "@n": "3v",
+                  "locus": "3v",
+                  "title": "Ganj-i nahān khānah-i ḥay-i qadīm"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "11 foliated leaves : 200 x 110 (130 x 55) mm",
+                  "foliation": "Modern western foliation added in pencil, upper left recto; catchwords every verso, lower left."
+                },
+                "layoutDesc": {
+                  "layout": "17 long lines."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻliq in black ink; pointed, unvocalized."
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Disbound, fragment of a paper wrapper."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Copy completed in Lahore, 1005 AH (1596) (f. 11v).",
+                "origDate": "1596",
+                "origPlace": "Lahore"
+              },
+              "provenance": "Gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Geometry--Islamic countries--History",
+                "Manuscripts, Persian"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Codices",
+                "Manuscripts"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "@xml:id": "surface-ms-or-46-1",
+          "graphic": [
+            {
+              "@height": "5308px",
+              "@url": "master/6854_0000.tif",
+              "@width": "2871px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0000_thumb.jpg",
+              "@width": "102px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0000_web.jpg",
+              "@width": "973px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "@xml:id": "surface-ms-or-46-2",
+          "graphic": [
+            {
+              "@height": "5107px",
+              "@url": "master/6854_0001.tif",
+              "@width": "2641px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0001_thumb.jpg",
+              "@width": "98px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0001_web.jpg",
+              "@width": "931px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "@xml:id": "surface-ms-or-46-3",
+          "graphic": [
+            {
+              "@height": "5244px",
+              "@url": "master/6854_0002.tif",
+              "@width": "2749px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0002_thumb.jpg",
+              "@width": "99px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0002_web.jpg",
+              "@width": "943px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "@xml:id": "surface-ms-or-46-4",
+          "graphic": [
+            {
+              "@height": "5091px",
+              "@url": "master/6854_0003.tif",
+              "@width": "2641px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0003_thumb.jpg",
+              "@width": "98px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0003_web.jpg",
+              "@width": "933px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "@xml:id": "surface-ms-or-46-5",
+          "graphic": [
+            {
+              "@height": "5245px",
+              "@url": "master/6854_0004.tif",
+              "@width": "2749px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0004_thumb.jpg",
+              "@width": "99px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0004_web.jpg",
+              "@width": "943px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "@xml:id": "surface-ms-or-46-6",
+          "graphic": [
+            {
+              "@height": "5092px",
+              "@url": "master/6854_0005.tif",
+              "@width": "2751px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0005_thumb.jpg",
+              "@width": "102px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0005_web.jpg",
+              "@width": "972px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "@xml:id": "surface-ms-or-46-7",
+          "graphic": [
+            {
+              "@height": "5190px",
+              "@url": "master/6854_0006.tif",
+              "@width": "2780px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0006_thumb.jpg",
+              "@width": "101px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0006_web.jpg",
+              "@width": "964px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "@xml:id": "surface-ms-or-46-8",
+          "graphic": [
+            {
+              "@height": "5223px",
+              "@url": "master/6854_0007.tif",
+              "@width": "2834px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0007_thumb.jpg",
+              "@width": "103px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0007_web.jpg",
+              "@width": "976px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "@xml:id": "surface-ms-or-46-9",
+          "graphic": [
+            {
+              "@height": "5190px",
+              "@url": "master/6854_0008.tif",
+              "@width": "2617px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0008_thumb.jpg",
+              "@width": "96px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0008_web.jpg",
+              "@width": "907px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "@xml:id": "surface-ms-or-46-10",
+          "graphic": [
+            {
+              "@height": "5223px",
+              "@url": "master/6854_0009.tif",
+              "@width": "2834px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0009_thumb.jpg",
+              "@width": "103px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0009_web.jpg",
+              "@width": "976px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "@xml:id": "surface-ms-or-46-11",
+          "graphic": [
+            {
+              "@height": "5222px",
+              "@url": "master/6854_0010.tif",
+              "@width": "2632px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0010_thumb.jpg",
+              "@width": "96px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0010_web.jpg",
+              "@width": "907px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "@xml:id": "surface-ms-or-46-12",
+          "graphic": [
+            {
+              "@height": "5240px",
+              "@url": "master/6854_0011.tif",
+              "@width": "2834px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0011_thumb.jpg",
+              "@width": "102px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0011_web.jpg",
+              "@width": "973px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "@xml:id": "surface-ms-or-46-13",
+          "graphic": [
+            {
+              "@height": "5222px",
+              "@url": "master/6854_0012.tif",
+              "@width": "2677px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0012_thumb.jpg",
+              "@width": "97px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0012_web.jpg",
+              "@width": "922px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "@xml:id": "surface-ms-or-46-14",
+          "graphic": [
+            {
+              "@height": "5226px",
+              "@url": "master/6854_0013.tif",
+              "@width": "2841px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0013_thumb.jpg",
+              "@width": "103px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0013_web.jpg",
+              "@width": "978px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "@xml:id": "surface-ms-or-46-15",
+          "graphic": [
+            {
+              "@height": "5237px",
+              "@url": "master/6854_0014.tif",
+              "@width": "2767px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0014_thumb.jpg",
+              "@width": "100px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0014_web.jpg",
+              "@width": "951px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "@xml:id": "surface-ms-or-46-16",
+          "graphic": [
+            {
+              "@height": "5240px",
+              "@url": "master/6854_0015.tif",
+              "@width": "2864px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0015_thumb.jpg",
+              "@width": "104px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0015_web.jpg",
+              "@width": "983px"
+            }
+          ]
+        },
+        {
+          "@n": "9r",
+          "@xml:id": "surface-ms-or-46-17",
+          "graphic": [
+            {
+              "@height": "5244px",
+              "@url": "master/6854_0016.tif",
+              "@width": "2762px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0016_thumb.jpg",
+              "@width": "100px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0016_web.jpg",
+              "@width": "948px"
+            }
+          ]
+        },
+        {
+          "@n": "9v",
+          "@xml:id": "surface-ms-or-46-18",
+          "graphic": [
+            {
+              "@height": "5206px",
+              "@url": "master/6854_0017.tif",
+              "@width": "2837px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0017_thumb.jpg",
+              "@width": "103px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0017_web.jpg",
+              "@width": "980px"
+            }
+          ]
+        },
+        {
+          "@n": "10r",
+          "@xml:id": "surface-ms-or-46-19",
+          "graphic": [
+            {
+              "@height": "5175px",
+              "@url": "master/6854_0018.tif",
+              "@width": "2762px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0018_thumb.jpg",
+              "@width": "101px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0018_web.jpg",
+              "@width": "960px"
+            }
+          ]
+        },
+        {
+          "@n": "10v",
+          "@xml:id": "surface-ms-or-46-20",
+          "graphic": [
+            {
+              "@height": "5240px",
+              "@url": "master/6854_0019.tif",
+              "@width": "2853px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0019_thumb.jpg",
+              "@width": "103px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0019_web.jpg",
+              "@width": "980px"
+            }
+          ]
+        },
+        {
+          "@n": "11r",
+          "@xml:id": "surface-ms-or-46-21",
+          "graphic": [
+            {
+              "@height": "5182px",
+              "@url": "master/6854_0020.tif",
+              "@width": "2657px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0020_thumb.jpg",
+              "@width": "97px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0020_web.jpg",
+              "@width": "923px"
+            }
+          ]
+        },
+        {
+          "@n": "11v",
+          "@xml:id": "surface-ms-or-46-22",
+          "graphic": [
+            {
+              "@height": "5210px",
+              "@url": "master/6854_0021.tif",
+              "@width": "2756px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0021_thumb.jpg",
+              "@width": "100px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0021_web.jpg",
+              "@width": "952px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "@xml:id": "surface-ms-or-46-23",
+          "graphic": [
+            {
+              "@height": "5202px",
+              "@url": "master/6854_0022.tif",
+              "@width": "2586px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0022_thumb.jpg",
+              "@width": "94px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0022_web.jpg",
+              "@width": "895px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "@xml:id": "surface-ms-or-46-24",
+          "graphic": [
+            {
+              "@height": "5245px",
+              "@url": "master/6854_0023.tif",
+              "@width": "2803px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6854_0023_thumb.jpg",
+              "@width": "101px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6854_0023_web.jpg",
+              "@width": "961px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

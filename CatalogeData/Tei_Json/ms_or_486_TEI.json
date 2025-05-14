@@ -1,0 +1,205 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 486: Leaf from Makhzan al-asrār"
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 486: Leaf from Makhzan al-asrār are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 486: Leaf from Makhzan al-asrār. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript leaf.",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 486"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14634626"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1145027576"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_486.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14634626"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "One leaf from Makhzan al-asrār with two headers set in gold.",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Leaf from Makhzan al-asrār",
+                  "author": [
+                    {
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Niẓāmī Ganjavī, 1140 or 1141-1202 or 1203"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "نظامى گنجوى،"
+                        }
+                      ]
+                    },
+                    {
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Niẓāmī Ganjavī, 1140 or 1141-1202 or 1203"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "نظامى گنجوى،"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "@n": "1r",
+                  "locus": "1r",
+                  "title": "[Leaf from Makhzan al-asrār]"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "1 leaf : 246 x 169 (162 x 105) mm"
+                },
+                "layoutDesc": {
+                  "layout": "21 lines per page in four columns ; catchwords on verso, lower left."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in black ink with headers in thuluth in gold."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Gold and blue border rules; gold column rules; two headers in gold with stems and polychrome and gold leaves.",
+                  {
+                    "@n": "1v",
+                    "#text": "Illuminated text dividers"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is undated.",
+                "origDate": "16--?-18--?",
+                "origPlace": "Iran?"
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Persian poetry--747-1500",
+                "Manuscripts, Persian--New York (State)--New York"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts (documents)",
+                "Detached leaves",
+                "Illuminations (painting)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "6301px",
+              "@url": "master/9827_0000.tif",
+              "@width": "4442px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9827_0000_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9827_0000_web.jpg",
+              "@width": "1269px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "6299px",
+              "@url": "master/9827_0001.tif",
+              "@width": "4441px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9827_0001_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9827_0001_web.jpg",
+              "@width": "1269px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

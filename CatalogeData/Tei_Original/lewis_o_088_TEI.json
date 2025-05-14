@@ -1,0 +1,504 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia Lewis O 88: Haza rūznāme-yi Dārendevī."
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book Department Lewis O 88: Haza rūznāme-yi Dārendevī. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Rare Book Department Lewis O 88: Haza rūznāme-yi Dārendevī.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Ms. roll.",
+            "Title from headpiece (membrane 1)."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "Philadelphia",
+              "institution": "Free Library of Philadelphia",
+              "repository": "Rare Book Department",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis O 88"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "2450065"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1091900785"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://know.freelibrary.org/Record/2450065"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Calendar dated 1226 A.H. showing lunar and solar month concordance; length of day and night in Istanbul; astronomical and chronological tables; marginal notes with comments and computational instructions; rules for finding the direction of the qiblah in Istanbul and surrounding areas.",
+              "textLang": {
+                "@mainLang": "ota",
+                "#text": "Ottoman Turkish"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Haza rūznāme-yi Dārendevī.",
+                    {
+                      "@type": "vernacular",
+                      "#text": "هذا روزنامۀ دارنده‌وى"
+                    }
+                  ],
+                  "author": {
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "Dārendevī, Muḥammad ibn Ismāʻīl, active 17th century-18th century"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "دارندوى، محمد بن اسماعيل،"
+                      }
+                    ]
+                  },
+                  "respStmt": [
+                    {
+                      "resp": "scribe",
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Muṣṭafá al-maʻrūf bi-Ḥikmetī-yi s̲ānī, active 1811"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "مصطفى المعروف بحكمتى ثانى،"
+                        }
+                      ]
+                    },
+                    {
+                      "resp": "donor",
+                      "persName": {
+                        "@type": "authority",
+                        "#text": "Lewis, Anne Baker, 1868-1937"
+                      }
+                    },
+                    {
+                      "resp": "former owner",
+                      "persName": {
+                        "@type": "authority",
+                        "#text": "Lewis, John Frederick, 1860-1932"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@n": "Scroll fully unrolled",
+                  "locus": "Scroll [fully unrolled]",
+                  "title": "Haza rūznāme-yi Dārendevī."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "parchment"
+                  },
+                  "extent": "2 membranes : 1067mm x 102 mm"
+                },
+                "layoutDesc": {
+                  "layout": "Written in sections of columns and rows with margins for notations and instructions."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in naskh."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Illuminated headpiece in gold, red, blue, and orange. Calendar dates, days, prayer times, horoscope, etc. are set in tables of red and black with gold rules and headers in gold ink on a red background; some gold foliate fill.",
+                  {
+                    "@n": "Detail 1",
+                    "#text": "Concentric circles"
+                  },
+                  {
+                    "@n": "Detail 1",
+                    "#text": "Illuminated headpiece"
+                  },
+                  {
+                    "@n": "Detail 2",
+                    "#text": "Illuminated headpiece"
+                  },
+                  {
+                    "@n": "Detail 3",
+                    "#text": "Gold ruled section dividers"
+                  },
+                  {
+                    "@n": "Detail 4",
+                    "#text": "Gold ruled section dividers"
+                  },
+                  {
+                    "@n": "Detail 5",
+                    "#text": "Gold ruled section dividers"
+                  },
+                  {
+                    "@n": "Detail 6",
+                    "#text": "Gold ruled section dividers"
+                  },
+                  {
+                    "@n": "Detail 7",
+                    "#text": "Gold ruled section dividers"
+                  },
+                  {
+                    "@n": "Detail 8",
+                    "#text": "Gold ruled section dividers"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Cover made of a thin piece of brown leather covered with paper on the inside and attached to the top of the first membrane. Outside cover has gilt stamped frame and floral motif in the center; inside cover has gold frame and concentric circles around a crescent moon. Scroll is held on wooden bar with ivory wheels and is enclosed in a tightly fitted maroon case."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Calendar produced by an astronomer called Muṣṭafá, commonly known as Ḥikmetī-yi s̲ānī (rectangle with red background at end of scroll) in 1226 A.H. (1811) (between first two sections, under the headpiece).",
+                "origDate": "A.H. 1226 (1811)",
+                "origPlace": "Istanbul"
+              },
+              "provenance": [
+                "Gift of Anne Baker Lewis in 1933.",
+                "Formerly owned by John Frederick Lewis."
+              ]
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Islamic calendar--Turkey",
+                "Astronomy--Charts, diagrams, etc"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Calendars (documents by form)",
+                "Scrolls (information artifacts)",
+                "Tables (documents)",
+                "Manuscripts, Turkish--19th century"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Scroll fully unrolled",
+          "graphic": [
+            {
+              "@height": "32625px",
+              "@url": "master/7213_0000.tif",
+              "@width": "3390px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0000_thumb.jpg",
+              "@width": "19px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0000_web.jpg",
+              "@width": "187px"
+            }
+          ]
+        },
+        {
+          "@n": "Cover, detail",
+          "graphic": [
+            {
+              "@height": "6840px",
+              "@url": "master/7213_0001.tif",
+              "@width": "2888px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0001_thumb.jpg",
+              "@width": "80px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0001_web.jpg",
+              "@width": "760px"
+            }
+          ]
+        },
+        {
+          "@n": "Scroll, rolled with end of roll on top",
+          "graphic": [
+            {
+              "@height": "3255px",
+              "@url": "master/7213_0002.tif",
+              "@width": "1057px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0002_thumb.jpg",
+              "@width": "61px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0002_web.jpg",
+              "@width": "584px"
+            }
+          ]
+        },
+        {
+          "@n": "Scroll, rolled with end of roll underneath",
+          "graphic": [
+            {
+              "@height": "3255px",
+              "@url": "master/7213_0003.tif",
+              "@width": "1057px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0003_thumb.jpg",
+              "@width": "61px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0003_web.jpg",
+              "@width": "584px"
+            }
+          ]
+        },
+        {
+          "@n": "Right end",
+          "graphic": [
+            {
+              "@height": "3255px",
+              "@url": "master/7213_0004.tif",
+              "@width": "1057px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0004_thumb.jpg",
+              "@width": "61px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0004_web.jpg",
+              "@width": "584px"
+            }
+          ]
+        },
+        {
+          "@n": "Left end",
+          "graphic": [
+            {
+              "@height": "3255px",
+              "@url": "master/7213_0005.tif",
+              "@width": "1057px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0005_thumb.jpg",
+              "@width": "61px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0005_web.jpg",
+              "@width": "584px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 1",
+          "graphic": [
+            {
+              "@height": "5838px",
+              "@url": "master/7213_0006.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0006_thumb.jpg",
+              "@width": "107px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0006_web.jpg",
+              "@width": "1016px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 2",
+          "graphic": [
+            {
+              "@height": "5914px",
+              "@url": "master/7213_0007.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0007_thumb.jpg",
+              "@width": "106px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0007_web.jpg",
+              "@width": "1004px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 3",
+          "graphic": [
+            {
+              "@height": "5939px",
+              "@url": "master/7213_0008.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0008_thumb.jpg",
+              "@width": "105px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0008_web.jpg",
+              "@width": "999px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 4",
+          "graphic": [
+            {
+              "@height": "5939px",
+              "@url": "master/7213_0009.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0009_thumb.jpg",
+              "@width": "105px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0009_web.jpg",
+              "@width": "999px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 5",
+          "graphic": [
+            {
+              "@height": "5939px",
+              "@url": "master/7213_0010.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0010_thumb.jpg",
+              "@width": "105px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0010_web.jpg",
+              "@width": "999px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 6",
+          "graphic": [
+            {
+              "@height": "5939px",
+              "@url": "master/7213_0011.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0011_thumb.jpg",
+              "@width": "105px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0011_web.jpg",
+              "@width": "999px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 7",
+          "graphic": [
+            {
+              "@height": "5939px",
+              "@url": "master/7213_0012.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0012_thumb.jpg",
+              "@width": "105px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0012_web.jpg",
+              "@width": "999px"
+            }
+          ]
+        },
+        {
+          "@n": "Detail 8",
+          "graphic": [
+            {
+              "@height": "6412px",
+              "@url": "master/7213_0013.tif",
+              "@width": "3298px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/7213_0013_thumb.jpg",
+              "@width": "97px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/7213_0013_web.jpg",
+              "@width": "925px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

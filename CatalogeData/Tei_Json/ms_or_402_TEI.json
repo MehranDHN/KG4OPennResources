@@ -1,0 +1,222 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 402 - GREY BOX: Two mounted Qurʼān leaves."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 402 - GREY BOX: Two mounted Qurʼān leaves. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 402 - GREY BOX: Two mounted Qurʼān leaves.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript leaves.",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 402 - GREY BOX"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14446539"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1135498896"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_402.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14446539"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Two trimmed and mounted Qurʼān leaves written in gold. One leaf contains verses from al-Taghābun (second half of 4-first half of 9), the other leaf contains verses from al-Mulk (67), though they are out of order (the second half of verse 19-the first few words of 21, then, on the word 'rizqahu', changing it to 'rizqihi' and continuing with the end of verse 15 through to the first half of verse 18).",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": [
+                {
+                  "title": "Two mounted Qurʼān leaves.",
+                  "respStmt": {
+                    "resp": "bookseller",
+                    "name": {
+                      "@type": "authority",
+                      "#text": "Mottahedeh Resht"
+                    }
+                  }
+                },
+                {
+                  "@n": "1r",
+                  "locus": "1r",
+                  "title": "[Two mounted Qurʼān leaves]."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "non-European laid paper"
+                  },
+                  "extent": "2 leaves : 355 x 247 (262 x 135) mm"
+                },
+                "layoutDesc": {
+                  "layout": "Written in eight long, ruled lines; border-ruled."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in muḥaqqaq in gold ink lined in black; pointed and vocalized."
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Not bound."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is undated; perhaps copied in the 15th or 16th century.",
+                "origDate": "14--? - 15--?"
+              },
+              "provenance": "Sold by Mottahedeh Resht (label on the reverse of each leaf)."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Manuscripts, Arabic",
+                "Manuscripts, Arabic"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Illuminations (painting)",
+                "Detached leaves",
+                "Manuscripts"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "7108px",
+              "@url": "master/9775_0000.tif",
+              "@width": "4967px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9775_0000_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9775_0000_web.jpg",
+              "@width": "1258px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "7108px",
+              "@url": "master/9775_0001.tif",
+              "@width": "4967px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9775_0001_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9775_0001_web.jpg",
+              "@width": "1258px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "7180px",
+              "@url": "master/9775_0002.tif",
+              "@width": "5060px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9775_0002_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9775_0002_web.jpg",
+              "@width": "1268px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "7180px",
+              "@url": "master/9775_0003.tif",
+              "@width": "5060px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9775_0003_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9775_0003_web.jpg",
+              "@width": "1268px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

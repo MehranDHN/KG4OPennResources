@@ -1,0 +1,143 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ex: <http://example.org/resource/> .
+@prefix ms: <http://example.org/ontology/manuscript#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+ex:ms_79f20534-c4d5-4194-a485-c4d0e4944a94 a ms:Manuscript ;
+    rdfs:label "Shāhnāmah." ;
+    ms:consistsOf aat:300011021,
+        aat:300014122 ;
+    ms:hasIdentifier ex:id_BV_65 ;
+    ms:hasSubject aat:300015630,
+        aat:300015631,
+        aat:300015632 ;
+    ms:hasType aat:300015057 ;
+    ms:partOf wd:Q7076129 ;
+    ms:producedBy ex:prod_ms_79f20534-c4d5-4194-a485-c4d0e4944a94 .
+
+ex:ms_7b7d19c0-36c0-49c1-a111-d24b85ce1807 a ms:Manuscript ;
+    rdfs:label "Dalāʼil al-khayrāt wa shawāriq al-anwār fī dhikr al-ṣalāh ʻalá al-nabī al-mukhtār." ;
+    ms:consistsOf aat:300011021,
+        aat:300014122 ;
+    ms:hasIdentifier ex:id_BV_62 ;
+    ms:hasType aat:300015057 ;
+    ms:partOf wd:Q7076129 ;
+    ms:producedBy ex:prod_ms_7b7d19c0-36c0-49c1-a111-d24b85ce1807 .
+
+ex:ms_8152e6b9-9732-4b78-952d-34140e61c9a8 a ms:Manuscript ;
+    rdfs:label "Subḥat al-abrār." ;
+    ms:consistsOf aat:300011021,
+        aat:300014122 ;
+    ms:hasIdentifier ex:id_BV_49 ;
+    ms:hasSubject aat:300015644,
+        aat:300015645 ;
+    ms:hasType aat:300015057 ;
+    ms:partOf wd:Q7076129 ;
+    ms:producedBy ex:prod_ms_8152e6b9-9732-4b78-952d-34140e61c9a8 .
+
+ex:ms_9498efce-7faa-48b4-a778-af8cb90ab282 a ms:Manuscript ;
+    rdfs:label "Gulistān." ;
+    ms:consistsOf aat:300011021,
+        aat:300014122 ;
+    ms:hasIdentifier ex:id_BV_50 ;
+    ms:hasSubject aat:300015644,
+        aat:300015646 ;
+    ms:hasType aat:300015057 ;
+    ms:partOf wd:Q7076129 ;
+    ms:producedBy ex:prod_ms_9498efce-7faa-48b4-a778-af8cb90ab282 .
+
+ex:subject_49784986-11e2-49b5-8753-90ead03ed9b0 ms:hasType aat:300015630,
+        aat:300015631,
+        aat:300015632 .
+
+ex:subject_82e6485c-7be1-4943-ade6-fabeac0c6569 ms:hasType aat:300015644,
+        aat:300015646 .
+
+ex:subject_86f922af-61ac-4df4-9682-5e8159d9d6b6 ms:hasType aat:300015644,
+        aat:300015645 .
+
+ex:creator_firdawsī_caec650e-32cf-4b66-8bd4-0adbdf001b09 a ms:Creator ;
+    rdfs:label "Firdawsī" .
+
+<http://example.org/resource/creator_jazūlī,_muḥammad_ibn_sulaymān,_1404-1465_cb869a1f-6517-4134-b9cd-ddd5d0ba8c23> a ms:Creator ;
+    rdfs:label "Jazūlī, Muḥammad ibn Sulaymān, 1404-1465" .
+
+<http://example.org/resource/creator_jāmī,_1414-1492_a8cf9993-1fba-4cd3-b306-50d5ab78f255> a ms:Creator ;
+    rdfs:label "Jāmī, 1414-1492" .
+
+ex:creator_saʻdī_455a4feb-6b12-4eaa-999c-f9b8431b6ed1 a ms:Creator ;
+    rdfs:label "Saʻdī" .
+
+ex:id_BV_49 a ms:Identifier ;
+    rdfs:label "ms_8152e6b9-9732-4b78-952d-34140e61c9a8" .
+
+ex:id_BV_50 a ms:Identifier ;
+    rdfs:label "ms_9498efce-7faa-48b4-a778-af8cb90ab282" .
+
+ex:id_BV_62 a ms:Identifier ;
+    rdfs:label "ms_7b7d19c0-36c0-49c1-a111-d24b85ce1807" .
+
+ex:id_BV_65 a ms:Identifier ;
+    rdfs:label "ms_79f20534-c4d5-4194-a485-c4d0e4944a94" .
+
+<http://example.org/resource/place_india?> a ms:Place ;
+    rdfs:label "India"@en .
+
+<http://example.org/resource/place_iran?> a ms:Place ;
+    rdfs:label "Iran"@en .
+
+ex:prod_ms_79f20534-c4d5-4194-a485-c4d0e4944a94 a ms:Production ;
+    ms:carriedOutBy ex:creator_firdawsī_caec650e-32cf-4b66-8bd4-0adbdf001b09 ;
+    ms:hasBeginTimeSpan ex:timespan_1849_3e988333-ee76-4cf8-b5a6-a139300f7eff ;
+    ms:tookPlaceAt <http://example.org/resource/place_india?> .
+
+ex:prod_ms_7b7d19c0-36c0-49c1-a111-d24b85ce1807 a ms:Production ;
+    ms:carriedOutBy <http://example.org/resource/creator_jazūlī,_muḥammad_ibn_sulaymān,_1404-1465_cb869a1f-6517-4134-b9cd-ddd5d0ba8c23> ;
+    ms:hasBeginTimeSpan <http://example.org/resource/timespan_between_1750_and_1850?_3d522b55-18c1-4ddd-b311-4cba1251fb37> ;
+    ms:tookPlaceAt <http://example.org/resource/place_iran?> .
+
+ex:prod_ms_8152e6b9-9732-4b78-952d-34140e61c9a8 a ms:Production ;
+    ms:carriedOutBy <http://example.org/resource/creator_jāmī,_1414-1492_a8cf9993-1fba-4cd3-b306-50d5ab78f255> ;
+    ms:hasBeginTimeSpan ex:timespan_1529_or_1530_637f6ab7-0508-4cbb-a1c2-5d19cf20104e ;
+    ms:tookPlaceAt ex:place_unknown .
+
+ex:prod_ms_9498efce-7faa-48b4-a778-af8cb90ab282 a ms:Production ;
+    ms:carriedOutBy ex:creator_saʻdī_455a4feb-6b12-4eaa-999c-f9b8431b6ed1 ;
+    ms:hasBeginTimeSpan ex:timespan_1582_or_1583_e828d5fa-adc2-49b4-900d-6e3801acf439 ;
+    ms:tookPlaceAt ex:place_unknown .
+
+ex:timespan_1529_or_1530_637f6ab7-0508-4cbb-a1c2-5d19cf20104e a ms:TimeSpan ;
+    rdfs:label "1529 or 1530" .
+
+ex:timespan_1582_or_1583_e828d5fa-adc2-49b4-900d-6e3801acf439 a ms:TimeSpan ;
+    rdfs:label "1582 or 1583" .
+
+ex:timespan_1849_3e988333-ee76-4cf8-b5a6-a139300f7eff a ms:TimeSpan ;
+    rdfs:label "1849" .
+
+<http://example.org/resource/timespan_between_1750_and_1850?_3d522b55-18c1-4ddd-b311-4cba1251fb37> a ms:TimeSpan ;
+    rdfs:label "between 1750 and 1850?" .
+
+ex:place_unknown a ms:Place ;
+    rdfs:label "Unknown"@en .
+
+aat:300015630 a crm:E55_Type ;
+    rdfs:label "Persian poetry--747-1500"@en .
+
+aat:300015631 a crm:E55_Type ;
+    rdfs:label "Epic poetry, Persian--Early works to 1800"@en .
+
+aat:300015632 a crm:E55_Type ;
+    rdfs:label "Manuscripts, 19th century"@en .
+
+aat:300015645 a crm:E55_Type ;
+    rdfs:label "Masnavis, Persian--Early works to 1800"@en .
+
+aat:300015646 a crm:E55_Type ;
+    rdfs:label "Manuscripts, 16th century"@en .
+
+aat:300015644 a crm:E55_Type ;
+    rdfs:label "Persian literature--747-1500"@en .
+

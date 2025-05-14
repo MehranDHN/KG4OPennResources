@@ -1,0 +1,669 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of University of Pennsylvania LJS 465: Didactic poem on surveying and measurement of areas (taksīr)."
+        },
+        "publicationStmt": {
+          "publisher": "University of Pennsylvania",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Kislak Center for Special Collections, Rare Books and Manuscripts LJS 465: Didactic poem on surveying and measurement of areas (taksīr). are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                "#text": "Metadata is ©  and licensed under a Creative Commons Attribution License version 4.0 (CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/legalcode. For a description of the terms of use see the Creative Commons Deed https://creativecommons.org/licenses/by/4.0/."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Ms. codex.",
+            "Title supplied by cataloger."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "3420 Walnut Street, Philadelphia, Pennsylvania 19104-6206",
+              "institution": "University of Pennsylvania",
+              "repository": "Kislak Center for Special Collections, Rare Books and Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "LJS 465"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "9959781433503681"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/852991445"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://hdl.library.upenn.edu/1017/d/medren/5978143"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "A didactic poem on surveying and measuring areas including triangles, quadrilaterals and circles.",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": {
+                "title": "Didactic poem on surveying and measurement of areas (taksīr).",
+                "author": {
+                  "persName": [
+                    {
+                      "@type": "authority",
+                      "#text": "Ibn Luyūn al-Tujībī, Saʻd ibn Aḥmad, 1282 or 1283-1349 or 1350"
+                    },
+                    {
+                      "@type": "vernacular",
+                      "#text": "ابن ليون التجيبي، سعد بن احمد،"
+                    }
+                  ]
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "7 leaves : 198 x 142 (144 x 95) mm. bound to 202 x 159 mm",
+                  "collation": {
+                    "p": "Paper, i (modern paper) + 7 + i (modern paper)."
+                  }
+                },
+                "layoutDesc": {
+                  "layout": "Written in 21 long lines; ruled in dry point."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in small, neat maghribi in brown ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Small marginal geometric diagrams (f. 2v-6v); diagram annotations in red ink.",
+                  {
+                    "@n": "2v",
+                    "#text": "Diagram, f. 2v"
+                  },
+                  {
+                    "@n": "3v",
+                    "#text": "Diagram, f. 3v"
+                  },
+                  {
+                    "@n": "4r",
+                    "#text": "Diagram, f. 4r"
+                  },
+                  {
+                    "@n": "4v",
+                    "#text": "Diagram, f. 4v"
+                  },
+                  {
+                    "@n": "5r",
+                    "#text": "Diagram, f. 5r"
+                  },
+                  {
+                    "@n": "5v",
+                    "#text": "Diagram, f. 5v"
+                  },
+                  {
+                    "@n": "6r",
+                    "#text": "Diagram, f. 6r"
+                  },
+                  {
+                    "@n": "6v",
+                    "#text": "Diagram, f. 6v"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Later morocco over pasteboard binding with flap (Type II) that is too large for the textblock; blind tooled with a central mandorla and double frame, spine repaired; inscriptions inside front cover; text and tables visible on inside back cover."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Item is undated, possibly copied in Spain in the 14th or 15th century.",
+                "origDate": "13--?-14--?",
+                "origPlace": "Spain?"
+              },
+              "provenance": [
+                "Sold by Sam Fogg Ltd. (London) to Lawrence J. Schoenberg, June 2004.",
+                "Deposit by Lawrence J. Schoenberg and Barbara Brizdle, 2013."
+              ]
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Mathematics--Early works to 1800",
+                "Geometry--Early works to 1800",
+                "Geometry",
+                "Mathematics"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts, Arabic--14th century",
+                "Manuscripts, Arabic--15th century",
+                "Manuscripts, Medieval",
+                "Codices (bound manuscripts)",
+                "Diagrams",
+                "Treatises",
+                "Early works"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front cover",
+          "@xml:id": "surface-ljs-465-1",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0000.tif",
+              "@width": "3142px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0000_thumb.jpg",
+              "@width": "172px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0000_web.jpg",
+              "@width": "1628px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside front cover",
+          "@xml:id": "surface-ljs-465-2",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0001.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0001_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0001_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "@xml:id": "surface-ljs-465-3",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0002.tif",
+              "@width": "4542px"
+            },
+            {
+              "@height": "146px",
+              "@url": "thumb/0025_0002_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1389px",
+              "@url": "web/0025_0002_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "@xml:id": "surface-ljs-465-4",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0003.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0003_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0003_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "@xml:id": "surface-ljs-465-5",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0004.tif",
+              "@width": "4542px"
+            },
+            {
+              "@height": "146px",
+              "@url": "thumb/0025_0004_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1389px",
+              "@url": "web/0025_0004_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "@xml:id": "surface-ljs-465-6",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0005.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0005_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0005_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "@xml:id": "surface-ljs-465-7",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0006.tif",
+              "@width": "4593px"
+            },
+            {
+              "@height": "144px",
+              "@url": "thumb/0025_0006_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1373px",
+              "@url": "web/0025_0006_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "@xml:id": "surface-ljs-465-8",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0007.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0007_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0007_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "@xml:id": "surface-ljs-465-9",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0008.tif",
+              "@width": "4542px"
+            },
+            {
+              "@height": "146px",
+              "@url": "thumb/0025_0008_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1389px",
+              "@url": "web/0025_0008_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "@xml:id": "surface-ljs-465-10",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0009.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0009_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0009_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "@xml:id": "surface-ljs-465-11",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0010.tif",
+              "@width": "4593px"
+            },
+            {
+              "@height": "144px",
+              "@url": "thumb/0025_0010_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1373px",
+              "@url": "web/0025_0010_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "@xml:id": "surface-ljs-465-12",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0011.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0011_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0011_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "@xml:id": "surface-ljs-465-13",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0012.tif",
+              "@width": "4593px"
+            },
+            {
+              "@height": "144px",
+              "@url": "thumb/0025_0012_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1373px",
+              "@url": "web/0025_0012_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "@xml:id": "surface-ljs-465-14",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0013.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0013_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0013_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "@xml:id": "surface-ljs-465-15",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0014.tif",
+              "@width": "4593px"
+            },
+            {
+              "@height": "144px",
+              "@url": "thumb/0025_0014_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1373px",
+              "@url": "web/0025_0014_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "@xml:id": "surface-ljs-465-16",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0015.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0015_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0015_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "@xml:id": "surface-ljs-465-17",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0016.tif",
+              "@width": "4593px"
+            },
+            {
+              "@height": "144px",
+              "@url": "thumb/0025_0016_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1373px",
+              "@url": "web/0025_0016_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "@xml:id": "surface-ljs-465-18",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0017.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0017_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0017_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "@xml:id": "surface-ljs-465-19",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0018.tif",
+              "@width": "4542px"
+            },
+            {
+              "@height": "146px",
+              "@url": "thumb/0025_0018_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1389px",
+              "@url": "web/0025_0018_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "@xml:id": "surface-ljs-465-20",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0019.tif",
+              "@width": "2787px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0019_thumb.jpg",
+              "@width": "152px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0019_web.jpg",
+              "@width": "1445px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "@xml:id": "surface-ljs-465-21",
+          "graphic": [
+            {
+              "@height": "3505px",
+              "@url": "master/0025_0020.tif",
+              "@width": "4542px"
+            },
+            {
+              "@height": "146px",
+              "@url": "thumb/0025_0020_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1389px",
+              "@url": "web/0025_0020_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "@xml:id": "surface-ljs-465-22",
+          "graphic": [
+            {
+              "@height": "3472px",
+              "@url": "master/0025_0021.tif",
+              "@width": "3142px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0021_thumb.jpg",
+              "@width": "172px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0021_web.jpg",
+              "@width": "1628px"
+            }
+          ]
+        },
+        {
+          "@n": "Spine",
+          "@xml:id": "surface-ljs-465-23",
+          "graphic": [
+            {
+              "@height": "3579px",
+              "@url": "master/0025_0022.tif",
+              "@width": "437px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/0025_0022_thumb.jpg",
+              "@width": "23px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/0025_0022_web.jpg",
+              "@width": "219px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

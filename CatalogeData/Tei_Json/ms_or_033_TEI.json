@@ -1,0 +1,1949 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University. MS Or 33: Khulāṣat al-ḥisāb."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University.",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 33: Khulāṣat al-ḥisāb. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 33: Khulāṣat al-ḥisāb.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript codex.",
+            "Title from preface (f. 2r)."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University.",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 33"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "13540665"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1054927097"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_033.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13540665"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "ara",
+                "@otherLangs": "per",
+                "#text": "Arabic with some Persian marginalia"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Khulāṣat al-ḥisāb.",
+                    {
+                      "@type": "vernacular",
+                      "#text": "خلاصة الحساب"
+                    }
+                  ],
+                  "author": {
+                    "persName": [
+                      {
+                        "@type": "authority",
+                        "#text": "ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn, 1547-1621"
+                      },
+                      {
+                        "@type": "vernacular",
+                        "#text": "عاملي، بهاء الدين محمد بن حسين،"
+                      }
+                    ]
+                  },
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "1v",
+                  "locus": "1v",
+                  "title": "Khulāṣat al-ḥisāb"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "30 foliated leaves : 245 x 160 (145 x 97) mm, bound to 250 x 175 mm"
+                },
+                "layoutDesc": {
+                  "layout": "11 long lines; extensive marginalia and interlinear comments on the first 16 folios; catchwords on verso, lower left."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻliq in black ink; pointed, unvocalized."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Headings in red; tables (f. 3r-4r, 7v-8r, 9v, 10v) and geometrical diagrams (f. 15r/v, 18r-19r, 20v, 29r) in red and black.",
+                  {
+                    "@n": "3r",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "3v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "4r",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "7v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "8r",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "9v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "10v",
+                    "#text": "Table"
+                  },
+                  {
+                    "@n": "15r",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "15v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "18r",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "18v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "19r",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "20v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "29r",
+                    "#text": "Diagram"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Red half leather binding, gold tooling."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The colophon is taped over (f. 30r); an owner's stamp with the name Muḥammad ʻAlī Khān and the date A.H. 1258 is visible on f. 1r.",
+                "origDate": "between 1650 and 1843?",
+                "origPlace": "Iran?"
+              },
+              "provenance": [
+                "Gift of David Eugene Smith, 1931-1934.",
+                "Formerly owned by Muḥammad ʻAlī Khān (owner's stamp f. 1r)."
+              ]
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Arithmetic--Early works to 1900",
+                "Mathematics, Arab--Early works to 1800",
+                "Manuscripts, Arabic"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts",
+                "Codices",
+                "Diagrams",
+                "Tables (documents)",
+                "Half covers"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front cover",
+          "graphic": [
+            {
+              "@height": "6349px",
+              "@url": "master/6868_0000.tif",
+              "@width": "4449px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0000_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0000_web.jpg",
+              "@width": "1261px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside front cover",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0001.tif",
+              "@width": "4366px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0001_thumb.jpg",
+              "@width": "131px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0001_web.jpg",
+              "@width": "1246px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "graphic": [
+            {
+              "@height": "6202px",
+              "@url": "master/6868_0002.tif",
+              "@width": "4286px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0002_thumb.jpg",
+              "@width": "131px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0002_web.jpg",
+              "@width": "1244px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0003.tif",
+              "@width": "4196px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0003_thumb.jpg",
+              "@width": "126px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0003_web.jpg",
+              "@width": "1197px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 recto",
+          "graphic": [
+            {
+              "@height": "6200px",
+              "@url": "master/6868_0004.tif",
+              "@width": "4110px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0004_thumb.jpg",
+              "@width": "126px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0004_web.jpg",
+              "@width": "1193px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 verso",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0005.tif",
+              "@width": "4210px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0005_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0005_web.jpg",
+              "@width": "1201px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 recto",
+          "graphic": [
+            {
+              "@height": "6202px",
+              "@url": "master/6868_0006.tif",
+              "@width": "4094px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0006_thumb.jpg",
+              "@width": "125px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0006_web.jpg",
+              "@width": "1188px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 verso",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0007.tif",
+              "@width": "4210px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0007_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0007_web.jpg",
+              "@width": "1201px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 4 recto",
+          "graphic": [
+            {
+              "@height": "6202px",
+              "@url": "master/6868_0008.tif",
+              "@width": "4094px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0008_thumb.jpg",
+              "@width": "125px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0008_web.jpg",
+              "@width": "1188px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 4 verso",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0009.tif",
+              "@width": "4210px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0009_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0009_web.jpg",
+              "@width": "1201px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 5 recto",
+          "graphic": [
+            {
+              "@height": "6293px",
+              "@url": "master/6868_0010.tif",
+              "@width": "4407px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0010_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0010_web.jpg",
+              "@width": "1260px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 5 verso",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0011.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0011_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0011_web.jpg",
+              "@width": "1279px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "6293px",
+              "@url": "master/6868_0012.tif",
+              "@width": "4280px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0012_thumb.jpg",
+              "@width": "129px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0012_web.jpg",
+              "@width": "1224px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0013.tif",
+              "@width": "4409px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0013_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0013_web.jpg",
+              "@width": "1263px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0014.tif",
+              "@width": "4441px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0014_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0014_web.jpg",
+              "@width": "1267px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0015.tif",
+              "@width": "4426px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0015_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0015_web.jpg",
+              "@width": "1268px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0016.tif",
+              "@width": "4441px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0016_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0016_web.jpg",
+              "@width": "1267px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0017.tif",
+              "@width": "4434px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0017_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0017_web.jpg",
+              "@width": "1270px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "graphic": [
+            {
+              "@height": "6276px",
+              "@url": "master/6868_0018.tif",
+              "@width": "4438px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0018_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0018_web.jpg",
+              "@width": "1273px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0019.tif",
+              "@width": "4464px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0019_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0019_web.jpg",
+              "@width": "1279px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "graphic": [
+            {
+              "@height": "6276px",
+              "@url": "master/6868_0020.tif",
+              "@width": "4438px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0020_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0020_web.jpg",
+              "@width": "1273px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0021.tif",
+              "@width": "4464px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0021_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0021_web.jpg",
+              "@width": "1279px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "graphic": [
+            {
+              "@height": "6276px",
+              "@url": "master/6868_0022.tif",
+              "@width": "4438px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0022_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0022_web.jpg",
+              "@width": "1273px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0023.tif",
+              "@width": "4464px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0023_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0023_web.jpg",
+              "@width": "1279px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "graphic": [
+            {
+              "@height": "6287px",
+              "@url": "master/6868_0024.tif",
+              "@width": "4422px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0024_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0024_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0025.tif",
+              "@width": "4464px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0025_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0025_web.jpg",
+              "@width": "1279px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "graphic": [
+            {
+              "@height": "6287px",
+              "@url": "master/6868_0026.tif",
+              "@width": "4422px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0026_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0026_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0027.tif",
+              "@width": "4464px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0027_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0027_web.jpg",
+              "@width": "1279px"
+            }
+          ]
+        },
+        {
+          "@n": "9r",
+          "graphic": [
+            {
+              "@height": "6287px",
+              "@url": "master/6868_0028.tif",
+              "@width": "4422px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0028_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0028_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "9v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0029.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0029_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0029_web.jpg",
+              "@width": "1284px"
+            }
+          ]
+        },
+        {
+          "@n": "10r",
+          "graphic": [
+            {
+              "@height": "6287px",
+              "@url": "master/6868_0030.tif",
+              "@width": "4422px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0030_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0030_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "10v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0031.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0031_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0031_web.jpg",
+              "@width": "1284px"
+            }
+          ]
+        },
+        {
+          "@n": "11r",
+          "graphic": [
+            {
+              "@height": "6287px",
+              "@url": "master/6868_0032.tif",
+              "@width": "4408px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0032_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0032_web.jpg",
+              "@width": "1262px"
+            }
+          ]
+        },
+        {
+          "@n": "11v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0033.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0033_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0033_web.jpg",
+              "@width": "1284px"
+            }
+          ]
+        },
+        {
+          "@n": "12r",
+          "graphic": [
+            {
+              "@height": "6290px",
+              "@url": "master/6868_0034.tif",
+              "@width": "4434px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0034_thumb.jpg",
+              "@width": "134px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0034_web.jpg",
+              "@width": "1269px"
+            }
+          ]
+        },
+        {
+          "@n": "12v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0035.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0035_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0035_web.jpg",
+              "@width": "1284px"
+            }
+          ]
+        },
+        {
+          "@n": "13r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0036.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0036_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0036_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "13v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0037.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0037_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0037_web.jpg",
+              "@width": "1284px"
+            }
+          ]
+        },
+        {
+          "@n": "14r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0038.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0038_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0038_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "14v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0039.tif",
+              "@width": "4481px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0039_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0039_web.jpg",
+              "@width": "1284px"
+            }
+          ]
+        },
+        {
+          "@n": "15r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0040.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0040_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0040_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "15v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0041.tif",
+              "@width": "4475px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0041_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0041_web.jpg",
+              "@width": "1282px"
+            }
+          ]
+        },
+        {
+          "@n": "16r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0042.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0042_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0042_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "16v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0043.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0043_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0043_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "17r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0044.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0044_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0044_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "17v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0045.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0045_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0045_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "Insert recto",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0046.tif",
+              "@width": "4486px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0046_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0046_web.jpg",
+              "@width": "1285px"
+            }
+          ]
+        },
+        {
+          "@n": "Insert verso",
+          "graphic": [
+            {
+              "@height": "6273px",
+              "@url": "master/6868_0047.tif",
+              "@width": "4486px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0047_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0047_web.jpg",
+              "@width": "1287px"
+            }
+          ]
+        },
+        {
+          "@n": "18r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0048.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0048_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0048_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "18v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0049.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0049_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0049_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "19r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0050.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0050_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0050_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "19v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0051.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0051_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0051_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "20r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0052.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0052_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0052_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "20v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0053.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0053_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0053_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "21r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0054.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0054_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0054_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "21v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0055.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0055_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0055_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "22r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0056.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0056_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0056_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "22v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0057.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0057_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0057_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "23r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0058.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0058_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0058_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "23v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0059.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0059_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0059_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "24r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0060.tif",
+              "@width": "4421px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0060_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0060_web.jpg",
+              "@width": "1266px"
+            }
+          ]
+        },
+        {
+          "@n": "24v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0061.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0061_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0061_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "25r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0062.tif",
+              "@width": "4418px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0062_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0062_web.jpg",
+              "@width": "1265px"
+            }
+          ]
+        },
+        {
+          "@n": "25v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0063.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0063_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0063_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "26r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0064.tif",
+              "@width": "4418px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0064_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0064_web.jpg",
+              "@width": "1265px"
+            }
+          ]
+        },
+        {
+          "@n": "26v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0065.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0065_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0065_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "27r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0066.tif",
+              "@width": "4397px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0066_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0066_web.jpg",
+              "@width": "1259px"
+            }
+          ]
+        },
+        {
+          "@n": "27v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0067.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0067_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0067_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "28r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0068.tif",
+              "@width": "4397px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0068_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0068_web.jpg",
+              "@width": "1259px"
+            }
+          ]
+        },
+        {
+          "@n": "28v",
+          "graphic": [
+            {
+              "@height": "6283px",
+              "@url": "master/6868_0069.tif",
+              "@width": "4506px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0069_thumb.jpg",
+              "@width": "136px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0069_web.jpg",
+              "@width": "1291px"
+            }
+          ]
+        },
+        {
+          "@n": "29r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0070.tif",
+              "@width": "4397px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0070_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0070_web.jpg",
+              "@width": "1259px"
+            }
+          ]
+        },
+        {
+          "@n": "29v",
+          "graphic": [
+            {
+              "@height": "6277px",
+              "@url": "master/6868_0071.tif",
+              "@width": "4523px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0071_thumb.jpg",
+              "@width": "137px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0071_web.jpg",
+              "@width": "1297px"
+            }
+          ]
+        },
+        {
+          "@n": "30r",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0072.tif",
+              "@width": "4391px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0072_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0072_web.jpg",
+              "@width": "1257px"
+            }
+          ]
+        },
+        {
+          "@n": "30v",
+          "graphic": [
+            {
+              "@height": "6273px",
+              "@url": "master/6868_0073.tif",
+              "@width": "4555px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0073_thumb.jpg",
+              "@width": "138px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0073_web.jpg",
+              "@width": "1307px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0074.tif",
+              "@width": "4391px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0074_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0074_web.jpg",
+              "@width": "1257px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "graphic": [
+            {
+              "@height": "6273px",
+              "@url": "master/6868_0075.tif",
+              "@width": "4522px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0075_thumb.jpg",
+              "@width": "137px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0075_web.jpg",
+              "@width": "1298px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 recto",
+          "graphic": [
+            {
+              "@height": "6286px",
+              "@url": "master/6868_0076.tif",
+              "@width": "4391px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0076_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0076_web.jpg",
+              "@width": "1257px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 2 verso",
+          "graphic": [
+            {
+              "@height": "6289px",
+              "@url": "master/6868_0077.tif",
+              "@width": "4317px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0077_thumb.jpg",
+              "@width": "130px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0077_web.jpg",
+              "@width": "1235px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 recto",
+          "graphic": [
+            {
+              "@height": "6284px",
+              "@url": "master/6868_0078.tif",
+              "@width": "4203px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0078_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0078_web.jpg",
+              "@width": "1204px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 3 verso",
+          "graphic": [
+            {
+              "@height": "6276px",
+              "@url": "master/6868_0079.tif",
+              "@width": "4312px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0079_thumb.jpg",
+              "@width": "130px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0079_web.jpg",
+              "@width": "1237px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 4 recto",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0080.tif",
+              "@width": "4206px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0080_thumb.jpg",
+              "@width": "127px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0080_web.jpg",
+              "@width": "1200px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 4 verso",
+          "graphic": [
+            {
+              "@height": "6276px",
+              "@url": "master/6868_0081.tif",
+              "@width": "4301px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0081_thumb.jpg",
+              "@width": "130px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0081_web.jpg",
+              "@width": "1233px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 5 recto",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0082.tif",
+              "@width": "4169px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0082_thumb.jpg",
+              "@width": "125px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0082_web.jpg",
+              "@width": "1189px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 5 verso",
+          "graphic": [
+            {
+              "@height": "6282px",
+              "@url": "master/6868_0083.tif",
+              "@width": "4479px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0083_thumb.jpg",
+              "@width": "135px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0083_web.jpg",
+              "@width": "1283px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "graphic": [
+            {
+              "@height": "6307px",
+              "@url": "master/6868_0084.tif",
+              "@width": "4366px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0084_thumb.jpg",
+              "@width": "131px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0084_web.jpg",
+              "@width": "1246px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "graphic": [
+            {
+              "@height": "6361px",
+              "@url": "master/6868_0085.tif",
+              "@width": "4446px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6868_0085_thumb.jpg",
+              "@width": "133px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6868_0085_web.jpg",
+              "@width": "1258px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

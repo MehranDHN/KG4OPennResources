@@ -1,0 +1,940 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia Lewis O 84: Iʻtiqādīyah-i Mullā Ṭughrā."
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book Department Lewis O 84: Iʻtiqādīyah-i Mullā Ṭughrā. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Rare Book Department Lewis O 84: Iʻtiqādīyah-i Mullā Ṭughrā.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Ms. codex.",
+            "Title from caption title (f. 1v).",
+            "An owner's stamp and note (f. 1r). The name in the note is Jān Sipār Khān ibn Rustamdilkhān ibn Jān Sipār Khān al-Ḥusaynī al-Mukhtār al-Sabzawārī; the note also mentions that this was a gift from Nawwāb Ṣāḥib Qiblah Nawwāb Mukhtār Khān in the year 1122 A.H. (1710 CE). The name in the seal is the same, with a different formulation: Jān Sipār Khān, Khānahʹzād-i Shah-i ʻĀlam Pādishāh Muʻaẓẓam Pādishāh-i Ghāzī, 1121 A.H., year 3.",
+            "Typwritten note in purple ink pasted in: \"A specimen of fine calligraphy with seal of Emperor Aurangzeb\" (f. 12v)."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "Philadelphia",
+              "institution": "Free Library of Philadelphia",
+              "repository": "Rare Book Department",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis O 84"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "2515788"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1124682499"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0023/html/lewis_o_084.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://know.freelibrary.org/Record/2515788"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "A poem in praise of the fourth Caliph, ʻAlī ibn Abī Ṭālib, copied onto gold sprinkled paper.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Iʻtiqādīyah-i Mullā Ṭughrā.",
+                    {
+                      "@type": "vernacular",
+                      "#text": "اعتقاديه ملا طغرا"
+                    }
+                  ],
+                  "author": [
+                    {
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Ṭughrā-yi Mashhadī, active 17th century"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "طغراى مشهدى،"
+                        }
+                      ]
+                    },
+                    {
+                      "name": {
+                        "@type": "authority",
+                        "#text": "Free Library of Philadelphia. Rare Book Department. John Frederick Lewis Collection of Oriental Manuscripts"
+                      }
+                    }
+                  ],
+                  "respStmt": [
+                    {
+                      "resp": "former owner",
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Jān Sipār Khān ibn Rustamdilkhān, -1701?"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "جان سپار خان بن رستمدلخان،"
+                        }
+                      ]
+                    },
+                    {
+                      "resp": "former owner",
+                      "persName": {
+                        "@type": "authority",
+                        "#text": "Lewis, John Frederick, 1860-1932"
+                      }
+                    },
+                    {
+                      "resp": "donor",
+                      "persName": {
+                        "@type": "authority",
+                        "#text": "Lewis, Anne Baker, 1868-1937"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@n": "1v",
+                  "locus": "[1]v",
+                  "title": "Iʻtiqādīyah-i Mullā Ṭughrā."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "i, 12, i leaves : 210 x 118 (133 x 70) mm bound to 216 x 128 mm",
+                  "foliation": "Contemporary foliation in black ink, upper left recto; catchwords every verso, lower left."
+                },
+                "layoutDesc": {
+                  "layout": "9 lines chiefly in two columns with the first, fourth, and seventh lines as a centered, single column."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻlīq in black and red ink; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Textblock is gold sprinkled with border-rules in gold, black and red; the last line of each stanza is in red and framed in its own section; gold rules between columns and around sections.",
+                  {
+                    "@n": "1r",
+                    "#text": "Stamp"
+                  },
+                  {
+                    "@n": "1r",
+                    "#text": "Owner's notations"
+                  },
+                  {
+                    "@n": "12v",
+                    "#text": "Note pasted in"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Bound in modern black cloth."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is not dated, but an owner's note places it before 1122 A.H. (1710 CE) (f. 1r).",
+                "origDate": "between 1650 and 1710",
+                "origPlace": "India?"
+              },
+              "provenance": [
+                "Formerly owned by Jān Sipār Khān ibn Rustamdilkhān (stamp and note f. 1r).",
+                "Formerly owned by John Frederick Lewis."
+              ]
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Persian poetry--1500-1796",
+                "Persian literature--1500-1796",
+                "Persian literature",
+                "Persian poetry"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts, Persian",
+                "Manuscripts, Oriental",
+                "Manuscripts, 17th century",
+                "Codices (bound manuscripts)",
+                "Manuscripts (documents)",
+                "Stamps (Provenance)",
+                "Annotations (Provenance)"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front cover",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0000.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0000_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0000_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside front cover",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0001.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0001_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0001_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0002.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0002_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0002_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0003.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0003_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0003_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0004.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0004_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0004_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0005.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0005_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0005_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0006.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0006_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0006_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0007.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0007_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0007_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0008.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0008_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0008_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0009.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0009_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0009_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0010.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0010_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0010_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0011.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0011_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0011_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0012.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0012_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0012_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0013.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0013_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0013_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0014.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0014_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0014_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0015.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0015_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0015_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0016.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0016_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0016_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0017.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0017_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0017_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "8r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0018.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0018_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0018_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "8v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0019.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0019_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0019_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "9r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0020.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0020_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0020_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "9v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0021.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0021_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0021_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "10r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0022.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0022_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0022_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "10v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0023.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0023_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0023_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "11r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0024.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0024_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0024_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "11v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0025.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0025_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0025_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "12r",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0026.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0026_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0026_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "12v",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0027.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0027_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0027_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 recto",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0028.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0028_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0028_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Flyleaf 1 verso",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0029.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0029_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0029_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0030.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0030_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0030_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "graphic": [
+            {
+              "@height": "5711px",
+              "@url": "master/9782_0031.tif",
+              "@width": "3678px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0031_thumb.jpg",
+              "@width": "122px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0031_web.jpg",
+              "@width": "1159px"
+            }
+          ]
+        },
+        {
+          "@n": "Spine",
+          "graphic": [
+            {
+              "@height": "5752px",
+              "@url": "master/9782_0032.tif",
+              "@width": "1048px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0032_thumb.jpg",
+              "@width": "34px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0032_web.jpg",
+              "@width": "327px"
+            }
+          ]
+        },
+        {
+          "@n": "Fore edge",
+          "graphic": [
+            {
+              "@height": "5752px",
+              "@url": "master/9782_0033.tif",
+              "@width": "1048px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0033_thumb.jpg",
+              "@width": "34px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0033_web.jpg",
+              "@width": "327px"
+            }
+          ]
+        },
+        {
+          "@n": "Top edge",
+          "graphic": [
+            {
+              "@height": "5752px",
+              "@url": "master/9782_0034.tif",
+              "@width": "1048px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0034_thumb.jpg",
+              "@width": "34px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0034_web.jpg",
+              "@width": "327px"
+            }
+          ]
+        },
+        {
+          "@n": "Bottom edge",
+          "graphic": [
+            {
+              "@height": "5752px",
+              "@url": "master/9782_0035.tif",
+              "@width": "1048px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/9782_0035_thumb.jpg",
+              "@width": "34px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/9782_0035_web.jpg",
+              "@width": "327px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

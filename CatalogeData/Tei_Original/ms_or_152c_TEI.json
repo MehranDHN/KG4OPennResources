@@ -1,0 +1,184 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University. MS Or 152c: Single leaf with illustration."
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University.",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 152c: Single leaf with illustration. are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 152c: Single leaf with illustration.. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript leaf.",
+            "Title supplied by cataloger.",
+            "Two unrelated manuscripts previously housed with this item, have been separately cataloged as MS Or 152a and MS Or 152b."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University.",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 152c"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "13622997"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1078439024"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_152c.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13622997"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Manuscript leaf with painting. The recto contains six lines of text in four columns, interrupted by a pastiche painting of six figures, four on the right side in helmets and chains and two on the left side. The verso holds two clippings of unrelated text pasted in different directions.",
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": [
+                {
+                  "title": "Single leaf with illustration.",
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Smith, David Eugene, 1860-1944"
+                    }
+                  }
+                },
+                {
+                  "@n": "Unnumbered recto",
+                  "locus": "Unnumbered recto",
+                  "title": "[Single leaf with illustration]."
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "1 leaf : 132 x 135 (132 x 135) mm"
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nasta'liÌ„q; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "The lines of text are border-ruled in red and black. The painting is in gold and opaque watercolors on a dark background.",
+                  {
+                    "@n": "Unnumbered recto",
+                    "#text": "Pastiche painting in gold and watercolors"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "origDate": "between 1850 and 1950?",
+                "origPlace": "Iran?"
+              },
+              "provenance": "Presumed to be a gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Persian poetry",
+                "Manuscripts, Persian"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Miniatures (paintings)",
+                "Detached leaves",
+                "Manuscripts"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Unnumbered recto",
+          "graphic": [
+            {
+              "@height": "3460px",
+              "@url": "master/6925_0000.tif",
+              "@width": "3536px"
+            },
+            {
+              "@height": "185px",
+              "@url": "thumb/6925_0000_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1761px",
+              "@url": "web/6925_0000_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Unnumbered verso",
+          "graphic": [
+            {
+              "@height": "3460px",
+              "@url": "master/6925_0001.tif",
+              "@width": "3536px"
+            },
+            {
+              "@height": "185px",
+              "@url": "thumb/6925_0001_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1761px",
+              "@url": "web/6925_0001_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

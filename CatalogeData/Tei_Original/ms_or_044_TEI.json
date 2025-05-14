@@ -1,0 +1,587 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 44: Kitāb al-kurah al-mutaḥarrikah /"
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 44: Kitāb al-kurah al-mutaḥarrikah / are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 44: Kitāb al-kurah al-mutaḥarrikah /. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": [
+            "Manuscript codex.",
+            "Title from introduction (f. 1v)."
+          ]
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 44"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1055768579"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_044.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/13554103"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Arabic translation of Autolycus' treatise on moving spheres.",
+              "textLang": {
+                "@mainLang": "ara",
+                "@otherLangs": "",
+                "#text": "Arabic"
+              },
+              "msItem": [
+                {
+                  "title": [
+                    "Kitāb al-kurah al-mutaḥarrikah /",
+                    {
+                      "@type": "vernacular",
+                      "#text": "كتاب الكرة المتحركة"
+                    }
+                  ],
+                  "author": {
+                    "persName": {
+                      "@type": "authority",
+                      "#text": "Autolycus, active 2nd century"
+                    }
+                  },
+                  "respStmt": [
+                    {
+                      "resp": "former owner",
+                      "persName": {
+                        "@type": "authority",
+                        "#text": "Smith, David Eugene, 1860-1944"
+                      }
+                    },
+                    {
+                      "resp": "editor",
+                      "persName": [
+                        {
+                          "@type": "authority",
+                          "#text": "Thābit ibn Qurrah al-Ḥarrānī, -901"
+                        },
+                        {
+                          "@type": "vernacular",
+                          "#text": "ثابت بن قرة الحراني,"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "@n": "1v",
+                  "locus": "1v",
+                  "title": "Kitāb al-kurrah al-mutaḥarrikah"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "paper"
+                  },
+                  "extent": "7 unpaginated leaves : 205 x 127 (160 x 60) mm, bound to 210 x 125 mm",
+                  "foliation": "Modern foliation added in pencil, upper left recto. Catchwords every verso, lower left."
+                },
+                "layoutDesc": {
+                  "layout": "17 long lines."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in nastaʻliq in black ink; pointed, unvocalized."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Headings and 9 geometrical figures in red (f. 2r/v, 3v-4v, 5v-7r).",
+                  {
+                    "@n": "2r",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "2v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "3v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "4r",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "4v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "5v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "6r",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "6v",
+                    "#text": "Diagram"
+                  },
+                  {
+                    "@n": "7r",
+                    "#text": "Diagram"
+                  }
+                ]
+              },
+              "bindingDesc": {
+                "binding": {
+                  "p": "Sewn on single tape support, covered with purple pebble-grained cloth over card."
+                }
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "Likely copied in the mid- to late-19th century; machine-made paper.",
+                "origDate": "between 1830 and 1899?"
+              },
+              "provenance": "Gift of David Eugene Smith, 1931-1934."
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": [
+                "Geometry--Arab countries--History",
+                "Manuscripts, Arabic"
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Manuscripts",
+                "Codices",
+                "Diagrams",
+                "Artificial grains"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Front cover",
+          "@xml:id": "surface-ms-or-44-1",
+          "graphic": [
+            {
+              "@height": "5328px",
+              "@url": "master/6853_0000.tif",
+              "@width": "3343px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0000_thumb.jpg",
+              "@width": "119px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0000_web.jpg",
+              "@width": "1129px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside front cover",
+          "@xml:id": "surface-ms-or-44-2",
+          "graphic": [
+            {
+              "@height": "5328px",
+              "@url": "master/6853_0001.tif",
+              "@width": "3213px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0001_thumb.jpg",
+              "@width": "114px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0001_web.jpg",
+              "@width": "1085px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "@xml:id": "surface-ms-or-44-3",
+          "graphic": [
+            {
+              "@height": "5328px",
+              "@url": "master/6853_0002.tif",
+              "@width": "3321px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0002_thumb.jpg",
+              "@width": "118px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0002_web.jpg",
+              "@width": "1122px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "@xml:id": "surface-ms-or-44-4",
+          "graphic": [
+            {
+              "@height": "5317px",
+              "@url": "master/6853_0003.tif",
+              "@width": "3294px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0003_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0003_web.jpg",
+              "@width": "1115px"
+            }
+          ]
+        },
+        {
+          "@n": "2r",
+          "@xml:id": "surface-ms-or-44-5",
+          "graphic": [
+            {
+              "@height": "5328px",
+              "@url": "master/6853_0004.tif",
+              "@width": "3321px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0004_thumb.jpg",
+              "@width": "118px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0004_web.jpg",
+              "@width": "1122px"
+            }
+          ]
+        },
+        {
+          "@n": "2v",
+          "@xml:id": "surface-ms-or-44-6",
+          "graphic": [
+            {
+              "@height": "5330px",
+              "@url": "master/6853_0005.tif",
+              "@width": "3308px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0005_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0005_web.jpg",
+              "@width": "1117px"
+            }
+          ]
+        },
+        {
+          "@n": "3r",
+          "@xml:id": "surface-ms-or-44-7",
+          "graphic": [
+            {
+              "@height": "5328px",
+              "@url": "master/6853_0006.tif",
+              "@width": "3297px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0006_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0006_web.jpg",
+              "@width": "1114px"
+            }
+          ]
+        },
+        {
+          "@n": "3v",
+          "@xml:id": "surface-ms-or-44-8",
+          "graphic": [
+            {
+              "@height": "5337px",
+              "@url": "master/6853_0007.tif",
+              "@width": "3317px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0007_thumb.jpg",
+              "@width": "118px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0007_web.jpg",
+              "@width": "1118px"
+            }
+          ]
+        },
+        {
+          "@n": "4r",
+          "@xml:id": "surface-ms-or-44-9",
+          "graphic": [
+            {
+              "@height": "5327px",
+              "@url": "master/6853_0008.tif",
+              "@width": "3282px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0008_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0008_web.jpg",
+              "@width": "1109px"
+            }
+          ]
+        },
+        {
+          "@n": "4v",
+          "@xml:id": "surface-ms-or-44-10",
+          "graphic": [
+            {
+              "@height": "5327px",
+              "@url": "master/6853_0009.tif",
+              "@width": "3306px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0009_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0009_web.jpg",
+              "@width": "1117px"
+            }
+          ]
+        },
+        {
+          "@n": "5r",
+          "@xml:id": "surface-ms-or-44-11",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0010.tif",
+              "@width": "3281px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0010_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0010_web.jpg",
+              "@width": "1109px"
+            }
+          ]
+        },
+        {
+          "@n": "5v",
+          "@xml:id": "surface-ms-or-44-12",
+          "graphic": [
+            {
+              "@height": "5338px",
+              "@url": "master/6853_0011.tif",
+              "@width": "3308px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0011_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0011_web.jpg",
+              "@width": "1115px"
+            }
+          ]
+        },
+        {
+          "@n": "6r",
+          "@xml:id": "surface-ms-or-44-13",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0012.tif",
+              "@width": "3290px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0012_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0012_web.jpg",
+              "@width": "1112px"
+            }
+          ]
+        },
+        {
+          "@n": "6v",
+          "@xml:id": "surface-ms-or-44-14",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0013.tif",
+              "@width": "3307px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0013_thumb.jpg",
+              "@width": "118px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0013_web.jpg",
+              "@width": "1118px"
+            }
+          ]
+        },
+        {
+          "@n": "7r",
+          "@xml:id": "surface-ms-or-44-15",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0014.tif",
+              "@width": "3290px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0014_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0014_web.jpg",
+              "@width": "1112px"
+            }
+          ]
+        },
+        {
+          "@n": "7v",
+          "@xml:id": "surface-ms-or-44-16",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0015.tif",
+              "@width": "3290px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0015_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0015_web.jpg",
+              "@width": "1112px"
+            }
+          ]
+        },
+        {
+          "@n": "Inside back cover",
+          "@xml:id": "surface-ms-or-44-17",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0016.tif",
+              "@width": "3290px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0016_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0016_web.jpg",
+              "@width": "1112px"
+            }
+          ]
+        },
+        {
+          "@n": "Back cover",
+          "@xml:id": "surface-ms-or-44-18",
+          "graphic": [
+            {
+              "@height": "5325px",
+              "@url": "master/6853_0017.tif",
+              "@width": "3325px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/6853_0017_thumb.jpg",
+              "@width": "118px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/6853_0017_web.jpg",
+              "@width": "1124px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

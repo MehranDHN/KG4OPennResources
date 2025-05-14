@@ -1,0 +1,208 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Columbia University MS Or 406 - GREY BOX: Leaf from the Qurʼān"
+        },
+        "publicationStmt": {
+          "publisher": "Columbia University",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Rare Book and Manuscript Library MS Or 406 - GREY BOX: Leaf from the Qurʼān are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Columbia University, Rare Book & Manuscript Library has waived all copyright and related or neighboring rights to this metadata about Rare Book and Manuscript Library MS Or 406 - GREY BOX: Leaf from the Qurʼān. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": "Manuscript leaf."
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "settlement": "New York, NY. 10027",
+              "institution": "Columbia University",
+              "repository": "Rare Book and Manuscript Library",
+              "idno": {
+                "@type": "call-number",
+                "#text": "MS Or 406 - GREY BOX"
+              },
+              "altIdentifier": [
+                {
+                  "@type": "bibid",
+                  "idno": "14634251"
+                },
+                {
+                  "@type": "oclc",
+                  "idno": "http://www.worldcat.org/oclc/1144941440"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "http://openn.library.upenn.edu/Data/0032/html/ms_or_406.html"
+                },
+                {
+                  "@type": "resource",
+                  "idno": "https://clio.columbia.edu/catalog/14634251"
+                }
+              ]
+            },
+            "msContents": {
+              "summary": "Part of verse 78 from Sūrat al-Ghāfir (40).",
+              "textLang": {
+                "@mainLang": "ara",
+                "#text": "Arabic"
+              },
+              "msItem": [
+                {
+                  "title": "Leaf from the Qurʼān"
+                },
+                {
+                  "@n": "1r",
+                  "locus": "[1]r",
+                  "title": "[Leaf from the Qurʼān]."
+                },
+                {
+                  "@n": "1r",
+                  "locus": "[1]r",
+                  "title": "Sūrat al-Ghāfir, verse 78"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "mixed",
+                  "support": {
+                    "p": "parchment"
+                  },
+                  "extent": "1 leaf : 150 x 230 (110 x 150) mm"
+                },
+                "layoutDesc": {
+                  "layout": "Written in 5 long lines."
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "Written in Early Abbasid (Kufic) in black ink."
+              }
+            },
+            "history": {
+              "origin": {
+                "p": "The item is undated; perhaps produced in the 10th century.",
+                "origDate": "9--?"
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "subjects",
+              "term": "Manuscripts, Arabic--New York (State)--New York"
+            },
+            {
+              "@n": "form/genre",
+              "term": [
+                "Qurʼans",
+                "Manuscripts (documents)",
+                "Detached leaves"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Loose leaf recto",
+          "graphic": [
+            {
+              "@height": "3198px",
+              "@url": "master/9813_0000.tif",
+              "@width": "4750px"
+            },
+            {
+              "@height": "127px",
+              "@url": "thumb/9813_0000_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1211px",
+              "@url": "web/9813_0000_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Loose leaf verso",
+          "graphic": [
+            {
+              "@height": "3198px",
+              "@url": "master/9813_0001.tif",
+              "@width": "4750px"
+            },
+            {
+              "@height": "127px",
+              "@url": "thumb/9813_0001_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1211px",
+              "@url": "web/9813_0001_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "1r",
+          "graphic": [
+            {
+              "@height": "3216px",
+              "@url": "master/9813_0002.tif",
+              "@width": "4757px"
+            },
+            {
+              "@height": "128px",
+              "@url": "thumb/9813_0002_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1216px",
+              "@url": "web/9813_0002_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "1v",
+          "graphic": [
+            {
+              "@height": "3216px",
+              "@url": "master/9813_0003.tif",
+              "@width": "4757px"
+            },
+            {
+              "@height": "128px",
+              "@url": "thumb/9813_0003_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1216px",
+              "@url": "web/9813_0003_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

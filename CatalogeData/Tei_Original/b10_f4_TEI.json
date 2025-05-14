@@ -1,0 +1,203 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Library Company, B10.F4: Charm",
+          "respStmt": {
+            "resp": "contributor",
+            "persName": "Kelly Tuttle"
+          },
+          "funder": "Council on Library and Information Resources"
+        },
+        "publicationStmt": {
+          "publisher": "Library Company",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Library Company B10.F4: Charm are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, The Library Company of Philadelphia has waived all copyright and related or neighboring rights to this metadata about Library Company B10.F4: Charm. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": "Watermarked European paper"
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "institution": "Library Company",
+              "repository": "Library Company",
+              "idno": {
+                "@type": "call-number",
+                "#text": "B10.F4"
+              }
+            },
+            "msContents": {
+              "summary": "Talismanic charm written large format to be folded; mostly comprised of several, repeated, verses from the Qurʾān. A few words in Soninke in Arabic letters.",
+              "textLang": {
+                "@mainLang": "ara",
+                "@otherLangs": "snk",
+                "#text": "Arabic; Soninke"
+              },
+              "msItem": [
+                {
+                  "title": "Charm",
+                  "respStmt": {
+                    "resp": "former owner",
+                    "persName": {
+                      "@ref": "http://id.loc.gov/authorities/names/n88140545",
+                      "#text": "Du Simitière, Pierre Eugène,  approximately 1736-1784"
+                    }
+                  }
+                },
+                {
+                  "@n": "Side 1",
+                  "locus": {
+                    "@target": "#surface-b10-f4-1",
+                    "#text": "Side 1"
+                  },
+                  "title": "[Charm]"
+                }
+              ]
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "@material": "paper",
+                  "support": {
+                    "p": "Paper",
+                    "watermark": "Centrally placed circular seal."
+                  },
+                  "extent": "385 x 315 mm",
+                  "foliation": "Single leaf"
+                },
+                "layoutDesc": {
+                  "layout": "39 lines in two columns"
+                }
+              },
+              "scriptDesc": {
+                "scriptNote": "West African maghribī in red and brown; pointed."
+              },
+              "decoDesc": {
+                "decoNote": [
+                  "Alternating sections of text in red and brown; geometric design on the reverse side of the page in one corner.",
+                  {
+                    "@n": "Side 2",
+                    "locus": {
+                      "@target": "#surface-b10-f4-2",
+                      "#text": "Side 2"
+                    },
+                    "#text": "Illumination"
+                  }
+                ]
+              }
+            },
+            "history": {
+              "origin": {
+                "origDate": {
+                  "@notBefore": "1750",
+                  "@notAfter": "1784"
+                },
+                "p": "Perhaps produced in the Caribbean region, possibly in Saint-Domingue (now Haiti) or Jamaica; 18th century",
+                "origPlace": "[Caribbean?]"
+              },
+              "provenance": "Part of the Du Simitière print collection"
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": {
+          "keywords": [
+            {
+              "@n": "keywords",
+              "term": [
+                "Talismans",
+                "Arabic",
+                "Illumination",
+                "Prayers",
+                "Soninke",
+                "Charms"
+              ]
+            },
+            {
+              "@n": "subjects",
+              "term": [
+                {
+                  "@target": "http://id.loc.gov/authorities/subjects/sh85068403",
+                  "#text": "Islam, prayers and devotions"
+                },
+                {
+                  "@target": "http://id.loc.gov/authorities/subjects/sh85132095",
+                  "#text": "Talismans"
+                }
+              ]
+            },
+            {
+              "@n": "form/genre",
+              "term": {
+                "@target": "http://vocab.getty.edu/page/aat/300234011",
+                "#text": "Talismans"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Side 1",
+          "@xml:id": "surface-b10-f4-1",
+          "graphic": [
+            {
+              "@height": "8098px",
+              "@url": "master/9807_0000.tif",
+              "@width": "9807px"
+            },
+            {
+              "@height": "156px",
+              "@url": "thumb/9807_0000_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1486px",
+              "@url": "web/9807_0000_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Side 2",
+          "@xml:id": "surface-b10-f4-2",
+          "graphic": [
+            {
+              "@height": "8098px",
+              "@url": "master/9807_0001.tif",
+              "@width": "9807px"
+            },
+            {
+              "@height": "156px",
+              "@url": "thumb/9807_0001_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1486px",
+              "@url": "web/9807_0001_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

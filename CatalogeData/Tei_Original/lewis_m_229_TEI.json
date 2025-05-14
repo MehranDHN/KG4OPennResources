@@ -1,0 +1,115 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis M 229: Portrait of Zafar Ali Khan, Who Died in Battle"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis M 229: Portrait of Zafar Ali Khan, Who Died in Battle are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis M 229: Portrait of Zafar Ali Khan, Who Died in Battle. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": "According to M. Simsar, the unsigned inscription at the top left identifies Zafar 'Ali Khan who died in battle on the side of Azam Shah in June 1707 after the death of Aurangzeb."
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis M 229"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": {
+                "title": "Portrait of Zafar Ali Khan, Who Died in Battle",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "17.5 x 28 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis M 229 front",
+          "graphic": [
+            {
+              "@height": "7650px",
+              "@url": "master/11028_0000.tif",
+              "@width": "4800px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11028_0000_thumb.jpg",
+              "@width": "119px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11028_0000_web.jpg",
+              "@width": "1129px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis M 229 reverse",
+          "graphic": [
+            {
+              "@height": "7650px",
+              "@url": "master/11028_0001.tif",
+              "@width": "4800px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11028_0001_thumb.jpg",
+              "@width": "119px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11028_0001_web.jpg",
+              "@width": "1129px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

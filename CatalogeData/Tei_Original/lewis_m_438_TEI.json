@@ -1,0 +1,115 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis M 438: Leaf from al-Qazwini's \"Wonders of Creation,\" Two Waqwaq Trees"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis M 438: Leaf from al-Qazwini's \"Wonders of Creation,\" Two Waqwaq Trees are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis M 438: Leaf from al-Qazwini's \"Wonders of Creation,\" Two Waqwaq Trees. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": "Ajā'ib al-makhlūqāt"
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis M 438"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "zxx",
+                "#text": "No linguistic content, Not applicable"
+              },
+              "msItem": {
+                "title": "Leaf from al-Qazwini's \"Wonders of Creation,\" Two Waqwaq Trees",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            },
+            "physDesc": {
+              "objectDesc": {
+                "supportDesc": {
+                  "extent": "14 x 11 cm"
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis M 438 front",
+          "graphic": [
+            {
+              "@height": "3623px",
+              "@url": "master/11071_0000.tif",
+              "@width": "3754px"
+            },
+            {
+              "@height": "183px",
+              "@url": "thumb/11071_0000_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1737px",
+              "@url": "web/11071_0000_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis M 438 reverse",
+          "graphic": [
+            {
+              "@height": "3620px",
+              "@url": "master/11071_0001.tif",
+              "@width": "3847px"
+            },
+            {
+              "@height": "178px",
+              "@url": "thumb/11071_0001_thumb.jpg",
+              "@width": "190px"
+            },
+            {
+              "@height": "1693px",
+              "@url": "web/11071_0001_web.jpg",
+              "@width": "1800px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "TEI": {
+    "@xmlns": "http://www.tei-c.org/ns/1.0",
+    "teiHeader": {
+      "fileDesc": {
+        "titleStmt": {
+          "title": "Description of Free Library of Philadelphia, Lewis P 219: Portrait of the Hajji Mu'tamid al-Dawlah"
+        },
+        "publicationStmt": {
+          "publisher": "Free Library of Philadelphia",
+          "availability": {
+            "licence": [
+              {
+                "@target": "http://creativecommons.org/publicdomain/mark/1.0/",
+                "#text": "These images and the content of Free Library of Philadelphia Lewis P 219: Portrait of the Hajji Mu'tamid al-Dawlah are free of known copyright restrictions and in the public domain. See the Creative Commons Public Domain Mark page for usage details, http://creativecommons.org/publicdomain/mark/1.0/."
+              },
+              {
+                "@target": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "#text": "To the extent possible under law, Free Library of Philadelphia, Special Collections has waived all copyright and related or neighboring rights to this metadata about Free Library of Philadelphia Lewis P 219: Portrait of the Hajji Mu'tamid al-Dawlah. This work is published from: United States. For a summary of CC0, see https://creativecommons.org/publicdomain/zero/1.0/. Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode."
+              }
+            ]
+          }
+        },
+        "notesStmt": {
+          "note": "From a disbound album of court portraits"
+        },
+        "sourceDesc": {
+          "msDesc": {
+            "msIdentifier": {
+              "country": "United States",
+              "settlement": "Philadelphia",
+              "repository": "Free Library of Philadelphia",
+              "collection": "John Frederick Lewis collection of Oriental Manuscripts",
+              "idno": {
+                "@type": "call-number",
+                "#text": "Lewis P 219"
+              }
+            },
+            "msContents": {
+              "summary": null,
+              "textLang": {
+                "@mainLang": "per",
+                "#text": "Persian"
+              },
+              "msItem": {
+                "title": "Portrait of the Hajji Mu'tamid al-Dawlah",
+                "respStmt": {
+                  "resp": "former owner",
+                  "persName": {
+                    "@ref": "https://viaf.org/viaf/63874811",
+                    "#text": "Lewis, John Frederick, 1860-1932"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "profileDesc": {
+        "textClass": null
+      }
+    },
+    "facsimile": {
+      "surface": [
+        {
+          "@n": "Lewis P 219 front",
+          "graphic": [
+            {
+              "@height": "6337px",
+              "@url": "master/11188_0000.tif",
+              "@width": "3899px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11188_0000_thumb.jpg",
+              "@width": "117px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11188_0000_web.jpg",
+              "@width": "1107px"
+            }
+          ]
+        },
+        {
+          "@n": "Lewis P 219 reverse",
+          "graphic": [
+            {
+              "@height": "6449px",
+              "@url": "master/11188_0001.tif",
+              "@width": "3926px"
+            },
+            {
+              "@height": "190px",
+              "@url": "thumb/11188_0001_thumb.jpg",
+              "@width": "115px"
+            },
+            {
+              "@height": "1800px",
+              "@url": "web/11188_0001_web.jpg",
+              "@width": "1096px"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
