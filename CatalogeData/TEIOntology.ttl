@@ -61,7 +61,7 @@ mdhn:artform a owl:ObjectProperty ;
     rdfs:comment "Associates cancas to a subset of defined terms" .    
 
 mdhn:hasInstances a owl:ObjectProperty ;
-owl:inverseOf mdhn:artform ;
+    owl:inverseOf mdhn:artform ;
     rdfs:domain mdhn:CanvasType;
     rdfs:range mdhn:DigitalRepresentation;
     rdfs:label "has Instance" ;
@@ -115,9 +115,4 @@ mdhn:numberOfPages a owl:DatatypeProperty ;
     rdfs:range xsd:integer ;
     rdfs:label "Number of Pages" ;
     rdfs:comment "Number of pages in the digital representation." .   
-
-mdhn:numberOfPages a owl:DatatypeProperty ;
-    rdfs:domain mdhn:Manuscript;
-    rdfs:range xsd:integer ;
-    rdfs:label "Number of Pages" ;
-    rdfs:comment "Number of pages in the digital representation." .     
+   
