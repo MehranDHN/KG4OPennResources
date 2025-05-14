@@ -1,4 +1,3 @@
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -74,7 +73,7 @@ mdhn:publisher a owl:ObjectProperty ;
     rdfs:comment "Specifies GLAM publisher of manuscript" .
 
 mdhn:hasPublished a owl:ObjectProperty ;
-owl:inverseOf mdhn:publisher ;
+    owl:inverseOf mdhn:publisher ;
     rdfs:domain mdhn:GLAMPublisher ;
     rdfs:range mdhn:Manuscript ;
     rdfs:label "has Publisher" ;
