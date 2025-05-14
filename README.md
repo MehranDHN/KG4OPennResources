@@ -15,7 +15,7 @@ For demonstration, the `SampleData` folder offers a subset of the data, with the
 
 ### Prefixes and Namespaces
 The ontology declares several standard prefixes to ground its vocabulary:
-- `sc`: schema.org ontology
+- `sc`: `schema.org` ontology
 - `tei`: Custom namespace for TEI-specific terms (`http://www.tei-c.org/ns/1.0#`)
 - `dct`: Dublin Core Terms (`http://purl.org/dc/terms/`)
 - `owl`, `rdf`, `rdfs`: Standard ontologies for semantic web
