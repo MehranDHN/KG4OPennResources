@@ -15,10 +15,8 @@ For demonstration, the `SampleData` folder offers a subset of the data, with the
 
 ### Prefixes and Namespaces
 The ontology declares several standard prefixes to ground its vocabulary:
-<<<<<<< HEAD
+
 - `sc`: `schema.org` ontology
-=======
->>>>>>> 79f965690f36310ba44311889fa58620169c0520
 - `tei`: Custom namespace for TEI-specific terms (`http://www.tei-c.org/ns/1.0#`)
 - `dct`: Dublin Core Terms (`http://purl.org/dc/terms/`)
 - `owl`, `rdf`, `rdfs`: Standard ontologies for semantic web
@@ -29,13 +27,9 @@ These prefixes enable interoperability with existing semantic web standards.
 ### Classes
 The ontology defines key classes to represent entities in the OPenn collection:
 - `tei:TEI`: Represents a TEI-encoded document, typically a digitized manuscript.
-<<<<<<< HEAD
 - `sc:Organization`: Describes the institude/publisher of the manuscrpts.
 - `sc:CreativeWork`: Describes physical manuscripts, linked to their publisher
 - `sc:VisualArtwork`: Describes visual artwork, linked to their manuscript
-=======
-- `tei:Manuscript`: Describes physical manuscripts, linked to their digital 
->>>>>>> 79f965690f36310ba44311889fa58620169c0520
 - `tei:DigitalRepresentation`: Models digital objects, such as images or transcriptions.
 counterparts.
 
@@ -129,7 +123,6 @@ WHERE {
 
 ### 4. Find Manuscripts in a Collection
 This query retrieves manuscripts that are part of a specific collection using `tei:isPartOf`.
-<<<<<<< HEAD
 
 ```sparql
 PREFIX tei: <http://www.tei-c.org/ns/1.0#>
@@ -145,23 +138,6 @@ WHERE {
 
 **Use Case**: List manuscripts belonging to the University of Pennsylvania’s OPenn collection.
 
-=======
-
-```sparql
-PREFIX tei: <http://www.tei-c.org/ns/1.0#>
-PREFIX dct: <http://purl.org/dc/terms/>
-SELECT ?manuscript ?title
-WHERE {
-  ?manuscript a tei:Manuscript ;
-              tei:isPartOf ?collection ;
-              dct:title ?title .
-  ?collection dct:identifier "http://openn.library.upenn.edu/Collection/UPenn" .
-}
-```
-
-**Use Case**: List manuscripts belonging to the University of Pennsylvania’s OPenn collection.
-
->>>>>>> 79f965690f36310ba44311889fa58620169c0520
 ### 5. Retrieve Digital Resources by Format
 This query finds all digital resources with a specific file format (e.g., PDF).
 
@@ -178,7 +154,6 @@ WHERE {
 
 **Use Case**: Identify all PDF files in the collection for format-specific processing.
 
-<<<<<<< HEAD
 ### 6. VisualArtwork Statistic categorized by `sc:artForm`
 This query results an ordered list of counting `sc:VisualArtwork` instances groupped by `sc:artForm` except those that have `mdhn:ordinary` values.
 
@@ -200,8 +175,6 @@ order by Desc(?canvascount)
 **Use Case**: Useful statistic to identify number of canvas types. Some valid instances are : 
 `mdhn:diagram`, `mdhn:table`, `mdhn:illustration`, `mdhn:illuminated_text`, `mdhn:illuminated_headpiece`, `mdhn:notations` , ...
 
-=======
->>>>>>> 79f965690f36310ba44311889fa58620169c0520
 ## Integration in Repository
 
 To use these queries:
