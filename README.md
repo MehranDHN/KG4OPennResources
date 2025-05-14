@@ -189,6 +189,28 @@ order by Desc(?canvascount)
 **Use Case**: Useful statistic to identify number of canvas types. Some valid instances are : 
 `mdhn:diagram`, `mdhn:table`, `mdhn:illustration`, `mdhn:illuminated_text`, `mdhn:illuminated_headpiece`, `mdhn:notations` , ...
 
+
+### 7. All manuscripts and the count of their canvases(folios)
+This query results an descendant ordered list of counting `sc:VisualArtwork` instances groupped by `mdhn:Manuscript`. The result is filtered based on english language title of each manuscript. 
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+
+Select ?cho ?title  (COUNT(?canvas) as ?counter){
+    ?canvas a mdhn:DigitalRepresentation;
+         mdhn:isPartOf ?cho. 
+    ?cho rdfs:label ?title.
+    FILTER(Lang(?title) in ("en"))
+}
+group by ?cho ?title
+order by desc(?counter)
+
+
+```
+
+**Use Case**: Important statistic about number of manuscripts and counting the canvases of each manuscript.
+
 ## Integration in Repository
 
 To use these queries:
@@ -211,27 +233,37 @@ These queries enhance the discoverability of OPenn resources by leveraging the T
 To formalize the ontology’s semantics, we express key relationships and constraints in First-Order Logic. These statements capture the logical underpinnings of the ontology, suitable for reasoning and validation.
 
 1. **Class Membership**:
-   - Every TEI document is a resource.
+   - Every GLAM Publisher is an Organization.
      ```fol
-     ∀x (TEI(x) → Resource(x))
+     ∀x (GLAMPublisher(x) → Organization(x))
      ```
-   - Every manuscript is a resource.
+   - Every manuscript is a `mdhn:CreativeWorks`.
      ```fol
-     ∀x (Manuscript(x) → Resource(x))
+     ∀x (Manuscript(x) → mdhn:CreativeWorks(x))
      ```
-   - Every digital resource is a resource.
+   - Every Digital Representation is a `mdhn:VisualArtwork`.
      ```fol
-     ∀x (DigitalRepresentation(x) → Resource(x))
+     ∀x (DigitalRepresentation(x) → VisualArtwork(x))
      ```
 
-2. **Property Relationships**:
-   - A manuscript has a digital representation, which is a digital resource.
+   - isPartOf associates an istances of `mdhn:DigitalRepresentat` to an isnatce of `mdhn:Manuscript`
      ```fol
-     ∀x∀y (hasDigitalRepresentation(x, y) → (Manuscript(x) ∧ DigitalRepresentation(y)))
+     isPartOf(x,y) → mdhn:DigitalRepresentation(x)
+     isPartOf(x,y) → mdhn:Manuscript(y)
      ```
-   - A resource can be part of a collection.
+
+
+
+
+
+2. **Property Relationships**:
+   - A manuscript has a publisher
      ```fol
-     ∀x∀y (isPartOf(x, y) → (Resource(x) ∧ Collection(y)))
+     ∀x∀y (mdhn:publisher(x, y) → (mdhn:Manuscript(x) ∧ mdhn:GLAMPublisher(y)))
+     ```
+   - A digital resource has canvas type(s)
+     ```fol
+     ∀x∀y (mdhn:artform(x, y) → (mdhn:DigitalRepresentation(x) ∧ mdhn:CanvasType(y)))
      ```
 
 3. **Metadata Constraints**:
@@ -255,22 +287,48 @@ The TEI Ontology is tailored for the OPenn collection, which hosts digitized man
 
 ## Example
 
-Consider a manuscript “MS Codex 1234” with a digital PDF representation:
+Consider a manuscript “Shāhnāmah” and its two digital representations (folios 141v and 142r) that published by the Free Library of Philadelphia:
 - **RDF Triples** (simplified):
-  ```turtle
-  :MS_Codex_1234 a tei:Manuscript ;
-      dct:title "MS Codex 1234" ;
-      tei:hasDigitalRepresentation :Digital_PDF_1234 .
-  :Digital_PDF_1234 a tei:DigitalResource ;
-      dct:format "PDF" ;
-      dct:identifier "http://openn.library.upenn.edu/Data/1234.pdf" .
+
+```turtle
+mdhn:Lewis_O_56 a mdhn:Manuscript ;
+    rdfs:label "Shāhnāmah."@en,
+        "[شاهنامه]"@fa ;
+    rdfs:comment "Third volume of the Shāhnāmah with 13 miniatures."@en ;
+    mdhn:about mdhn:17th_century,
+        mdhn:18th_century,
+        mdhn:747_1500,
+        mdhn:Early_works_to_1800,
+        mdhn:Specimens ;
+    mdhn:additionalType "https://openn.library.upenn.edu/Data/0023/lewis_o_056/data/lewis_o_056_TEI.xml"@en ;
+    mdhn:identifier "Lewis O 56"@en ;
+    mdhn:image "https://openn.library.upenn.edu/Data/0023/lewis_o_056/data/thumb/7209_0000_thumb.jpg"@en ;
+    mdhn:inLanguage "per"@en ;
+    mdhn:numberOfPages 310 ;
+    mdhn:publisher mdhn:Free_Library_of_Philadelphia_Special_Collections ;
+    mdhn:url ""@en .
+
+mdhn:master_7209_0291 a mdhn:DigitalRepresentation ;
+    rdfs:label "141v"@en ;
+    mdhn:artform mdhn:ordinary ;
+    mdhn:height "9792px" ;
+    mdhn:image "https://openn.library.upenn.edu/Data/0023/lewis_o_056/data/web/7209_0291_web.jpg"@en ;
+    mdhn:isPartOf mdhn:Lewis_O_56 ;
+    mdhn:weight "6607px" .
+
+mdhn:master_7209_0292 a mdhn:DigitalRepresentation ;
+    rdfs:label "142r"@en ;
+    mdhn:artform mdhn:ordinary ;
+    mdhn:height "9792px" ;
+    mdhn:image "https://openn.library.upenn.edu/Data/0023/lewis_o_056/data/web/7209_0292_web.jpg"@en ;
+    mdhn:isPartOf mdhn:Lewis_O_56 ;
+    mdhn:weight "6607px" .    
+
+
+mdhn:Free_Library_of_Philadelphia_Special_Collections a mdhn:GLAMPublisher ;
+    rdfs:label "Free Library of Philadelphia, Special Collections"@en .    
   ```
-- **FOL Representation**:
-  ```fol
-  Manuscript(MS_Codex_1234) ∧ DigitalResource(Digital_PDF_1234) ∧
-  hasDigitalRepresentation(MS_Codex_1234, Digital_PDF_1234) ∧
-  title(MS_Codex_1234, "MS Codex 1234") ∧ format(Digital_PDF_1234, "PDF")
-  ```
+
 
 ## Integration in Repository
 
