@@ -15,6 +15,7 @@ For demonstration, the `SampleData` folder offers a subset of the data, with the
 
 ### Prefixes and Namespaces
 The ontology declares several standard prefixes to ground its vocabulary:
+- `sc`: schema.org ontology
 - `tei`: Custom namespace for TEI-specific terms (`http://www.tei-c.org/ns/1.0#`)
 - `dct`: Dublin Core Terms (`http://purl.org/dc/terms/`)
 - `owl`, `rdf`, `rdfs`: Standard ontologies for semantic web
@@ -25,7 +26,9 @@ These prefixes enable interoperability with existing semantic web standards.
 ### Classes
 The ontology defines key classes to represent entities in the OPenn collection:
 - `tei:TEI`: Represents a TEI-encoded document, typically a digitized manuscript.
-- `tei:Manuscript`: Describes physical manuscripts, linked to their digital 
+- `sc:Organization`: Describes the institude/publisher of the manuscrpts.
+- `sc:CreativeWork`: Describes physical manuscripts, linked to their publisher
+- `sc:VisualArtwork`: Describes visual artwork, linked to their manuscript
 - `tei:DigitalRepresentation`: Models digital objects, such as images or transcriptions.
 counterparts.
 
@@ -149,6 +152,27 @@ WHERE {
 ```
 
 **Use Case**: Identify all PDF files in the collection for format-specific processing.
+
+### 6. VisualArtwork Statistic categorized by `sc:artForm`
+This query results an ordered list of counting `sc:VisualArtwork` instances groupped by `sc:artForm` except those that have `mdhn:ordinary` values.
+
+```sparql
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sc: <https://schema.org/>
+
+prefix onto:<http://www.ontotext.com/>
+select ?artform (Count(?s) as ?canvascount) {
+    ?s a sc:VisualArtwork ;
+       sc:artform ?artform.
+    FILTER(?artform!=mdhn:ordinary)
+}
+group by ?artform
+order by Desc(?canvascount)
+```
+
+**Use Case**: Useful statistic to identify number of canvas types. Some valid instances are : 
+`mdhn:diagram`, `mdhn:table`, `mdhn:illustration`, `mdhn:illuminated_text`, `mdhn:illuminated_headpiece`, `mdhn:notations` , ...
 
 ## Integration in Repository
 
