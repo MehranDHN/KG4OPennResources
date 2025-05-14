@@ -1,14 +1,19 @@
 # Analysis of Openn Repository RDF Data
 
 ## Introduction
-This document analyzes two RDF data files from the Openn Repository, hosted in the KG4OPennResources GitHub repository. The files are in Turtle (TTL) format and represent metadata for a manuscript and a taxonomy term, respectively. The analysis covers their structure, content, and role in the Openn Repository's knowledge graph.
+RDF excels at integrating data from various sources and making implicit data explicit. This is done through technologies like Load and Transfer pipelines, NER, and GraphDB storage. Below is a simplified process involving Pennsylvania’s OPEnn library from data harvesting to modeling discovered entities in a dynamic Knowledge Graph.
 
-## 1. RDFData_01.ttl
-**URL**: [https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/RDFData_01.ttl](https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/RDFData_01.ttl)
+This document examines two RDF files from the Openn Repository, provided here in Turtle (TTL) format. They contain metadata for a manuscript and a taxonomy term, analyzing their structure, content, and role in the repository's knowledge graph.
+The `CatalogeData` folder includes the full Turtle data compressed due to it's large file size, along with the `original TEI XML files` and `JSON serialization`. Both versions are identical.
+For demonstration, the `SampleData` folder offers a subset of the data, with the full dataset available in compressed format.
+
+
+## 1. Sample RDFData_01.ttl
+**URL**: [RDFData_01.ttl](https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/SampleData//refs/heads/main/RDFData_01.ttl)
 
 ### Overview
 - **Format**: Turtle (TTL).
-- **Purpose**: Metadata for a specific manuscript (Bhāgavatapurāṇa, Prahlādacarita).
+- **Purpose**: For demonstration purpose of the Metadata for a specific manuscript (Lewis O 63: Khamsah, Lewis C 1: Quran).
 - **Content**: Detailed metadata including title, description, creator, and links to digital images.
 
 ### Structure and Key Components
@@ -35,17 +40,14 @@ This document analyzes two RDF data files from the Openn Repository, hosted in t
    - Digital images: Linked via `foaf:thumbnail`, `foaf:depiction`, `schema:associatedMedia`.
    - Taxonomy: Linked to `<http://www.openn.library.upenn.edu/Data/0001/html/Taxonomy_HinduMythology>`.
 
-### Observations
-- Rich metadata supports cataloging and discovery.
-- Standard vocabularies ensure Linked Open Data compatibility.
-- Culturally significant artifact with open access licensing.
+
 
 ## 2. Taxonomy_RDF_Data.ttl
-**URL**: [https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/Taxonomy_RDF_Data.ttl](https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/Taxonomy_RDF_Data.ttl)
+**URL**: [Taxonomy_RDF_Data.ttl](https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/Taxonomy_RDF_Data.ttl)
 
 ### Overview
 - **Format**: Turtle (TTL).
-- **Purpose**: Defines a taxonomy term ("Hindu Mythology") for resource classification.
+- **Purpose**: Defines combined version of taxonomy terms which are instances of the `sc:Taxon`. ("Hindu Mythology") for resource classification.
 - **Content**: SKOS-based description of a single concept.
 
 ### Structure and Key Components

@@ -1,0 +1,135 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix lcsh: <http://id.loc.gov/authorities/subjects/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix ms: <http://example.org/ontology/manuscript#> .
+
+# Ontology Definition
+ms:ManuscriptOntology a owl:Ontology ;
+    rdfs:label "Manuscript Ontology for OPENN Archive" ;
+    rdfs:comment "An ontology for representing manuscripts from the OPENN digital archive using CIDOC-CRM and LinkedArt, with links to AAT, LCSH, and Wikidata." .
+
+# Classes
+ms:Manuscript a owl:Class ;
+    rdfs:subClassOf crm:E22_Man-Made_Object ;
+    rdfs:label "Manuscript" ;
+    rdfs:comment "A physical manuscript or drawing, such as a Persian architectural drawing." .
+
+ms:Production a owl:Class ;
+    rdfs:subClassOf crm:E12_Production ;
+    rdfs:label "Production Event" ;
+    rdfs:comment "The event of creating a manuscript." .
+
+ms:Creator a owl:Class ;
+    rdfs:subClassOf [ a owl:Class ; owl:unionOf (crm:E21_Person crm:E74_Group) ] ;
+    rdfs:label "Creator" ;
+    rdfs:comment "An individual or group responsible for creating the manuscript." .
+
+ms:Place a owl:Class ;
+    rdfs:subClassOf crm:E53_Place ;
+    rdfs:label "Place" ;
+    rdfs:comment "A geographic location associated with creation or custody." .
+
+ms:TimeSpan a owl:Class ;
+    rdfs:subClassOf crm:E52_Time-Span ;
+    rdfs:label "Time-Span" ;
+    rdfs:comment "A temporal period, e.g., 19th century." .
+
+ms:Subject a owl:Class ;
+    rdfs:subClassOf crm:E89_Propositional_Object ;
+    rdfs:label "Subject" ;
+    rdfs:comment "The conceptual content or theme of the manuscript, e.g., Persian architecture." .
+
+ms:Collection a owl:Class ;
+    rdfs:subClassOf crm:E78_Collection ;
+    rdfs:label "Collection" ;
+    rdfs:comment "The archive or museum holding the manuscript." .
+
+ms:DigitalRepresentation a owl:Class ;
+    rdfs:subClassOf crm:E36_Visual_Item ;
+    rdfs:label "Digital Representation" ;
+    rdfs:comment "A digital image or record of the manuscript." .
+
+ms:Identifier a owl:Class ;
+    rdfs:subClassOf crm:E42_Identifier ;
+    rdfs:label "Identifier" ;
+    rdfs:comment "A unique identifier for the manuscript, e.g., museum number." .
+
+# Properties
+ms:hasIdentifier a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P1_is_identified_by ;
+    rdfs:domain ms:Manuscript ;
+    rdfs:range ms:Identifier ;
+    rdfs:label "has identifier" .
+
+ms:hasType a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (ms:Manuscript ms:Subject) ] ;
+    rdfs:range owl:Thing ;
+    rdfs:label "has type" ;
+    rdfs:comment "Links to AAT or LCSH terms." .
+
+ms:consistsOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P45_consists_of ;
+    rdfs:domain ms:Manuscript ;
+    rdfs:range owl:Thing ;
+    rdfs:label "consists of" ;
+    rdfs:comment "Specifies materials, e.g., paper, watercolour." .
+
+ms:producedBy a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P108i_was_produced_by ;
+    rdfs:domain ms:Manuscript ;
+    rdfs:range ms:Production ;
+    rdfs:label "produced by" .
+
+ms:carriedOutBy a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P14_carried_out_by ;
+    rdfs:domain ms:Production ;
+    rdfs:range ms:Creator ;
+    rdfs:label "carried out by" .
+
+ms:tookPlaceAt a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P7_took_place_at ;
+    rdfs:domain ms:Production ;
+    rdfs:range ms:Place ;
+    rdfs:label "took place at" .
+
+ms:hasBeginTimeSpan a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P4_has_time-span ;
+    rdfs:domain ms:Production ;
+    rdfs:range ms:TimeSpan ;
+    rdfs:label "has begin time-span" .
+
+ms:hasEndTimeSpan a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P4_has_time-span ;
+    rdfs:domain ms:Production ;
+    rdfs:range ms:TimeSpan ;
+    rdfs:label "has end time-span" .    
+
+ms:hasSubject a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P129i_is_subject_of ;
+    rdfs:domain ms:Manuscript ;
+    rdfs:range ms:Subject ;
+    rdfs:label "has subject" .
+
+ms:refersTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P67_refers_to ;
+    rdfs:domain ms:Subject ;
+    rdfs:range owl:Thing ;
+    rdfs:label "refers to" ;
+    rdfs:comment "Links subjects to AAT or Wikidata concepts." .
+
+ms:partOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P46i_forms_part_of ;
+    rdfs:domain ms:Manuscript ;
+    rdfs:range ms:Collection ;
+    rdfs:label "part of" .
+
+ms:hasDigitalRepresentation a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P138i_has_representation ;
+    rdfs:domain ms:Manuscript ;
+    rdfs:range ms:DigitalRepresentation ;
+    rdfs:label "has digital representation" .
