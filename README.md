@@ -80,22 +80,26 @@ This section provides sample SPARQL queries to demonstrate how to retrieve metad
 
 ## Sample Queries
 
-### 1. Retrieve all the Manuscripts with their titles
+### 1. Retrieve all the Manuscripts with their publisher and number of images(folios)
 This query fetches all resources classified as `mdhn:Manuscript` along with their `rdfs:label`.
 
 ```sparql
 prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/> 
 
-SELECT ?manuscript ?title
+SELECT ?manuscript ?title ?pagecount ?publisher
 WHERE {
   ?manuscript a mdhn:Manuscript ;
-              rdfs:label ?title .
+              rdfs:label ?title ;
+              mdhn:publisher ?publisher;
+              mdhn:numberOfPages ?pagecount.
 }
 ```
 
 
-**Use Case**: List all manuscripts in the OPenn collection with their titles for catalog browsing.
+**Use Case**: List all manuscripts with their publisher
+<img src="imgsrc/Qry01.JPG" alt="Query 01">
+**Query 01**
 
 ### 2. Find digital resources (images) for a specific manuscript
 This query retrieves Manuscripts and associated canvases with their CanvasType via `mdhn:artform`.
