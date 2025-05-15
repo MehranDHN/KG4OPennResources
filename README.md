@@ -192,8 +192,8 @@ order by Desc(?canvascount)
 
 **Use Case**: Useful statistic to identify number of canvas types. Some valid instances are : 
 `mdhn:diagram`, `mdhn:table`, `mdhn:illustration`, `mdhn:illuminated_text`, `mdhn:illuminated_headpiece`, `mdhn:notations` , ...
-<img src="imgsrc/img03.JPG" alt="Image 03">
-**Image 03**
+<img src="imgsrc/img03.JPG" alt="Query 06">
+**Query 06**
 
 ### 7. All manuscripts and the count of their canvases(folios)
 This query results an descendant ordered list of counting `sc:VisualArtwork` instances groupped by `mdhn:Manuscript`. The result is filtered based on english language title of each manuscript. 
@@ -214,8 +214,8 @@ order by desc(?counter)
 ```
 
 **Use Case**: Important statistic about number of manuscripts and counting the canvases of each manuscript.
-<img src="imgsrc/img04.JPG" alt="Image 04">
-**Image 04**
+<img src="imgsrc/img04.JPG" alt="Query 07">
+**Query 07**
 
 ## Integration in Repository
 
