@@ -8,7 +8,8 @@ RDF excels at integrating data from various sources and making implicit data exp
 This document examines two RDF files from the Openn Repository, provided here in Turtle (TTL) format. They contain metadata for a manuscript and a taxonomy term, analyzing their structure, content, and role in the repository's knowledge graph.
 The `CatalogeData` folder includes the full Turtle data compressed due to it's large file size, along with the `original TEI XML files` and `JSON serialization`. Both versions are identical.
 For demonstration, the `SampleData` folder offers a subset of the data, with the full dataset available in compressed format.
-<img src="imgsrc/img_cover.JPG" alt="Cover">
+
+<img src="imgsrc/img_cover.jpg" alt="Cover">
 
 ## 1. Ontology 
 
