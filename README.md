@@ -74,7 +74,7 @@ This section provides sample SPARQL queries to demonstrate how to retrieve metad
 
 - The `TEIOntology.ttl` file is loaded into a triple store.
 - The ontology uses the following namespaces:
-  - `mdhn`: `http://example.com/mdhn/manuscript/`
+  - `mdhn`: `http://example.com/mdhn/`
   - `sc`: `hhttps://schema.org/`
 - Queries assume RDF data describing manuscripts and digital resources, as per the ontology’s structure.
 
@@ -84,7 +84,7 @@ This section provides sample SPARQL queries to demonstrate how to retrieve metad
 This query fetches all resources classified as `mdhn:Manuscript` along with their `rdfs:label`.
 
 ```sparql
-prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/> 
 
 SELECT ?manuscript ?title
@@ -101,7 +101,7 @@ WHERE {
 This query retrieves Manuscripts and associated canvases with their CanvasType via `mdhn:artform`.
 
 ```sparql
-prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/>
 
 SELECT ?digitalResource ?canvastype ?image
@@ -120,7 +120,7 @@ WHERE {
 This query finds all resources (manuscripts or digital resources) associated with a specific creator.
 
 ```sparql
-prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/>
 
 SELECT ?resource ?title
@@ -136,7 +136,7 @@ WHERE {
 This query retrieves manuscripts that are part of a specific collection using `tei:isPartOf`.
 
 ```sparql
-prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/>
 
 SELECT ?manuscript ?title
@@ -154,19 +154,20 @@ WHERE {
 This query finds all digital resources with a specific file format (e.g., PDF).
 
 ```sparql
-prefix mdhn: <http://example.com/mdhn/manuscript/> 
+prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/>
 
 SELECT *
 WHERE {
   ?digitalResource a mdhn:DigitalRepresentation ;
-                  mdhn:artform  mdhn:owners_notations;
-                  mdhn:height ?height;
-                  mdhn:width ?width.
+       mdhn:artform mdhn:owners_notations;
+       mdhn:weight ?width ;
+       mdhn:height ?height;
+
 }
 ```
 
-**Use Case**: Identify all canvases of mdhn:owners_notations type with the widh and height dimensions.
+**Use Case**: Identify all canvases of mdhn:owners_notations type with the width and height dimensions.
 
 ### 6. VisualArtwork Statistic categorized by `sc:artForm`
 This query results an ordered list of counting `sc:VisualArtwork` instances groupped by `sc:artForm` except those that have `mdhn:ordinary` values.
