@@ -35,7 +35,7 @@ The ontology defines key classes to represent entities in the OPenn collection:
 
 
 <img src="imgsrc/img01.JPG" alt="Image 01">
-**Image 01**
+Image 01
 
 
 
@@ -189,7 +189,8 @@ order by Desc(?canvascount)
 
 **Use Case**: Useful statistic to identify number of canvas types. Some valid instances are : 
 `mdhn:diagram`, `mdhn:table`, `mdhn:illustration`, `mdhn:illuminated_text`, `mdhn:illuminated_headpiece`, `mdhn:notations` , ...
-
+<img src="imgsrc/img03.JPG" alt="Image 03">
+**Image 03**
 
 ### 7. All manuscripts and the count of their canvases(folios)
 This query results an descendant ordered list of counting `sc:VisualArtwork` instances groupped by `mdhn:Manuscript`. The result is filtered based on english language title of each manuscript. 
