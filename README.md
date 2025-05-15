@@ -101,7 +101,7 @@ WHERE {
 <img src="imgsrc/Qry01.JPG" alt="Query 01">
 **Query 01**
 
-### 2. List folios of a specified manuscript with image URLs,image dimension and the folio's label.
+### 2. List folios of a specified manuscript with image URLs, image dimension and the folio's label.
 This query retrieves all folios of specified manuscript.
 
 ```sparql
@@ -132,15 +132,16 @@ This query finds all resources (manuscripts or digital resources) associated wit
 prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/>
 
-SELECT ?resource ?title
+SELECT ?manuscript ?title
 WHERE {
-  ?resource mdhn:publisher dhn:Columbia_University_Rare_Book__Manuscript_Library ;
+  ?manuscript mdhn:publisher mdhn:Columbia_University_Rare_Book__Manuscript_Library ;
             rdfs:label ?title .
 }
 ```
 
 **Use Case**: Identify all manuscripts in the collection attributed to a Columbia University.
-
+<img src="imgsrc/Qry03.JPG" alt="Query 03">
+**Query 03**
 ### 4. Find Folios of all the Manuscrpts from specified publisher
 This query retrieves all folios of `mdhn:owners_notations` type with their dimension and label that belong to manuscripts published by Columbia University.
 
