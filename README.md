@@ -133,25 +133,7 @@ WHERE {
 **Use Case**: Identify all manuscripts in the collection attributed to a Columbia University.
 
 ### 4. Find Manuscripts in a Collection
-This query retrieves manuscripts that are part of a specific collection using `tei:isPartOf`.
-
-```sparql
-prefix mdhn: <http://example.com/mdhn/> 
-prefix sc: <https://schema.org/>
-
-SELECT ?manuscript ?title
-WHERE {
-  ?manuscript a mdhn:Manuscript ;
-              mdhn:isPartOf mdhn:Columbia_University_Rare_Book__Manuscript_Library ;
-              rdfs:label ?title ;
-              mdhn:inLanguage "per".
-}
-```
-
-**Use Case**: List all the Persian manuscripts belonging to the University of Columbia OPenn collection.
-
-### 5. Retrieve Digital Resources by Format
-This query finds all digital resources with a specific file format (e.g., PDF).
+This query retrieves all folios of `mdhn:owners_notations` type with their dimension and label that belong to manuscripts published by Columbia University.
 
 ```sparql
 prefix mdhn: <http://example.com/mdhn/> 
@@ -159,16 +141,37 @@ prefix sc: <https://schema.org/>
 
 SELECT *
 WHERE {
-  ?digitalResource a mdhn:DigitalRepresentation ;
+  ?digitalResource a mdhn:DigitalRepresentation ;       
        mdhn:artform mdhn:owners_notations;
+       rdfs:label ?canvaslbl;
        mdhn:weight ?width ;
        mdhn:height ?height;
+       mdhn:isPartOf ?manuscript.
+  ?manuscript mdhn:publisher mdhn:Columbia_University_Rare_Book__Manuscript_Library
 
 }
 ```
 
-**Use Case**: Identify all canvases of mdhn:owners_notations type with the width and height dimensions.
+**Use Case**: List all the folios of specified type from a particular publisher.
+<img src="imgsrc/Qry04.JPG" alt="Query 04">
+**Query 04**
 
+### 5. Retrieve Digital Resources by Format
+This query finds all GLAM publishers
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mdhn: <http://example.com/mdhn/>
+SELECT *
+WHERE {
+  ?publisher a mdhn:GLAMPublisher ;       
+        rdfs:label ?publisherlbl.
+}
+```
+
+**Use Case**: Identify all publishers.
+<img src="imgsrc/Qry05.JPG" alt="Query 05">
+**Query 05**
 ### 6. VisualArtwork Statistic categorized by `sc:artForm`
 This query results an ordered list of counting `sc:VisualArtwork` instances groupped by `sc:artForm` except those that have `mdhn:ordinary` values.
 
