@@ -208,10 +208,11 @@ Select ?cho ?title  (COUNT(?canvas) as ?counter){
 group by ?cho ?title
 order by desc(?counter)
 
-
 ```
 
 **Use Case**: Important statistic about number of manuscripts and counting the canvases of each manuscript.
+<img src="imgsrc/img04.JPG" alt="Image 04">
+**Image 04**
 
 ## Integration in Repository
 
