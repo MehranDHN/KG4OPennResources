@@ -80,7 +80,7 @@ This section provides sample SPARQL queries to demonstrate how to retrieve metad
 
 ## Sample Queries
 
-### 1. Retrieve All Manuscripts with Their Titles
+### 1. Retrieve all the Manuscripts with their titles
 This query fetches all resources classified as `mdhn:Manuscript` along with their `rdfs:label`.
 
 ```sparql
@@ -97,7 +97,7 @@ WHERE {
 
 **Use Case**: List all manuscripts in the OPenn collection with their titles for catalog browsing.
 
-### 2. Find Digital Resources for a Specific Manuscript
+### 2. Find digital resources (images) for a specific manuscript
 This query retrieves Manuscripts and associated canvases with their CanvasType via `mdhn:artform`.
 
 ```sparql
@@ -116,7 +116,7 @@ WHERE {
 
 **Use Case**: Retrieve digital representations (e.g., file formats and URLs) for a manuscript named “MS Codex 1234” and their related canvases.
 
-### 3. List Resources by Creator
+### 3. List all the manuscripts by specified publisher
 This query finds all resources (manuscripts or digital resources) associated with a specific creator.
 
 ```sparql
@@ -156,7 +156,7 @@ WHERE {
 <img src="imgsrc/Qry04.JPG" alt="Query 04">
 **Query 04**
 
-### 5. Retrieve list of GLAMs (Publishers)
+### 5. Retrieve list of the GLAMs(Publishers)
 This query finds all GLAM publishers
 
 ```sparql
