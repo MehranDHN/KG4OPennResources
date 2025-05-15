@@ -101,24 +101,29 @@ WHERE {
 <img src="imgsrc/Qry01.JPG" alt="Query 01">
 **Query 01**
 
-### 2. Find digital resources (images) for a specific manuscript
-This query retrieves Manuscripts and associated canvases with their CanvasType via `mdhn:artform`.
+### 2. List folios of a specified manuscript with image URLs,image dimension and the folio's label.
+This query retrieves all folios of specified manuscript.
 
 ```sparql
 prefix mdhn: <http://example.com/mdhn/> 
 prefix sc: <https://schema.org/>
 
-SELECT ?digitalResource ?canvastype ?image
+SELECT ?manlbl ?foliolbal ?image ?width ?height
 WHERE {
-  ?manuscript a mdhn:Manuscript ;
-              rdfs:label "MS Codex 1234" ;
-              mdhn:hasCanvas ?digitalResource .
-  ?digitalResource mdhn:artform ?canvastype ;
-                  mdhn:image ?image .
+  ?digitalResource a mdhn:DigitalRepresentation;
+          mdhn:isPartOf ?manuscript;
+          rdfs:label ?foliolbal;
+          mdhn:image ?image;
+          mdhn:weight ?width;
+          mdhn:height ?height.
+  ?manuscript  rdfs:label ?manlbl .
+  FILTER(?manuscript=mdhn:Lewis_O_56)
 }
 ```
 
-**Use Case**: Retrieve digital representations (e.g., file formats and URLs) for a manuscript named “MS Codex 1234” and their related canvases.
+**Use Case**: Retrieve digital representations (e.g., image URLs) for a manuscript named “Shāhnāmah” and their related information.
+<img src="imgsrc/Qry02.JPG" alt="Query 02">
+**Query 02**
 
 ### 3. List all the manuscripts by specified publisher
 This query finds all resources (manuscripts or digital resources) associated with a specific creator.
