@@ -8,6 +8,7 @@ RDF excels at integrating data from various sources and making implicit data exp
 This document examines two RDF files from the Openn Repository, provided here in Turtle (TTL) format. They contain metadata for a manuscript and a taxonomy term, analyzing their structure, content, and role in the repository's knowledge graph.
 The `CatalogeData` folder includes the full Turtle data compressed due to it's large file size, along with the `original TEI XML files` and `JSON serialization`. Both versions are identical.
 For demonstration, the `SampleData` folder offers a subset of the data, with the full dataset available in compressed format.
+<img src="imgsrc/img_cover.JPG" alt="Cover">
 
 ## 1. Ontology 
 
@@ -22,6 +23,126 @@ The ontology declares several standard prefixes to ground its vocabulary:
 - `owl`, `rdf`, `rdfs`: Standard ontologies for semantic web
 - `xsd`: XML Schema Datatypes
 - `mdhn`: Local scoped namespace
+
+```turtle
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix mdhn: <http://example.com/mdhn/manuscript/> .
+@prefix sc: <https://schema.org/> .
+
+# Ontology Definition
+mdhn:ManuscriptOntology a owl:Ontology ;
+    rdfs:label "Manuscript Ontology for OPENN Archive" ;
+    rdfs:comment "An ontology for representing manuscripts from the OPENN digital archive using CIDOC-CRM and LinkedArt, with links to AAT, LCSH, and Wikidata." ;
+    rdfs:seeAlso <https://linked.art/> ;
+    rdfs:seeAlso <https://vocab.getty.edu/aat/> .
+
+# Classes
+mdhn:Manuscript a owl:Class ;
+    rdfs:subClassOf sc:CreativeWorks;
+    rdfs:label "Manuscript" ;
+    rdfs:comment "A physical manuscript or drawing, such as a Persian architectural drawing." .
+
+mdhn:GLAMPublisher a owl:Class ;
+    rdfs:subClassOf sc:Organization;
+    rdfs:label "Creator" ;
+    rdfs:comment "An individual or group responsible for creating the manuscript." .
+
+mdhn:Place a owl:Class ;
+    rdfs:subClassOf sc:Taxon;
+    rdfs:label "Place" ;
+    rdfs:comment "A geographic location associated with creation or custody." .
+
+mdhn:CanvasType a owl:Class ;
+    rdfs:subClassOf sc:DefinedTerm;
+    rdfs:label "CanvasType" ;
+    rdfs:comment "The conceptual content or theme of the manuscript, e.g., Persian architecture." .
+
+mdhn:DigitalRepresentation a owl:Class ;
+    rdfs:subClassOf sc:VisualArtwork;
+    rdfs:label "Digital Representation" ;
+    rdfs:comment "A digital image or record of the manuscript." .
+
+mdhn:isPartOf a owl:ObjectProperty ;
+    rdfs:domain mdhn:DigitalRepresentation;
+    rdfs:range mdhn:Manuscript;
+    rdfs:label "has type" ;
+    rdfs:comment "Associates canvas to its manuscript" .
+
+mdhn:hasCanvas a owl:ObjectProperty ;
+    owl:inverseOf mdhn:isPartOf ;
+    rdfs:domain mdhn:Manuscript;
+    rdfs:range mdhn:DigitalRepresentation;
+    rdfs:label "has Canvas" ;
+    rdfs:comment "associates manuscript to its canvas" .    
+
+mdhn:artform a owl:ObjectProperty ;
+    rdfs:domain mdhn:DigitalRepresentation;
+    rdfs:range mdhn:CanvasType;
+    rdfs:label "Art Form" ;
+    rdfs:comment "Associates cancas to a subset of defined terms" .    
+
+mdhn:hasInstances a owl:ObjectProperty ;
+    owl:inverseOf mdhn:artform ;
+    rdfs:domain mdhn:CanvasType;
+    rdfs:range mdhn:DigitalRepresentation;
+    rdfs:label "has Instance" ;
+    rdfs:comment "Associates ca canvas type to its instance" .        
+
+mdhn:publisher a owl:ObjectProperty ;
+    rdfs:domain mdhn:Manuscript ;
+    rdfs:range mdhn:GLAMPublisher ;
+    rdfs:label "Publisher" ;
+    rdfs:comment "Specifies GLAM publisher of manuscript" .
+
+mdhn:hasPublished a owl:ObjectProperty ;
+    owl:inverseOf mdhn:publisher ;
+    rdfs:domain mdhn:GLAMPublisher ;
+    rdfs:range mdhn:Manuscript ;
+    rdfs:label "has Publisher" ;
+    rdfs:comment "Specifies a publisher to all its manuscripts" .    
+
+mdhn:inLanguage a owl:DatatypeProperty ;
+    rdfs:domain mdhn:Manuscript ;
+    rdfs:range xsd:string ;
+    rdfs:label "in language" ;
+    rdfs:comment "Language of the manuscript." .
+
+mdhn:height a owl:DatatypeProperty ;
+    rdfs:domain mdhn:DigitalRepresentation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Height" ;
+    rdfs:comment "Height of the digital representation." .  
+
+mdhn:width a owl:DatatypeProperty ;
+    rdfs:domain mdhn:DigitalRepresentation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Width" ;
+    rdfs:comment "Width of the digital representation." . 
+
+mdhn:image a owl:DatatypeProperty ;
+    rdfs:domain mdhn:DigitalRepresentation ;
+    rdfs:range xsd:string ;
+    rdfs:label "Image" ;
+    rdfs:comment "URL of the digital image." .  
+
+mdhn:additionalType a owl:DatatypeProperty ;
+    rdfs:domain mdhn:Manuscript ;
+    rdfs:range xsd:string ;
+    rdfs:label "Additional Type" ;
+    rdfs:comment "Type of the digital representation." .
+
+mdhn:numberOfPages a owl:DatatypeProperty ;
+    rdfs:domain mdhn:DigitalRepresentation ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Number of Pages" ;
+    rdfs:comment "Number of pages in the digital representation." .   
+   
+```
 
 These prefixes enable interoperability with existing semantic web standards.
 
