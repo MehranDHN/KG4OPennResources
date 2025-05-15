@@ -3,7 +3,7 @@
 ## Introduction
 The TEI Ontology is a lightweight OWL (Web Ontology Language) ontology that defines classes, properties, and relationships to catalog digital resources in the OPenn collection. It integrates TEI metadata with Dublin Core terms to describe manuscripts, their digital representations, and associated metadata such as titles, creators, and formats. The ontology uses RDF (Resource Description Framework) and RDFS (RDF Schema) to structure knowledge, making it suitable for knowledge graph applications.
 
-RDF excels at integrating data from various sources and making implicit data explicit. This is done through technologies like Load and Transfer pipelines, NER, and GraphDB storage. Below is a simplified process involving Pennsylvania’s OPEnn library from data harvesting to modeling discovered entities in a dynamic Knowledge Graph.
+RDF excels at integrating data from various sources and making implicit data explicit. This is done through custom ETL pipelines and technologies like NER, RDF-based and GraphDB storage. Below is a simplified process involving Pennsylvania’s [OPenn library](https://openn.library.upenn.edu/html/muslimworld_contents.html) from data harvesting stages to modeling and discovered entities in a dynamic Knowledge Graph.
 
 This document examines two RDF files from the Openn Repository, provided here in Turtle (TTL) format. They contain metadata for a manuscript and a taxonomy term, analyzing their structure, content, and role in the repository's knowledge graph.
 The `CatalogeData` folder includes the full Turtle data compressed due to it's large file size, along with the `original TEI XML files` and `JSON serialization`. Both versions are identical.
@@ -161,7 +161,7 @@ Image 01
 
 
 
-Actual digital resource correponding to each folio of a particular manuscript is represented by `tei:DigitalRepresentation`: 
+Actual digital resource correponding to each folio of a particular manuscript is represented by `mdhn:DigitalRepresentation`: 
 <img src="imgsrc/img02.JPG" alt="Image 01">
 **Image 02**
 
@@ -185,24 +185,24 @@ Properties connect entities and their metadata:
 
 ### Logical Structure
 The ontology uses OWL to define class hierarchies and property constraints:
-- `mdhn:DigitalRepresentation` and `mdhn:Manuscript` are subclasses of a generic resource concept, implicitly aligned with `owl:Thing`.
+- `mdhn:DigitalRepresentation` and `mdhn:Manuscript` are subclasses of a generic resource concepts, implicitly aligned with `owl:Thing`.
 - Properties like `mdhn:isPartOf` have defined domains (`mdhn:DigitalRepresentation`) and ranges (`mdhn:Manuscript`), ensuring semantic consistency.
 
 ### SPARQL Query
 
-This section provides sample SPARQL queries to demonstrate how to retrieve metadata from the [TEI Ontology](https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/CatalogeData/TEIOntology.ttl) used for modeling digital resources in the OPenn collection. These queries are designed to work with a triple store (e.g., Apache Jena) containing the ontology and associated RDF data. 
+This section provides sample SPARQL queries to demonstrate how to retrieve metadata from the [TEI Ontology](https://raw.githubusercontent.com/MehranDHN/KG4OPennResources/refs/heads/main/CatalogeData/TEIOntology.ttl) used for modeling digital resources in the OPenn collection. These queries are designed to work with a triple store (e.g., Apache Jena, Ontotext GraphDB, Stardog, ...) containing the ontology and associated RDF data. 
 
 ## Prerequisites
 
 - The `TEIOntology.ttl` file is loaded into a triple store.
-- The ontology uses the following namespaces:
+- The simplest possible version of this ontology uses the following namespaces:
   - `mdhn`: `http://example.com/mdhn/`
   - `sc`: `hhttps://schema.org/`
-- Queries assume RDF data describing manuscripts and digital resources, as per the ontology’s structure.
+- Queries assume RDF data describing publishers, manuscripts and digital resources, as per the ontology’s structure.
 
 ## Sample Queries
 
-### 1. Retrieve all the Manuscripts with their publisher and number of images(folios)
+### 1. Retrieve all the Manuscripts with their publishers and number of images(folios)
 This query fetches all resources classified as `mdhn:Manuscript` along with their `rdfs:label`.
 
 ```sparql
