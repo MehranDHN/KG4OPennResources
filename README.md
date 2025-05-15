@@ -132,7 +132,7 @@ WHERE {
 
 **Use Case**: Identify all manuscripts in the collection attributed to a Columbia University.
 
-### 4. Find Manuscripts in a Collection
+### 4. Find Folios of all the Manuscrpts from specified publisher
 This query retrieves all folios of `mdhn:owners_notations` type with their dimension and label that belong to manuscripts published by Columbia University.
 
 ```sparql
@@ -156,7 +156,7 @@ WHERE {
 <img src="imgsrc/Qry04.JPG" alt="Query 04">
 **Query 04**
 
-### 5. Retrieve Digital Resources by Format
+### 5. Retrieve list of GLAMs (Publishers)
 This query finds all GLAM publishers
 
 ```sparql
