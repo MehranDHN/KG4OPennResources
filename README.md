@@ -98,7 +98,7 @@ WHERE {
 **Use Case**: List all manuscripts in the OPenn collection with their titles for catalog browsing.
 
 ### 2. Find Digital Resources for a Specific Manuscript
-This query retrieves digital resources (e.g., PDFs, images) associated with a specific manuscript via `tei:hasDigitalRepresentation`.
+This query retrieves Manuscripts and associated canvases with their CanvasType via `mdhn:artform`.
 
 ```sparql
 prefix mdhn: <http://example.com/mdhn/manuscript/> 
@@ -114,7 +114,7 @@ WHERE {
 }
 ```
 
-**Use Case**: Retrieve digital representations (e.g., file formats and URLs) for a manuscript named “MS Codex 1234”.
+**Use Case**: Retrieve digital representations (e.g., file formats and URLs) for a manuscript named “MS Codex 1234” and their related canvases.
 
 ### 3. List Resources by Creator
 This query finds all resources (manuscripts or digital resources) associated with a specific creator.
