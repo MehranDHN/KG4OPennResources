@@ -1,0 +1,6205 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "label"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/acquisition_note_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "acquisition note in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/colophon"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "colophon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_mosque_at_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of mosque at medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/ordinary"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "ordinary"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/diagram"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "diagram"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/table"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "table"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/puzzles"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "puzzles"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamps"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamps"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_title_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated title page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/drawing"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "drawing"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owner_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owner stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_border"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated border"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_shamsa"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated shamsa"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_miniature"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated miniature"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorated_colophon"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorated colophon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_text"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated text"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_diagram"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated diagram"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_shamsah_and_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated shamsah and headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/framed_marginal_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "framed marginal note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_colophon"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated colophon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_ownership_inscription"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated ownership inscription"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorated_basmalah"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorated basmalah"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_drawing"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated drawing"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/drawing_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "drawing in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_bookplate"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library bookplate"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/header_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "header fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/simple_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "simple headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/bookplate"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "bookplate"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_entry"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog entry"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_note_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners note in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_note_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title note in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/doodles"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "doodles"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_surround"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated surround"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/animals"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "animals"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/iluminations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "iluminations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_bird"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated bird"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_initial_letter"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated initial letter"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/birds"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "birds"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_cross"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated cross"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/iluminated_cross"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "iluminated cross"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illumination"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illumination"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_french_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in french in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_ink_partially_scrubbed"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in ink partially scrubbed"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_notations_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library notations in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorated_initial_letter"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorated initial letter"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illumination_cross"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illumination cross"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/scribes_notations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "scribes notations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_headpiece_with_painting"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated headpiece with painting"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illumination"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illumination"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/examle_of_marginal_hizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "examle of marginal hizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_juz_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal juz marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_surah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of surah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_notations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library notations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/waqf_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "waqf note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/numerals_date_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "numerals date in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/cloudbands"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "cloudbands"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/diagrams"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "diagrams"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_notes_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library notes in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/customs_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "customs stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_decorated_initial_letter"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of decorated initial letter"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_donor_plate"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library donor plate"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/drawing_of_horse"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "drawing of horse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallion_marking_text_divisions"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallion marking text divisions"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notes_on_the_manuscript"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notes on the manuscript"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/grid_layout"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "grid layout"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_sūrah_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated sūrah divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_english_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in english in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/acquisitions_note_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "acquisitions note in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_about_the_manuscript"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations about the manuscript"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_describing_the_ms_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note describing the ms pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/effaced_stamp_notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "effaced stamp notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_ink_in_arabic_and_coptic"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in ink in arabic and coptic"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_cross"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome cross"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illuminated_surround"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illuminated surround"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_upside_down"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations upside down"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/recopied_page_upside_down"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "recopied page upside down"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/partial_stamp_on_insert_stub"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "partial stamp on insert stub"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_and_partial_stamp_on_insert"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations and partial stamp on insert"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/DigitalRepresentation_listing_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "manuscript listing pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/errata_list"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "errata list"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_manuscript"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of manuscript"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/red_and_black_designs"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "red and black designs"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/pen_tests"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "pen tests"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_colophon"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative colophon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_ms_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of ms in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/hebrew_gloss"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "hebrew gloss"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/waqf_statement"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "waqf statement"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notation_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notation in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/partially_effaced_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "partially effaced note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/waqf_donation_statement"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "waqf donation statement"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/table_of_contents"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "table of contents"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_and_pen_tests"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations and pen tests"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/red_fill_around_colophon"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "red fill around colophon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/genealogical_diagram"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "genealogical diagram"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circle"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circle"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/tabular_layout"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "tabular layout"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illuminated_opening"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illuminated opening"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_margins"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated margins"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gilded_marginal_details"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gilded marginal details"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_intercolumnal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated intercolumnal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/simple_gilded_marginal_details_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "simple gilded marginal details every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_text_division"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated text division"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gilded_foliate_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gilded foliate fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/larger_illuminated_text_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "larger illuminated text divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_finispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated finispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_incorrect"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title incorrect"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_clipping"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog clipping"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_corner_decorations_and_angled_line_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of corner decorations and angled line decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/acquisition_note_in_pencil_in_gutter"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "acquisition note in pencil in gutter"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/end_of_the_table_of_contents"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "end of the table of contents"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_frontispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated frontispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/last_page_of_persian_interlinear_translation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "last page of persian interlinear translation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/prayer"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "prayer"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/colophon_and_notes"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "colophon and notes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/scribbles_and_letters_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "scribbles and letters in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notes_and_letters"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notes and letters"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/world_map"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "world map"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/chess_diagram"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "chess diagram"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/rectangular_geometric_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "rectangular geometric design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorated_text"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorated text"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circular_geometric_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circular geometric design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/inscription_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "inscription in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/chart"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "chart"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/zodiac_chart"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "zodiac chart"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/volvelle"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "volvelle"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/diagam"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "diagam"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_note_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library note in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/tables"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "tables"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/symbol"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "symbol"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/symbols"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "symbols"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_borders_and_text"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated borders and text"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/inscription"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "inscription"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_frame"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative frame"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_frame_with_bismallāh"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative frame with bismallāh"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_chapter_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated chapter heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_the_rawḍah_at_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of the rawḍah at mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_the_minbar_at_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of the minbar at mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_header"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative header"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_header"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated header"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_page_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative page marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_stamps_and_notes"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners stamps and notes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_and_dedication_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title and dedication note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/table_of_symbols"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "table of symbols"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/calligraphy"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "calligraphy"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/painting"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "painting"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/pastiche_painting_in_gold_and_watercolors"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "pastiche painting in gold and watercolors"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_knot_motif_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of knot motif marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_finispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral finispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/list"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "list"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/patronymics_of_the_prophets_companions_al_ṣaḥāba"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "patronymics of the prophets companions al ṣaḥāba"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_ḥizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome ḥizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_niṣf_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome niṣf marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_juz_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome juz marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/elongated_floral_verse_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "elongated floral verse marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/elongated_floral_verse_markers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "elongated floral verse markers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_page_frame"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated page frame"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_page_frame_continues_on_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated page frame continues on every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_opening_illustration_of_the_rawḍah_at_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page opening illustration of the rawḍah at medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illuminated_border"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illuminated border"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_circular_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of circular marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circular_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circular marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_floral_motif_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of floral motif marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_motif_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral motif marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sūrah_heading_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sūrah heading decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owner_notations_and_stamps"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owner notations and stamps"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_panel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated panel"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_illustration_of_the_mosque_at_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page illustration of the mosque at mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_illustration_of_the_rawḍah_at_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page illustration of the rawḍah at medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_juz_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral juz marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_sajdah_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral sajdah marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_header_and_footer"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated header and footer"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notation_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notation in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_notes_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library notes in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owner_notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owner notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_title"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated title"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_illustration_of_prophets_tomb"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page illustration of prophets tomb"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_illustration_of_prophets_mosque"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page illustration of prophets mosque"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_title_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of title decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/finispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "finispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/foliate_frame"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "foliate frame"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/letter_grid"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "letter grid"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_example"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated example"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/diagrams_of_geometric_shapes"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "diagrams of geometric shapes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/empty_tables"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "empty tables"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/calculations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "calculations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_floral_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome floral decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_stamp_and_notation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners stamp and notation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notations_dated_1009_ah"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notations dated 1009 ah"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notations_dated_962_ah"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notations dated 962 ah"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_entry_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog entry pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/kabīkaj_invocation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "kabīkaj invocation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_name"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners name"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circular_diagram"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circular diagram"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notes_and_stamps"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notes and stamps"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/diagram_covering_full_page_opening"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "diagram covering full page opening"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/list_of_books"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "list of books"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_medallion_and_header"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal medallion and header"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/grid_of_names"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "grid of names"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_the_rawḍah_at_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of the rawḍah at medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_text_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated text divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/sketches_of_heads_in_helmets"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sketches of heads in helmets"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_note_and_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners note and stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/headpiece_and_cloudbands"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "headpiece and cloudbands"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_name"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated name"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_seal"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated seal"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_gold_and_red_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of gold and red sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/Illuminated_surah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "Illuminated surah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_floriate_borders_in_gold"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of floriate borders in gold"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_roundel_with_letter_ayn"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of roundel with letter ayn"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_text_dividers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated text dividers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_borders"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated borders"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/diagram_each_diagram_extends_across_the_full_page_opening"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "diagram each diagram extends across the full page opening"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallions"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallions"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallion_with_text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallion with text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_multiple_medallions_on_a_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of multiple medallions on a page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sūrah_title_on_replacement_pages"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sūrah title on replacement pages"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_flower_petal_decorations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of flower petal decorations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_stamps"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners stamps"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_text_division_word"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of text division word"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_text_division_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome text division medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/missing_sūrah_title"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "missing sūrah title"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/correction_and_explanation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "correction and explanation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/simple_illuminated_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "simple illuminated headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/simple_illuminated_finispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "simple illuminated finispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/calligraphy_upside_down"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "calligraphy upside down"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/vocabulary_list"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "vocabulary list"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sūrah_heading_in_gold"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sūrah heading in gold"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_text_divisions"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of text divisions"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_text_partition_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal text partition marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sūrah_beginning_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sūrah beginning marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_headpiece_with_cloudbands"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated headpiece with cloudbands"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/grid_of_octagons_and_squares_with_names_of_prophet"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "grid of octagons and squares with names of prophet"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_illustration_of_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome illustration of mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_illustration_of_the_rawḍah_at_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome illustration of the rawḍah at medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_prophets_tomb"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of prophets tomb"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustration_of_prophets_mosque"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustration of prophets mosque"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_rubʿ_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome rubʿ marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/label_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "label pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/kabīkaj_invocation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "kabīkaj invocation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_text_dividers_in_gold_and_flowers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated text dividers in gold and flowers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_text_dividers_in_blue_and_flowers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated text dividers in blue and flowers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_sūrah_heading"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome sūrah heading"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_tailpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated tailpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/inscription_in_arabic"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "inscription in arabic"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/grid"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "grid"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/half_page_grid_fill_in_red_and_yellow"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "half page grid fill in red and yellow"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_fill_in_repeating_geometric_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page fill in repeating geometric design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/grid_fill_in_red_and_yellow"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "grid fill in red and yellow"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/sothebys_1920_sale_catalog_description"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sothebys 1920 sale catalog description"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/newspaper_clipping"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "newspaper clipping"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/fihrist"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "fihrist"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/name"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "name"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_text_border_and_circular_text_block"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative text border and circular text block"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/calligraphic_panel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "calligraphic panel"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/watercolor_of_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "watercolor of mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/watercolor_of_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "watercolor of medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/labeled_illustrated_panel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "labeled illustrated panel"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/seal_muhr"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "seal muhr"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_table"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated table"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circular_stamp_junnah_with_decorative_border"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circular stamp junnah with decorative border"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/colophon_in_circular_shape_with_foliate_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "colophon in circular shape with foliate fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_diagram"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page diagram"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_band"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated band"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_entry_from_carolyn_shipman_tipped_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog entry from carolyn shipman tipped in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_circle_in_center_of_frame"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold circle in center of frame"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/presentation_note_same_as_loose_leaf_2"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "presentation note same as loose leaf 2"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/foliate_marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "foliate marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_on_cloudbands_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text on cloudbands every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_headpiece_and_marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated headpiece and marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_in_cloudbands_foliate_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text in cloudbands foliate fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_in_cloudbands"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text in cloudbands"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/concentric_circles"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "concentric circles"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_ruled_section_dividers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold ruled section dividers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/polychrome_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "polychrome illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/reading_oriented_along_long_edge"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "reading oriented along long edge"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/reading_oriented_along_short_edge"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "reading oriented along short edge"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/small_polychrome_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "small polychrome illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_listing_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog listing pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_overpaint"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold overpaint"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_foliate_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold foliate fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/pink_floral_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "pink floral fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sūrah_title"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sūrah title"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notation"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notation"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circle_with_crescent"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circle with crescent"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/sale_catalog_entry"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sale catalog entry"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/171v_and_172r_adhered"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "171v and 172r adhered"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/sūrat_al_nisāʼ_header"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sūrat al nisāʼ header"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_sprinkled"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold sprinkled"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/empty_table"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "empty table"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/foliate_marginal_fill_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "foliate marginal fill every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_with_added_descriptive_title"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note with added descriptive title"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/name_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "name in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/index"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "index"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_color_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page color illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_bookplates"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library bookplates"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_polychrome_hizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of polychrome hizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/detached_recto"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "detached recto"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/detached_verso"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "detached verso"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/verse_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "verse marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/sūrah_heading_hūd"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "sūrah heading hūd"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_note_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library note pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/manicule"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "manicule"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/line_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "line fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/large_manicule"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "large manicule"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_drawing"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal drawing"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/red_and_yellow_text_division_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "red and yellow text division marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/donation_bookplate"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "donation bookplate"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_panel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text panel"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/shikastah_panel"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "shikastah panel"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustrated_scene"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustrated scene"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illlustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illlustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/angled_lines_with_foliate_in_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "angled lines with foliate in fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/foliate_in_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "foliate in fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notation_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notation in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_border_rules"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated border rules"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/border_ruled_unwritten"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "border ruled unwritten"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_flower"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated flower"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_floral_fill_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated floral fill every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/signature"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "signature"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_frame"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold frame"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/laylī_va_majnūn"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "laylī va majnūn"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_initial_letter"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated initial letter"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_marker_in_upper_margin"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated marker in upper margin"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/blank_left_for_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "blank left for illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/leaf"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "leaf"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/horse_measurements"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "horse measurements"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/initials"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "initials"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_a_hizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of a hizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_niṣf_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of niṣf marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_juz_marker_with_number"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of juz marker with number"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/effaced_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "effaced stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/contour_bands"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "contour bands"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_headpiece_and_border"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated headpiece and border"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/examples_of_verse_count_marginal_medallions"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "examples of verse count marginal medallions"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_hizb_marker_partially_trimmed"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of hizb marker partially trimmed"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_sajdah_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of sajdah marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_vignette"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated vignette"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_a_marginal_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of a marginal medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_roundels"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated roundels"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_colophon_and_finispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated colophon and finispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/readers_note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "readers note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_hizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal hizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_the_manuscript"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of the manuscript"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/partial_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "partial stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_header"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated header"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_gold_accent"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of gold accent"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/talisman"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "talisman"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/painted_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "painted headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_manuscript_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of manuscript in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_endpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated endpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_ruled"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold ruled"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/readers_notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "readers notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_corners_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated corners every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_intercolumn_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated intercolumn every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/foliate_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "foliate fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_mandorla"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated mandorla"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_illuminated_text_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of illuminated text divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_spacers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated spacers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notation_in_arabic_script"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notation in arabic script"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/filigree"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "filigree"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illuminated_margins"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illuminated margins"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_corners"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated corners"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_the_manuscript_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of the manuscript in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_donation_tag"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library donation tag"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/brief_description_of_manuscript"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "brief description of manuscript"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/arabic_begins"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "arabic begins"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illustrations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illustrations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/DigitalRepresentation_description"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "manuscript description"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/abū_shubbāk_lower_half"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "abū shubbāk lower half"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_lower_margin_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of lower margin decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/added_vine_and_flower_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "added vine and flower decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/added_headpiece_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "added headpiece decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/added_marginal_drawing"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "added marginal drawing"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/added_marginal_drawings"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "added marginal drawings"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/added_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "added decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_by_ms_khan_of_calcutta"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description by ms khan of calcutta"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/signature_and_date"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "signature and date"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_quire_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of quire marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/decorative_grid"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "decorative grid"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/geometric_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "geometric design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_describing_the_manuscript"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note describing the manuscript"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_panels"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated panels"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/lower_margin_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "lower margin decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/ff_palazzuoli"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "ff palazzuoli"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/tre_lune"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "tre lune"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dedication_in_arabic"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dedication in arabic"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dedication_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dedication in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_headpiece_and_margins"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold headpiece and margins"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/text_division_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "text division design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_entries"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog entries"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_corner_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated corner fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/waqf_inscription"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "waqf inscription"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_lower_border"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated lower border"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illuminated_colophon"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illuminated colophon"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/card"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "card"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/cross"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "cross"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illumnated_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illumnated headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/painted_paper"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "painted paper"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/scene_with_three_people"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "scene with three people"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/mandorla_with_floral_surround"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "mandorla with floral surround"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallion_in_black"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallion in black"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallion_in_red"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallion in red"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_marginal_medallion_in_blue"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of marginal medallion in blue"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_latin"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in latin"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_header_grid_layout"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated header grid layout"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_finispiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold finispiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/empty_frame_with_gold_corner_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "empty frame with gold corner fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/paper_decoration_pasted_on"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "paper decoration pasted on"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/simple_header_design"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "simple header design"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/libarary_notations_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "libarary notations in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_border_rules"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold border rules"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illuminated_borders"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illuminated borders"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/floral_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "floral illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/list_of_other_works_on_this_topic"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "list of other works on this topic"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_seal_muhr"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated seal muhr"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/ṭughrá"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "ṭughrá"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/table_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "table in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_ink_and_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in ink and pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notes"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notes"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_entry_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog entry illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/waqf_notice"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "waqf notice"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamp_mostly_scrubbed"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamp mostly scrubbed"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_dual_page_opening"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated dual page opening"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_margins_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated margins every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/small_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "small headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_frame"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated frame"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_frame_with_marginal_vignette"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated frame with marginal vignette"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_illumination"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page illumination"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/bird"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "bird"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/circular_medallion"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "circular medallion"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/german_sale_card_pasted_in"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "german sale card pasted in"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_and_notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title and notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_of_sale"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations of sale"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_text_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of text divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/signature_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "signature in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/inscription_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "inscription in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_floral_corner_fill_every_following_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold floral corner fill every following page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/label"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "label"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_painted_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold painted headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_titlepiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated titlepiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_5_verse_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of 5 verse marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_10_verse_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of 10 verse marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_rubʿ_hizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of rubʿ hizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_niṣf_hizb_marker"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of niṣf hizb marker"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/partially_effaced_label"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "partially effaced label"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/doodle"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "doodle"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_and_doodles"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations and doodles"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notation_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notation in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/german_catalog_entry"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "german catalog entry"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/mostly_effaced_notations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "mostly effaced notations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/full_page_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "full page illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/marginal_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "marginal illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/numbers_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "numbers in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stylized_name_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stylized name in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/title_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "title in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/color_illustration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "color illustration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_in_english_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note in english in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/number"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "number"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/catalog_entry_and_note_in_french"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "catalog entry and note in french"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_french"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in french"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/identification_of_ms_in_pencil_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "identification of ms in pencil in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_ms_in_pencil_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of ms in pencil in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/note_about_manuscript_in_ink_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "note about manuscript in ink in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_in_pencil_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations in pencil in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illustrated_hunt_scene"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illustrated hunt scene"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_simple_illuminated_text_division"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of simple illuminated text division"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/example_of_text_set_at_angles"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "example of text set at angles"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_foliate_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated foliate fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_foliate_marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated foliate marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/angled_lines_with_illuminated_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "angled lines with illuminated fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/dual_page_illustrated_feast_scene"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "dual page illustrated feast scene"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_corner_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold corner fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/foliate_and_geometric_marginal_fill"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "foliate and geometric marginal fill"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/cloudbands_every_page"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "cloudbands every page"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/date_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "date in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/calculations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "calculations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illluminated_headpiece"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illluminated headpiece"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/gold_text_divider"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "gold text divider"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/illuminated_text_dividers"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "illuminated text dividers"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/painting_of_mecca"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "painting of mecca"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/painting_of_medina"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "painting of medina"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamps_mostly_effaced"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamps mostly effaced"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_of_contents_in_english"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description of contents in english"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/blind_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "blind stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/inscription_in_ink_with_date"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "inscription in ink with date"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/DigitalRepresentation_description_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "manuscript description in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/owners_notations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "owners notations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamp_and_number"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamp and number"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamp_smudged"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamp smudged"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_acquisition_plate"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library acquisition plate"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/library_donation_plate"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "library donation plate"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/poetry_and_notations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "poetry and notations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/poem_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "poem in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/birth_notes_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "birth notes in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/pen_tests_and_notations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "pen tests and notations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamp_mostly_effaced"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamp mostly effaced"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/waqf_statement_partially_effaced"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "waqf statement partially effaced"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/stamp_one_of_several_of_the_same_stamp"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "stamp one of several of the same stamp"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/drawing_of_crosses"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "drawing of crosses"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_in_pencil"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description in pencil"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/description_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "description in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/notations_and_calculations_in_ink"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "notations and calculations in ink"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/paper_label"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "paper label"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/small_decoration"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "small decoration"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/small_floral_decorations"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "small floral decorations"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/signature_with_date"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "signature with date"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.com/mdhn/unknown_Canvas_Type"
+        },
+        "label" : {
+          "xml:lang" : "en",
+          "type" : "literal",
+          "value" : "unknown Canvas Type"
+        }
+      }
+    ]
+  }
+}
